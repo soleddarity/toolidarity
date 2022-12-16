@@ -64,9 +64,9 @@ export default function Layout({ children }: LayoutProps) {
     },
     {
       name: "Staking",
-      href: "/staking",
+      href: "https://soleddarity-utilities.vercel.app/staking",
       icon: LibraryIcon,
-      active: router.pathname == "/staking" ? true : false,
+      active: router.pathname == "https://soleddarity-utilities.vercel.app/staking" ? true : false,
     },
     {
       name: "Auctions",
@@ -76,9 +76,9 @@ export default function Layout({ children }: LayoutProps) {
     },
     {
       name: "Raffles",
-      href: "/raffles",
+      href: "https://soleddarity-utilities.vercel.app/raffles",
       icon: TagIcon,
-      active: router.pathname == "/raffles" ? true : false,
+      active: router.pathname == "https://soleddarity-utilities.vercel.app/raffles" ? true : false,
     },
   ];
 

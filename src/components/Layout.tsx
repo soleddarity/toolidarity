@@ -70,9 +70,9 @@ export default function Layout({ children }: LayoutProps) {
     },
     {
       name: "Auctions",
-      href: "auctions",
+      href: "https://soleddarity-utilities.vercel.app/auctions",
       icon: CurrencyDollarIcon,
-      active: router.pathname == "/auctions" ? true : false,
+      active: router.pathname == "https://soleddarity-utilities.vercel.app/auctions" ? true : false,
     },
     {
       name: "Raffles",

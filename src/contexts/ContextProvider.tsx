@@ -19,7 +19,7 @@ import { AutoConnectProvider, useAutoConnect } from "./AutoConnectProvider";
 const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
   const { autoConnect } = useAutoConnect();
   const network = WalletAdapterNetwork.Mainnet;
-  const endpoint = "https://alien-alpha-slug.solana-mainnet.discover.quiknode.pro/5e5892ed17ef134b13fa305223f4509227e59f3f/";
+  const endpoint = "https://quaint-falling-haze.solana-mainnet.discover.quiknode.pro/026d25989b3082ff9f5ad88b77d45cda9f2eda37/";
   //rpc prod : https://wandering-purple-waterfall.solana-mainnet.quiknode.pro/b01ed8df41ba521bcd7bc784ddef0c1f94c29b9b/
   //rpc stylish: "https://sleek-stylish-moon.solana-mainnet.quiknode.pro/dbb44bfedda2c74adba07b99de6d7c605f31a8b3/";
   //rpc local https://solana-api.projectserum.com

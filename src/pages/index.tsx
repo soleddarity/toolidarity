@@ -122,8 +122,8 @@ const Index = () => {
       discord: "https://t.co/sEMlHXclDR",
       website: "http://sol-incinerator.com/#/",
       category: "Burner",
-      from: "#FF6163",
-      to: "#e54b4b",
+      from: "#FF3200",
+      to: "#FBD111",
     },
     {
       name: "SHARKY.FI",
@@ -144,8 +144,8 @@ const Index = () => {
       discord: "https://discord.com/invite/subber",
       website: "https://www.subber.xyz/",
       category: "WL Gestion",
-      from: "#1A0103",
-      to: "#DA1020",
+      from: "#DA1020",
+      to: "#1A0103",
     },
   ];
 

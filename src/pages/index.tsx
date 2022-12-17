@@ -122,7 +122,7 @@ const Index = () => {
       twitter: "https://twitter.com/FamousFoxFed",
       discord: "https://discord.com/invite/famousfoxes",
       website: "https://famousfoxes.com/",
-      category: "Marketplace,Token Market","Utility Tools",
+      category: "Marketplace,Token Market,Utility Tools",
       from: "#FF7612",
       to: "#974D09",
     },

@@ -162,7 +162,16 @@ const Index = () => {
       from: "#D32204",
       to: "#746ADE",
     },
-
+    {
+      name: "The Incentive",
+      description:
+        "888 Zillas and Kongs battling each other ferociously in the Solana metaverse. Holders can take part in staking, breeding and our exclusive Snapshots metaverse world.",
+      icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1027961050710155274/j0OYQ1WEgr6TkzKJ3oA4Q-yH3uXv68hH5tyU9Vk3xcA.png",
+      website: "https://www.theincentive.xyz/lp/soleddarity/",
+      category: "Raid-2-Earn,Chat-2-Earn",
+      from: "#681A82",
+      to: "#4B0662",
+    },
     {
       name: "{C}IPHER by 313Labs",
       description:
@@ -224,7 +233,7 @@ const Index = () => {
       to: "#4AE486",
     },
     {
-      name: "SOLPIX",
+      name: "Solpix",
       description:
         "An exclusive DAO dedicated to the empowerment of the Solana community - building a web3 ecosystem called Solpix.",
       icon: "https://media.discordapp.net/attachments/1021030450371772446/1035656596405092382/FfTC06SWAAQlQB0.jpg",
@@ -248,7 +257,19 @@ const Index = () => {
       to: "#2F527C",
     },
     {
-      name: "SOL DECODER",
+      name: "The Castle",
+      description:
+        "Holders can use their $EDD tokens to claim whitelist roles through Your Majesty by The Castle",
+      icon: "https://pbs.twimg.com/profile_images/1584171267111919616/k03rOhRb_400x400.jpg",
+      twitter: "https://twitter.com/nft_satori",
+      discord: "https://discord.com/invite/castleking",
+      website: "https://castle.thekingscastle.io/",
+      category: "WL Market",
+      from: "#5E5513",
+      to: "#DED16A",
+    },
+    {
+      name: "Sol Decoder",
       description:
         "A suite of tools to find / judge hype of mints. Alpha generating Discord bots that any Discord can add. Whitelist management tool to get whitelisted in < 10 seconds. iOS & Android app live",
       icon: "https://soldecoder.app/assets/site-logos/logo-transparent.png",

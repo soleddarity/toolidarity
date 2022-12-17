@@ -41,13 +41,13 @@ const Index = () => {
       website: "https://hyperspace.xyz/collection/supportivedudes",
       category: "Marketplace,Aggregator,Portfolio Tracker",
       from: "#3C69F7",
-      to: "#315ee2",
+      to: "#18317B",
     },
     {
       name: "Hadeswap",
       description:
         "the most efficient & decentralized NFT trading platform that act as an Automated Market Maker (AMM) NFT marketplace that improves NFT liquidity and its trading experience.",
-      icon: "https://www.gitbook.com/cdn-cgi/image/width=256,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F442964315-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FPE8hrpdw9YXz530NlzgR%252Flogo%252FDNMs0qrGocHEJD4YSLw1%252Fheader_gitbook.png%3Falt%3Dmedia%26token%3Dccc31625-c6e8-4109-9469-e2204b7c8427",
+      icon: "https://pbs.twimg.com/profile_images/1562853552816521216/dnNBcFXM_400x400.jpg",
       twitter: "https://twitter.com/hadeswap",
       discord: "https://discord.com/invite/hadeswap",
       website: "https://hadeswap.com/collection/8FkVVh3m8fwuZSm76C3kfHCyRYDprfJjqNQZrFYdtsba",
@@ -83,7 +83,7 @@ const Index = () => {
       name: "Phantom",
       description:
         "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain. Coming to Ethereum and Polygon soon!",
-      icon: "https://phantom.app/img/phantom-logo.svg",
+      icon: "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
       twitter: "https://twitter.com/phantom",
       discord: "https://discord.com/invite/phantom",
       website: "https://phantom.app/",

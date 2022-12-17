@@ -126,7 +126,7 @@ const Index = () => {
       to: "#FBD111",
     },
     {
-      name: "SHARKY.FI",
+      name: "Sharky.fi",
       description: "Borrow & Lend against your NFTs, instantly.",
       icon: "https://sharky.fi/sharky.svg",
       twitter: "https://twitter.com/sharkyfi",
@@ -181,9 +181,9 @@ const Index = () => {
       twitter: "https://twitter.com/313Labs",
       discord: "#",
       website: "https://313labs.io/",
-      category: "Discord Role Management",
+      category: "Discord Role Gestion",
       from: "#FF6163",
-      to: "#e54b4b",
+      to: "#201B01",
     },
     {
       name: "Kalisten",
@@ -194,7 +194,7 @@ const Index = () => {
       discord: "https://discord.com/invite/kalisten",
       website: "https://train.kalisten.app/",
       category: "Train-2-Earn",
-      from: "#FB8028",
+      from: "#B09717",
       to: "#FB8028",
     },
     {
@@ -205,7 +205,7 @@ const Index = () => {
       twitter: "https://twitter.com/hub3ee",
       discord: "https://discord.com/invite/d49SfuhApQ",
       website: "https://hub3.ee/",
-      category: "WL Management, Portfolio Tracker",
+      category: "WL Gestion, Portfolio Tracker",
       from: "#581A99",
       to: "#4E1D5B",
     },
@@ -219,7 +219,7 @@ const Index = () => {
       website: "https://naming-ceremony.unirex.city/",
       category: "NFT Renaming",
       from: "#30C132",
-      to: "#0BA56B",
+      to: "#E7CB1A",
     },
     {
       name: "Parrot",
@@ -242,7 +242,7 @@ const Index = () => {
       discord: "https://discord.gg/sxA945rkCp",
       website: "https://solpix.io/",
       category: "Inner Discord,Alpha Calls",
-      from: "#F7B215",
+      from: "#CDD794",
       to: "#F7B215",
     },
     {
@@ -324,8 +324,8 @@ const Index = () => {
     {
       name: "Doge Capital",
       description:
-        "Doge Capital is a collection of 5000 cute 24x24 pixel art collection on the Solana Blockchain. Holding a Doge Capital grants membership to the Woof Club and owner exclusive perks. Monkeys and Apes have been having fun for too long so we have decided to join them. Woof!",
-      icon: "https://pbs.twimg.com/profile_images/1476461549212499970/ILDtg6As_400x400.jpg",
+        "Enjoy the Supportive Dude benefits by having a multitude of discounts on Doge Capital services",
+      icon: "https://dl.airtable.com/.attachmentThumbnails/5e07dff05059715ef2478b80cfee0c99/41bbd847",
       twitter: "https://twitter.com/thedogecapital",
       discord: "https://discord.gg/generousrobots",
       website: "https://thedogecapital.com/",

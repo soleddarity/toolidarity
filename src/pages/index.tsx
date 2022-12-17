@@ -153,7 +153,7 @@ const Index = () => {
     {
       name: "Zilla VS Kong",
       description:
-        "888 Zillas and Kongs battling each other ferociously in the Solana metaverse. Holders can take part in staking, breeding and our exclusive Snapshots metaverse world.",
+        "Get an exclusive access to Zilla vs Kong's Sniper Bot !",
       icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1027961050710155274/j0OYQ1WEgr6TkzKJ3oA4Q-yH3uXv68hH5tyU9Vk3xcA.png",
       twitter: "https://twitter.com/Zilla_VS_Kong",
       discord: "https://discord.com/invite/seyEZ8Ekrt",
@@ -165,17 +165,18 @@ const Index = () => {
     {
       name: "The Incentive",
       description:
-        "888 Zillas and Kongs battling each other ferociously in the Solana metaverse. Holders can take part in staking, breeding and our exclusive Snapshots metaverse world.",
-      icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1027961050710155274/j0OYQ1WEgr6TkzKJ3oA4Q-yH3uXv68hH5tyU9Vk3xcA.png",
+        "Earn $EDD by chatting and raiding our tweets",
+      icon: "https://pbs.twimg.com/profile_images/1584986632167587848/7PPgaTjy_400x400.jpg",
+      twitter: "https://twitter.com/The_Incentive",
       website: "https://www.theincentive.xyz/lp/soleddarity/",
-      category: "Raid-2-Earn,Chat-2-Earn",
+      category: "Inner Discord,Raid-2-Earn,Chat-2-Earn",
       from: "#681A82",
       to: "#4B0662",
     },
     {
       name: "{C}IPHER by 313Labs",
       description:
-        "Members who apply for Cipherlist will be reviewed and receive a skill-based role within their Discord server.  ",
+        "Members who apply for Cipherlist will be reviewed and receive a skill-based role within their Discord server.",
       icon: "https://pbs.twimg.com/profile_images/1552350712243580929/KALByWaz_400x400.png",
       twitter: "https://twitter.com/313Labs",
       discord: "#",
@@ -187,7 +188,7 @@ const Index = () => {
     {
       name: "Kalisten",
       description:
-        "Use Kalisten's App to track your workouts, progress your NFTs, Train2Earn, and much more. This is the collection you need to buy if you are interested in Train2Earn. ",
+        "Use your Supportive Dude to track your workouts, progress your NFT, Train2Earn, and earn $KST that you can directly swap to $USDC.",
       icon: "https://cdn.discordapp.com/attachments/1021030450371772446/1035656455082213456/Kalisten_Logo_Gradient.png",
       twitter: "https://twitter.com/kalisten_",
       discord: "https://discord.com/invite/kalisten",
@@ -271,7 +272,7 @@ const Index = () => {
     {
       name: "Sol Decoder",
       description:
-        "A suite of tools to find / judge hype of mints. Alpha generating Discord bots that any Discord can add. Whitelist management tool to get whitelisted in < 10 seconds. iOS & Android app live",
+        "A suite of tools to find/judge hype of mints. Earn XP by chatting and completing tasks, get weekly rewards",
       icon: "https://soldecoder.app/assets/site-logos/logo-transparent.png",
       twitter: "https://twitter.com/SOL_Decoder",
       discord: "https://discord.com/invite/s4ne34TrUC",
@@ -299,7 +300,7 @@ const Index = () => {
       name: "OAK PARADISE",
       description:
         "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens. E-Sports betting with our own league under Paradise Gaming umbrella, alongside tools and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
-      icon: "https://api.oak.bet/external_storage/logos/AEbmRZ1A5ObZEDkTtVVItCTOxR2G3vC5QJ3NmQFv.png",
+      icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
       twitter: "https://twitter.com/oakparadisenft",
       discord: "https://discord.com/invite/oakdystopia",
       website: "https://oak.bet/?ref=soleddarity",

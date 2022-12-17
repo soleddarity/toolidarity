@@ -68,6 +68,18 @@ const Index = () => {
       to: "#B657A9",
     },
     {
+      name: "Elixir",
+      description:
+        "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
+      icon: "https://pbs.twimg.com/profile_images/1555641321783795712/gM1cgQjs_400x400.jpg",
+      twitter: "https://twitter.com/ElixirNFT",
+      discord: "https://discord.com/invite/elixirnft",
+      website: "https://app.elixirnft.io/",
+      category: "AMM,Marketplace,Lend/Borrow,Long/Short",
+      from: "#FFE3FF",
+      to: "#C66BEE",
+    },
+    {
       name: "Jupiter Aggregator",
       description:
         "The best swap aggregator & infrastructure for Solana - powering best price, token selection and UX for all users and devs.",

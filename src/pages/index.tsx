@@ -39,7 +39,7 @@ const Index = () => {
       twitter: "https://twitter.com/hyperspacexyz",
       discord: "https://discord.gg/3bh6CX5vU6",
       website: "https://hyperspace.xyz/collection/supportivedudes",
-      category: "Marketplace, Aggregator, Portfolio Tracker",
+      category: "Marketplace,Aggregator,Portfolio Tracker",
       from: "#3C69F7",
       to: "#315ee2",
     },

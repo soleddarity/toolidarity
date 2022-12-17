@@ -80,18 +80,6 @@ const Index = () => {
       to: "#2B3039",
     },
     {
-      name: "YAWWW",
-      description:
-        "Solana's first peer-to-peer (P2P) automated escrow & trading service for NFTs, Solana's first and only P2P loans marketplace.",
-      icon: "https://www.yawww.io/apple-touch-icon.png",
-      twitter: "https://twitter.com/YawwwNFT",
-      discord: "http://discord.gg/yawwwnft",
-      website: "https://www.yawww.io/",
-      category: "MarketPlace,P2P,OTC",
-      from: "#0BC2A1",
-      to: "#065B51",
-    },
-    {
       name: "Phantom",
       description:
         "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain. Coming to Ethereum and Polygon soon!",

@@ -65,7 +65,7 @@ const Index = () => {
       website: "https://magiceden.io/marketplace/supportive_dude",
       category: "Marketplace",
       from: "#950BC6",
-      to: "#7C00A8",
+      to: "#B657A9",
     },
     {
       name: "Jupiter Aggregator",
@@ -135,6 +135,17 @@ const Index = () => {
       category: "Lend/Borrow",
       from: "#262626",
       to: "#FE4A4A",
+    },
+    {
+      name: "Subber",
+      description: "High quality, easy-to-use products for NFT communities. Save time and effort. Connect with your holders.",
+      icon: "https://pbs.twimg.com/profile_images/1578148009526714368/GVLnj0Tu_400x400.jpg",
+      twitter: "https://twitter.com/subberxyz",
+      discord: "https://discord.com/invite/subber",
+      website: "https://www.subber.xyz/",
+      category: "WL Gestion",
+      from: "#1A0103",
+      to: "#DA1020",
     },
   ];
 

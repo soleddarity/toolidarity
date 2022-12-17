@@ -30,6 +30,31 @@ const Index = () => {
   //@ts-ignore
   const [jwt, setjwt] = useState(getCookie("jwt"));
   const tools = [
+
+    {
+      name: "Hyperspace",
+      description:
+        "Solana's best NFT marketplace. Save money sweeping floors by buying across all marketplaces at once.",
+      icon: "https://hyperspace.xyz/apple-touch-icon.png",
+      twitter: "https://twitter.com/hyperspacexyz",
+      discord: "https://discord.gg/3bh6CX5vU6",
+      website: "https://hyperspace.xyz/collection/supportivedudes",
+      category: "Marketplace, Aggregator, Portfolio Tracker",
+      from: "#3C69F7",
+      to: "#315ee2",
+    },
+    {
+      name: "Hadeswap",
+      description:
+        "the most efficient & decentralized NFT trading platform that act as an Automated Market Maker (AMM) NFT marketplace that improves NFT liquidity and its trading experience.",
+      icon: "https://www.gitbook.com/cdn-cgi/image/width=256,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F442964315-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FPE8hrpdw9YXz530NlzgR%252Flogo%252FDNMs0qrGocHEJD4YSLw1%252Fheader_gitbook.png%3Falt%3Dmedia%26token%3Dccc31625-c6e8-4109-9469-e2204b7c8427",
+      twitter: "https://twitter.com/hadeswap",
+      discord: "https://discord.com/invite/hadeswap",
+      website: "https://hadeswap.com/collection/8FkVVh3m8fwuZSm76C3kfHCyRYDprfJjqNQZrFYdtsba",
+      category: "AMM, Marketplace",
+      from: "#2B2263",
+      to: "#7B72B0",
+    },
     {
       name: "Magic Eden",
       description:
@@ -37,22 +62,10 @@ const Index = () => {
       icon: "https://yt3.ggpht.com/HRtpijPgB6rijcMFphGjxEUb5QGFdGFpLVzE_harHbuAi-7VP0S8-2ihkRxF8okOkZo2_yINBw=s900-c-k-c0x00ffffff-no-rj",
       twitter: "https://twitter.com/MagicEden",
       discord: "https://discord.com/invite/magiceden",
-      website: "https://magiceden.io/",
+      website: "https://magiceden.io/marketplace/supportive_dude",
       category: "Marketplace",
       from: "#950BC6",
       to: "#7C00A8",
-    },
-    {
-      name: "Coral Cube",
-      description:
-        "CoralCube is an NFT marketplace and aggregator that aims to highlight three columns of web3 in the context of NFTs : Easy, transparent and community.",
-      icon: "https://pbs.twimg.com/profile_images/1503525138649784333/OrxPGUL4_400x400.jpg",
-      twitter: "https://mobile.twitter.com/coralcubenft",
-      discord: "https://discord.com/invite/RRETBxvMb2",
-      website: "https://coralcube.io/",
-      category: "Marketplace,Aggregator",
-      from: "#2DB573",
-      to: "#0D7744",
     },
     {
       name: "Jupiter Aggregator",
@@ -113,7 +126,6 @@ const Index = () => {
       from: "#FF7612",
       to: "#974D09",
     },
-
     {
       name: "Sol Incinerator",
       description: "Burn any unwanted NFTs or tokens and reclaim the rent ",
@@ -124,31 +136,6 @@ const Index = () => {
       category: "Burner",
       from: "#FF6163",
       to: "#e54b4b",
-    },
-
-    {
-      name: "CoinFra Labs",
-      description:
-        "NFT Project launchpad |  NFT Portfolio Tracker |  NFT P2P Trading",
-      icon: "https://s3.ap-northeast-1.wasabisys.com/coinfra/assets/logo-Coinfra.png",
-      twitter: "https://twitter.com/gocoinfra",
-      discord: "https://discord.com/invite/psKdEkcmkU",
-      website: "https://www.coinfra.io/",
-      category: "Portfolio Tracker",
-      from: "#5A57EB",
-      to: "#C36EC9",
-    },
-    {
-      name: "Hyperspace",
-      description:
-        "Solana's best NFT marketplace. Save money sweeping floors by buying across all marketplaces at once.",
-      icon: "https://hyperspace.xyz/apple-touch-icon.png",
-      twitter: "https://twitter.com/hyperspacexyz",
-      discord: "https://discord.gg/3bh6CX5vU6",
-      website: "https://hyperspace.xyz/",
-      category: "Portfolio Tracker",
-      from: "#3C69F7",
-      to: "#315ee2",
     },
     {
       name: "SHARKY.FI",

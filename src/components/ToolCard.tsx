@@ -88,6 +88,8 @@ export const ToolCard: FC<Props> = ({ tool }) => {
                         ? "text-white bg-[#54B7CF]"
                         : item === "SportsBook"
                         ? "text-white bg-[#C09721]"
+                        : item === "Launchpad"
+                        ? "text-white bg-[#5CD86D]"
                         : item === "OTC"
                         ? "text-white bg-[#F29F22]"
                         : "text-white bg-[#14181F]")

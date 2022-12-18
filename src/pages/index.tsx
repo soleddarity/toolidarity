@@ -342,10 +342,10 @@ const Index = () => {
       description:
         "An exclusive DAO dedicated to the empowerment of the Solana community - building a web3 ecosystem called Solpix.",
       icon: "https://media.discordapp.net/attachments/1021030450371772446/1035656596405092382/FfTC06SWAAQlQB0.jpg",
-      twitter: "https://twitter.com/solpixnft",
+      twitter: "https://twitter.com/solpixdao",
       discord: "https://discord.gg/sxA945rkCp",
       website: "https://solpix.io/",
-      category: "Inner Discord,Alpha Calls",
+      category: "Inner Discord,Alpha Calls,P2P,Analytics",
       from: "#CDD794",
       to: "#F7B215",
     },

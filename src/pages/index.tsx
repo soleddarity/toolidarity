@@ -227,6 +227,18 @@ const Index = () => {
       from: "#2B31FF",
       to: "#DDDEFF",
     },
+    {
+      name: "HowRare.is",
+      description:
+        "CoralCube is an NFT marketplace and aggregator that aims to highlight three columns of web3 in the context of NFTs : Easy, transparent and community.",
+      icon: "https://pbs.twimg.com/profile_images/1469349925632811017/tjls0SwZ_400x400.jpg",
+      twitter: "https://twitter.com/howrareis",
+      discord: "https://discord.com/invite/XWAQzNwn8n",
+      website: "https://howrare.is/",
+      category: "Rarity",
+      from: "#E163F4",
+      to: "#DAC623",
+    },
   ];
 
   const Holderstools = [
@@ -350,6 +362,18 @@ const Index = () => {
       to: "#F7B215",
     },
     {
+      name: "Rethinkable",
+      description:
+        "Discord based Web3 recruitment solution that supports projects, communities, and individuals",
+      icon: "https://pbs.twimg.com/profile_images/1552653202189086721/gVFMyO2K_400x400.jpg",
+      twitter: "https://twitter.com/rethinkablexyz",
+      discord: "https://discord.com/invite/rethinkable",
+      website: "https://www.rethinkable.xyz/",
+      category: "Inner Discord,Job Offers",
+      from: "#2D75FA",
+      to: "#112C5F",
+    },
+    {
       name: "Satori",
       description:
         "Trading tools, Analytics Platform on Solana",
@@ -396,7 +420,7 @@ const Index = () => {
       twitter: "https://twitter.com/oakparadisenft",
       discord: "https://discord.com/invite/oakdystopia",
       website: "https://oak.bet/?ref=soleddarity",
-      category: "Casino,P2E",
+      category: "Casino,P2E,SportsBook",
       from: "#5C8656",
       to: "#314631",
     },
@@ -440,10 +464,10 @@ const Index = () => {
 
   const games = [
     {
-      name: "Coin Flip",
+      name: "CoinFlip",
       description:
         "Bet in SOL or $EDD in a 50/50 coin flip. 2.5% fee on each games shared with the dudes.",
-      icon: "https://soleddarity-coinflip.vercel.app/TAIL.png",
+      icon: "https://img.freepik.com/vecteurs-premium/solana-sol-crypto-monnaie-piece-orechange-argent-numerique_268461-144.jpg?w=740",
       twitter: "#",
       discord: "discord.gg/soleddarity",
       website: "https://soleddarity-coinflip.vercel.app/",
@@ -452,9 +476,21 @@ const Index = () => {
       to: "#8E68D5",
     },
     {
+      name: "DegenDevil",
+      description:
+        "Solana based full service casino with a sportsbook, live casino games, virtual sport and more!",
+      icon: "https://pbs.twimg.com/profile_images/1595460707470176256/7U3IBMuR_400x400.jpg",
+      twitter: "https://twitter.com/SKULLBOTS",
+      discord: "https://discord.com/invite/skullbots",
+      website: "https://degendevil.com/?ref=supportive",
+      category: "Casino,SportsBook,P2E",
+      from: "#000000",
+      to: "#D91313",
+    },
+    {
       name: "AibaverseNFT",
       description:
-        "??? Coming soon",
+        "???",
       icon: "https://pbs.twimg.com/profile_images/1588377913077878784/xjWbnSb1_400x400.jpg",
       twitter: "https://twitter.com/aibaversenft",
       discord: "discord.gg/8uBvkjNp9Z",

@@ -129,7 +129,7 @@ const Index = () => {
     {
       name: "Famous Fox Federation",
       description:
-        "The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain.",
+        "The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain. Enjoy a multitude of tools for users and owners",
       icon: "https://famousfoxes.com/logo.b8610686.svg",
       twitter: "https://twitter.com/FamousFoxFed",
       discord: "https://discord.com/invite/famousfoxes",
@@ -239,6 +239,17 @@ const Index = () => {
       from: "#E163F4",
       to: "#DAC623",
     },
+    {
+      name: "Solscan.io",
+      description: "The user-friendly and real-time update Scanning Tool for the Solana ecosystem",
+      icon: "https://pbs.twimg.com/profile_images/1402851459993989124/EL0CcRLp_400x400.png",
+      twitter: "https://twitter.com/solscanofficial",
+      discord: "http://discord.gg/H8FBqAR8bx",
+      website: "https://solscan.io/",
+      category: "Explorer",
+      from: "#A713F0",
+      to: "#1FFCAC",
+    },
   ];
 
   const Holderstools = [
@@ -268,7 +279,7 @@ const Index = () => {
     {
       name: "Own-2-Earn by Soleddarity",
       description:
-        "Earn Diamonds that you can swap to $EDD by holding special traits and also NFTs from our partners collections.",
+        "Earn $EDD by holding multiple NFTs and special traits on several NFT collections.",
       icon: "https://st2.depositphotos.com/3491355/7921/v/450/depositphotos_79212646-stock-illustration-diamond-outline-vector-icon-modern.jpg",
       twitter: "https://twitter.com/soleddarity",
       discord: "https://discord.gg/soleddarity",
@@ -328,7 +339,7 @@ const Index = () => {
     {
       name: "Unirexcity",
       description:
-        "Naming ceremony is the first tool on Solana allowing NFTs to be named",
+        "Spend your $EDD to rename your NFTs! Naming ceremony is the first tool on Solana allowing NFTs to be named",
       icon: "https://pbs.twimg.com/profile_images/1554146782195720195/cCrUFbTU_400x400.jpg",
       twitter: "https://twitter.com/unirexcity",
       discord: "https://discord.com/invite/unirexcity",
@@ -340,11 +351,11 @@ const Index = () => {
     {
       name: "Parrot",
       description:
-        "Parrot Tools is building a Solana NFT Copy Trading Platform. Investors make more profitable trades. Traders make passive income.",
+        "Access the Portfolio Tracker from Parrot Tools. They are building a Solana NFT Copy Trading Platform. Investors make more profitable trades. Traders make passive income.",
       icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1026491471471329300/125.png",
       twitter: "https://twitter.com/ParrotTools",
       discord: "https://discord.gg/parrotflock",
-      website: "http://www.parrottrading.com/",
+      website: "https://www.parrottrading.com/app/portfolio",
       category: "Portfolio Tracker,Copy Trading",
       from: "#003748",
       to: "#4AE486",
@@ -352,7 +363,7 @@ const Index = () => {
     {
       name: "Solpix",
       description:
-        "An exclusive DAO dedicated to the empowerment of the Solana community - building a web3 ecosystem called Solpix.",
+        "An exclusive DAO dedicated to the empowerment of the Solana community.",
       icon: "https://media.discordapp.net/attachments/1021030450371772446/1035656596405092382/FfTC06SWAAQlQB0.jpg",
       twitter: "https://twitter.com/solpixdao",
       discord: "https://discord.gg/sxA945rkCp",
@@ -400,7 +411,7 @@ const Index = () => {
     {
       name: "NexiLabs",
       description:
-        "Nexi Labs is a All-In-One Defi Platform that integrates Solana wallets into Discord",
+        "Nexi Labs is an All-In-One Defi Platform that integrates Solana wallets into Discord",
       icon: "https://moon.ly/uploads/nft/1cbff083-93a8-44ac-9a69-3f3e55d1d87a.jpg",
       twitter: "https://twitter.com/NexiLabs",
       discord: "https://discord.com/invite/nexi",
@@ -415,7 +426,7 @@ const Index = () => {
     {
       name: "Oak Paradise",
       description:
-        "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens. E-Sports betting with our own league under Paradise Gaming umbrella, alongside tools and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
+        "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens, E-Sports betting and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
       icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
       twitter: "https://twitter.com/oakparadisenft",
       discord: "https://discord.com/invite/oakdystopia",
@@ -427,7 +438,7 @@ const Index = () => {
     {
       name: "Scalp Empire",
       description:
-        "Analytic tools, sniping bot ... anything you need as a scalper.",
+        "-23% on the monthly subscription. Analytic tools, sniping bot ... anything you need as a scalper.",
       icon: "https://www.scalp-empire.com/v4/se_logo-192x192.png",
       twitter: "https://twitter.com/ScalpEmpireNFT",
       discord: "https://discord.com/invite/scalpempire",
@@ -435,6 +446,18 @@ const Index = () => {
       category: "Sniper Bot",
       from: "#152E4C",
       to: "#6E83A3",
+    },
+    {
+      name: "Parrot",
+      description:
+        "-20% discount on traders subscription fees. Parrot Tools are building a Solana NFT Copy Trading Platform. Investors make more profitable trades. Traders make passive income.",
+      icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1026491471471329300/125.png",
+      twitter: "https://twitter.com/ParrotTools",
+      discord: "https://discord.gg/parrotflock",
+      website: "https://www.parrottrading.com/app/portfolio",
+      category: "Portfolio Tracker,Copy Trading",
+      from: "#003748",
+      to: "#4AE486",
     },
     {
       name: "Doge Capital",

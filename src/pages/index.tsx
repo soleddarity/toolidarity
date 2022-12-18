@@ -63,7 +63,7 @@ const Index = () => {
       twitter: "https://twitter.com/MagicEden",
       discord: "https://discord.com/invite/magiceden",
       website: "https://magiceden.io/marketplace/supportive_dude",
-      category: "Marketplace,Analytics",
+      category: "Marketplace,Analytics,Launchpad",
       from: "#950BC6",
       to: "#B657A9",
     },
@@ -163,7 +163,7 @@ const Index = () => {
     {
       name: "Metaplex",
       description: "Metaplex is a platform for NFT creators and developers on Solana. The top creators and game studios use Metaplex to create, grow, and engage their communities.",
-      icon: "https://sharky.fi/sharky.svg",
+      icon: "https://pbs.twimg.com/profile_images/1570854270668537857/ncgWvFCj_400x400.jpg",
       twitter: "https://twitter.com/metaplex",
       discord: "https://discord.com/invite/7hfGph2K",
       website: "https://www.metaplex.com/",
@@ -180,7 +180,7 @@ const Index = () => {
       website: "https://product.atadia.io/",
       category: "Utility Tools,Lender",
       from: "#8F8F8F",
-      to: "#6A6A6A",
+      to: "#D5D5D5",
     },
     {
       name: "Sharky.fi",
@@ -257,7 +257,7 @@ const Index = () => {
       name: "Own-2-Earn by Soleddarity",
       description:
         "Earn Diamonds that you can swap to $EDD by holding special traits and also NFTs from our partners collections.",
-      icon: "https://img.pixers.pics/pho_wat(s3:700/FO/52/65/22/80/700_FO52652280_346b1020fe5dff166e3d91b707a9d701.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/papiers-peints-logo-de-diamant-logotype-de-luxe.jpg.jpg",
+      icon: "https://st2.depositphotos.com/3491355/7921/v/450/depositphotos_79212646-stock-illustration-diamond-outline-vector-icon-modern.jpg",
       twitter: "https://twitter.com/soleddarity",
       discord: "https://discord.gg/soleddarity",
       website: "https://soleddarity.com",

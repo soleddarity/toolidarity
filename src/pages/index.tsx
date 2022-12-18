@@ -205,6 +205,17 @@ const Index = () => {
       from: "#DA1020",
       to: "#1A0103",
     },
+    {
+      name: "LMNFT.io",
+      description: "The largest web-based generative NFT project launchpad.",
+      icon: "https://pbs.twimg.com/profile_images/1592614814764916738/ZT5r2Qlk_400x400.jpg",
+      twitter: "https://twitter.com/LaunchMyNFT",
+      discord: "https://discord.com/invite/KXJzsm4eKk",
+      website: "https://launchmynft.io/",
+      category: "Launchpad",
+      from: "#2B31FF",
+      to: "#DDDEFF",
+    },
   ];
 
   const Holderstools = [
@@ -318,12 +329,12 @@ const Index = () => {
     {
       name: "Satori",
       description:
-        "Exceed your limits... Trading tools | Analytics Platform on #Solana. Team & Products.",
+        "Trading tools, Analytics Platform on Solana",
       icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1027220196005519522/-9He2j8XSuR-rG5UNYvQCjV_ycjIbI1sr_SoD_PDY6A.png",
       twitter: "https://twitter.com/nft_satori",
       discord: "https://discord.gg/besatori",
       website: "https://satori-nft.io/",
-      category: "Inner Discord,Alpha Calls",
+      category: "Inner Discord,Alpha Calls,Analytics",
       from: "#57DCF7",
       to: "#2F527C",
     },
@@ -378,7 +389,6 @@ const Index = () => {
       from: "#152E4C",
       to: "#6E83A3",
     },
-
     {
       name: "Doge Capital",
       description:
@@ -391,7 +401,6 @@ const Index = () => {
       from: "#C473F7",
       to: "#46A1FE",
     },
-
     {
       name: "SolBookie",
       description:

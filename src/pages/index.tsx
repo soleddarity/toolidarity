@@ -63,7 +63,7 @@ const Index = () => {
       twitter: "https://twitter.com/MagicEden",
       discord: "https://discord.com/invite/magiceden",
       website: "https://magiceden.io/marketplace/supportive_dude",
-      category: "Marketplace",
+      category: "Marketplace,Analytics",
       from: "#950BC6",
       to: "#B657A9",
     },
@@ -161,6 +161,17 @@ const Index = () => {
       to: "#3B3B3B",
     },
     {
+      name: "Atadia",
+      description: "Atadia combine their machine learning expertise with the collective wisdom of their community to create ecosystem-enabling products",
+      icon: "https://uploads-ssl.webflow.com/61ce513cf689b19dbc7ffdda/61de6a8ad23bc18159efc177_Logo.png",
+      twitter: "https://twitter.com/atadia_io",
+      discord: "https://discord.com/invite/atadia",
+      website: "https://product.atadia.io/",
+      category: "Utility Tools,Lender",
+      from: "#8F8F8F",
+      to: "#6A6A6A",
+    },
+    {
       name: "Sharky.fi",
       description: "Borrow & Lend against your NFTs, instantly.",
       icon: "https://sharky.fi/sharky.svg",
@@ -170,6 +181,18 @@ const Index = () => {
       category: "Lend/Borrow",
       from: "#262626",
       to: "#FE4A4A",
+    },
+    {
+      name: "Coral Cube",
+      description:
+        "CoralCube is an NFT marketplace and aggregator that aims to highlight three columns of web3 in the context of NFTs : Easy, transparent and community.",
+      icon: "https://pbs.twimg.com/profile_images/1503525138649784333/OrxPGUL4_400x400.jpg",
+      twitter: "https://mobile.twitter.com/coralcubenft",
+      discord: "https://discord.com/invite/RRETBxvMb2",
+      website: "https://coralcube.io/",
+      category: "Marketplace,Aggregator",
+      from: "#2DB573",
+      to: "#0D7744",
     },
     {
       name: "Subber",
@@ -204,7 +227,7 @@ const Index = () => {
       icon: "https://pbs.twimg.com/profile_images/1584986632167587848/7PPgaTjy_400x400.jpg",
       twitter: "https://twitter.com/The_Incentive",
       website: "https://www.theincentive.xyz/lp/soleddarity/",
-      category: "Inner Discord,Raid-2-Earn,Chat-2-Earn",
+      category: "Raid-2-Earn,Chat-2-Earn",
       from: "#681A82",
       to: "#4B0662",
     },
@@ -216,7 +239,7 @@ const Index = () => {
       twitter: "https://twitter.com/313Labs",
       discord: "#",
       website: "https://313labs.io/",
-      category: "Discord Role Gestion",
+      category: "Inner Discord,Role Gestion",
       from: "#FF6163",
       to: "#201B01",
     },
@@ -233,6 +256,18 @@ const Index = () => {
       to: "#FB8028",
     },
     {
+      name: "The Castle",
+      description:
+        "Holders can use their $EDD tokens to claim whitelist roles through Your Majesty by The Castle",
+      icon: "https://pbs.twimg.com/profile_images/1584171267111919616/k03rOhRb_400x400.jpg",
+      twitter: "https://twitter.com/nft_satori",
+      discord: "https://discord.com/invite/castleking",
+      website: "https://castle.thekingscastle.io/",
+      category: "WL Market",
+      from: "#5E5513",
+      to: "#DED16A",
+    },
+    {
       name: "Hub3",
       description:
         "Create a personalized web3 profile, highlight your favorite NFTs, and join whitelists to empower your web3 experience.",
@@ -240,7 +275,7 @@ const Index = () => {
       twitter: "https://twitter.com/hub3ee",
       discord: "https://discord.com/invite/d49SfuhApQ",
       website: "https://hub3.ee/",
-      category: "WL Gestion, Portfolio Tracker",
+      category: "WL Gestion,Portfolio Tracker",
       from: "#581A99",
       to: "#4E1D5B",
     },
@@ -293,18 +328,6 @@ const Index = () => {
       to: "#2F527C",
     },
     {
-      name: "The Castle",
-      description:
-        "Holders can use their $EDD tokens to claim whitelist roles through Your Majesty by The Castle",
-      icon: "https://pbs.twimg.com/profile_images/1584171267111919616/k03rOhRb_400x400.jpg",
-      twitter: "https://twitter.com/nft_satori",
-      discord: "https://discord.com/invite/castleking",
-      website: "https://castle.thekingscastle.io/",
-      category: "WL Market",
-      from: "#5E5513",
-      to: "#DED16A",
-    },
-    {
       name: "Sol Decoder",
       description:
         "A suite of tools to find/judge hype of mints. Earn XP by chatting and completing tasks, get weekly rewards",
@@ -312,7 +335,7 @@ const Index = () => {
       twitter: "https://twitter.com/SOL_Decoder",
       discord: "https://discord.com/invite/s4ne34TrUC",
       website: "https://soldecoder.app/",
-      category: "Inner Discord,Engage-2-Earn,Utility Tools",
+      category: "Inner Discord,Engage-2-Earn,Analytics",
       from: "#647FE1",
       to: "#76E5CD",
     },
@@ -332,7 +355,7 @@ const Index = () => {
 
   const discounts = [
     {
-      name: "OAK PARADISE",
+      name: "Oak Paradise",
       description:
         "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens. E-Sports betting with our own league under Paradise Gaming umbrella, alongside tools and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
       icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
@@ -344,7 +367,7 @@ const Index = () => {
       to: "#314631",
     },
     {
-      name: "SCALP EMPIRE",
+      name: "Scalp Empire",
       description:
         "Analytic tools, sniping bot ... anything you need as a scalper.",
       icon: "https://www.scalp-empire.com/v4/se_logo-192x192.png",

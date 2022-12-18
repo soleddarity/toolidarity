@@ -230,7 +230,7 @@ const Index = () => {
     {
       name: "HowRare.is",
       description:
-        "CoralCube is an NFT marketplace and aggregator that aims to highlight three columns of web3 in the context of NFTs : Easy, transparent and community.",
+        "Find out how rare is your Solana NFT.",
       icon: "https://pbs.twimg.com/profile_images/1469349925632811017/tjls0SwZ_400x400.jpg",
       twitter: "https://twitter.com/howrareis",
       discord: "https://discord.com/invite/XWAQzNwn8n",
@@ -263,7 +263,7 @@ const Index = () => {
       website: "https://www.theincentive.xyz/lp/soleddarity/",
       category: "Raid-2-Earn,Chat-2-Earn",
       from: "#681A82",
-      to: "#4B0662",
+      to: "#28122C",
     },
     {
       name: "Own-2-Earn by Soleddarity",
@@ -275,7 +275,7 @@ const Index = () => {
       website: "https://soleddarity.com",
       category: "Inner Discord,Own-2-Earn",
       from: "#0EFFEA",
-      to: "#DEFFFC",
+      to: "#445D5B",
     },
     {
       name: "{C}IPHER by 313Labs",
@@ -445,8 +445,8 @@ const Index = () => {
       discord: "https://discord.gg/generousrobots",
       website: "https://thedogecapital.com/",
       category: "Utility Tools",
-      from: "#C473F7",
-      to: "#46A1FE",
+      from: "#E5BD63",
+      to: "#907539",
     },
     {
       name: "SolBookie",
@@ -478,7 +478,7 @@ const Index = () => {
     {
       name: "DegenDevil",
       description:
-        "Solana based full service casino with a sportsbook, live casino games, virtual sport and more!",
+        "Holders get a 50% deposit bonus on this Solana based full service casino with a sportsbook, live casino games, virtual sport and more!",
       icon: "https://pbs.twimg.com/profile_images/1595460707470176256/7U3IBMuR_400x400.jpg",
       twitter: "https://twitter.com/SKULLBOTS",
       discord: "https://discord.com/invite/skullbots",

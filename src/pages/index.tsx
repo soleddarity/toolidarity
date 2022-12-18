@@ -161,6 +161,17 @@ const Index = () => {
       to: "#3B3B3B",
     },
     {
+      name: "Metaplex",
+      description: "Metaplex is a platform for NFT creators and developers on Solana. The top creators and game studios use Metaplex to create, grow, and engage their communities.",
+      icon: "https://sharky.fi/sharky.svg",
+      twitter: "https://twitter.com/metaplex",
+      discord: "https://discord.com/invite/7hfGph2K",
+      website: "https://www.metaplex.com/",
+      category: "Launchpad,Utility Tools",
+      from: "#5E2EAD",
+      to: "#000000",
+    },
+    {
       name: "Atadia",
       description: "Atadia combine their machine learning expertise with the collective wisdom of their community to create ecosystem-enabling products",
       icon: "https://uploads-ssl.webflow.com/61ce513cf689b19dbc7ffdda/61de6a8ad23bc18159efc177_Logo.png",
@@ -241,6 +252,18 @@ const Index = () => {
       category: "Raid-2-Earn,Chat-2-Earn",
       from: "#681A82",
       to: "#4B0662",
+    },
+    {
+      name: "Own-2-Earn by Soleddarity",
+      description:
+        "Earn Diamonds that you can swap to $EDD by holding special traits and also NFTs from our partners collections.",
+      icon: "https://img.pixers.pics/pho_wat(s3:700/FO/52/65/22/80/700_FO52652280_346b1020fe5dff166e3d91b707a9d701.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/papiers-peints-logo-de-diamant-logotype-de-luxe.jpg.jpg",
+      twitter: "https://twitter.com/soleddarity",
+      discord: "https://discord.gg/soleddarity",
+      website: "https://soleddarity.com",
+      category: "Inner Discord,Own-2-Earn",
+      from: "#0EFFEA",
+      to: "#DEFFFC",
     },
     {
       name: "{C}IPHER by 313Labs",
@@ -428,6 +451,18 @@ const Index = () => {
       from: "#7C9CD8",
       to: "#8E68D5",
     },
+    {
+      name: "AibaverseNFT",
+      description:
+        "??? Coming soon",
+      icon: "https://pbs.twimg.com/profile_images/1588377913077878784/xjWbnSb1_400x400.jpg",
+      twitter: "https://twitter.com/aibaversenft",
+      discord: "discord.gg/8uBvkjNp9Z",
+      website: "#",
+      category: "Social Simulation",
+      from: "#B929FF",
+      to: "#22072F",
+    },
   ];
 
   const educations = [
@@ -442,6 +477,17 @@ const Index = () => {
       category: "Full Guide",
       from: "#9AC786",
       to: "#6BCF39",
+    },
+    {
+      name: "Ledger Academy",
+      description: "Ledger academy is here to provide you with all the content you need to safely navigate Web3. Learn crypto on your own terms.",
+      icon: "https://finance-et-compagnies.com/storage/media/1244/N44_mYZ7_400x400.jpg",
+      twitter: "#",
+      discord: "#",
+      website: "https://www.ledger.com/academy",
+      category: "Full Guide",
+      from: "#1C1C1C",
+      to: "#DFB0B0",
     },
   ];
 

@@ -27,7 +27,7 @@ export const ToolCard: FC<Props> = ({ tool }) => {
       >
         <div className="flex items-center justify-between">
           <img src={tool.icon} className="rounded-xl w-14" />
-          <div className="flex items-center gap-2">
+          <div className="flex overflow-scroll items-center gap-2">
             {tool.category.split(",").map(function (item: any) {
               return (
                 <>

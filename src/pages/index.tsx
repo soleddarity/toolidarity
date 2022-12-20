@@ -250,6 +250,17 @@ const Index = () => {
       from: "#A713F0",
       to: "#1FFCAC",
     },
+    {
+      name: "SolanaFM",
+      description: "Bridging the gaps of data accessibility via our indexer, APIs and explorer tools on Solana.",
+      icon: "https://pbs.twimg.com/profile_images/1603277783542558720/m838ShBK_400x400.jpg",
+      twitter: "https://twitter.com/solanafm",
+      discord: "https://discord.com/invite/QqcBJcf274",
+      website: "https://solana.fm/",
+      category: "Explorer,Analytics",
+      from: "#2C0E63",
+      to: "#7D53CA",
+    },
   ];
 
   const Holderstools = [

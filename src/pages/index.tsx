@@ -533,6 +533,18 @@ const Index = () => {
       from: "#B929FF",
       to: "#22072F",
     },
+    {
+      name: "Solcrash.io",
+      description:
+        "The highest adrenaline crypto game on Solana",
+      icon: "https://pbs.twimg.com/profile_images/1507197976158126082/KXhKpePV_400x400.jpg",
+      twitter: "https://twitter.com/solcrash",
+      discord: "discord.gg/solcrash",
+      website: "https://solcrash.io/?code=Dudes",
+      category: "Betting",
+      from: "#544F64",
+      to: "#068FC7",
+    },
   ];
 
   const educations = [

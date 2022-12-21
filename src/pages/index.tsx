@@ -578,7 +578,7 @@ const Index = () => {
   });
 
   const isFound = nfts.some((element) => {
-    if (element.data.symbol === "SOLEDD") {
+    if (element.data.symbol === "SOLEDD"||element.data.symbol === "HODLERS"||element.data.symbol === "FLOPPAS") {
       if (typeof window !== "undefined") {
         localStorage.setItem("haveAnubis", "true");
       }

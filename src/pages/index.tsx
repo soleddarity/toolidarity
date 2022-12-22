@@ -692,8 +692,8 @@ const Index = () => {
                           onClick={() => settypeTools("Educations")}
                           className={
                             typeTools == "Educations"
-                              ? "p-2 lg:p-5 w-auto lg:w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto lg:w-[150px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto lg:w-[150px] cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Educational

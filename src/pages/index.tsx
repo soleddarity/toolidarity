@@ -652,8 +652,8 @@ const Index = () => {
                           onClick={() => settypeTools("Free tools")}
                           className={
                             typeTools == "Free tools"
-                              ? "p-2 lg:p-5 w-auto lg:w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Free Tools
@@ -662,8 +662,8 @@ const Index = () => {
                           onClick={() => settypeTools("Holders only")}
                           className={
                             typeTools == "Holders only"
-                              ? "p-2 lg:p-5 w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-[120px] cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Dudes Tools
@@ -672,8 +672,8 @@ const Index = () => {
                           onClick={() => settypeTools("Discounts")}
                           className={
                             typeTools == "Discounts"
-                              ? "p-2 lg:p-5 w-auto lg:w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Discounts
@@ -682,8 +682,8 @@ const Index = () => {
                           onClick={() => settypeTools("Games")}
                           className={
                             typeTools == "Games"
-                              ? "p-2 lg:p-5 w-auto lg:w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Games

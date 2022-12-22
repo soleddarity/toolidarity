@@ -4,9 +4,9 @@ import { Dialog, Transition } from "@headlessui/react";
 import {
   CurrencyDollarIcon,
   HomeIcon,
-  LibraryIcon,
   TagIcon,
 } from "@heroicons/react/outline";
+import RectangleStackIcon from "../styles/icons/RectangleStackIcon.js";
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
@@ -65,7 +65,7 @@ export default function Layout({ children }: LayoutProps) {
     {
       name: "Staking",
       href: "https://soleddarity-utilities.vercel.app/staking",
-      icon: LibraryIcon,
+      icon: RectangleStackIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/staking" ? true : false,
     },
     {

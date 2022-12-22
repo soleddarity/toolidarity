@@ -261,6 +261,17 @@ const Index = () => {
       from: "#2C0E63",
       to: "#7D53CA",
     },
+    {
+      name: "Crossmint",
+      description: "Making digital assets accessible to all. Create, sell & distribute NFTs in minutes with our APIs, fiat on-ramp & user-friendly wallets - no crypto required.",
+      icon: "https://pbs.twimg.com/profile_images/1535656143988707330/Wg16GKQ2_400x400.png",
+      twitter: "https://twitter.com/crossmint",
+      discord: "https://discord.com/invite/crossmint",
+      website: "https://www.crossmint.io/",
+      category: "Payment Tool",
+      from: "#45C447",
+      to: "#092B0A",
+    },
   ];
 
   const Holderstools = [

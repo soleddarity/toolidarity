@@ -656,7 +656,7 @@ const Index = () => {
                               : "p-2 lg:p-5 w-auto lg:w-[100px] cursor-pointer hover:opacity-80 text-center"
                           }
                         >
-                          Free tools
+                          Free Tools
                         </div>
                         <div
                           onClick={() => settypeTools("Holders only")}

@@ -645,9 +645,9 @@ const Index = () => {
             <>
               <Layout>
                 <div className="flex flex-col gap-2 lg:p-5">
-                  <div className="flex items-center flex-col xl:flex-row justify-between">
+                  <div className="overflow-scroll flex items-center flex-col xl:flex-row justify-between">
                     <div className="flex flex-col gap-2 lg:p-5">
-                      <div className="overflow-scroll bg-[#171E27] font-semibold flex items-center border border-[#2f3a47] rounded-xl">
+                      <div className="bg-[#171E27] font-semibold flex items-center border border-[#2f3a47] rounded-xl">
                         <div
                           onClick={() => settypeTools("Free tools")}
                           className={

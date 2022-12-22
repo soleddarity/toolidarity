@@ -242,7 +242,7 @@ const Index = () => {
     {
       name: "Solscan.io",
       description: "The user-friendly and real-time update Scanning Tool for the Solana ecosystem",
-      icon: "https://pbs.twimg.com/profile_images/1402851459993989124/EL0CcRLp_400x400.png",
+      icon: "https://solscan.io/favicon.png",
       twitter: "https://twitter.com/solscanofficial",
       discord: "http://discord.gg/H8FBqAR8bx",
       website: "https://solscan.io/",

@@ -223,7 +223,7 @@ export default function Layout({ children }: LayoutProps) {
                   </Transition.Child>
                   <div className="pt-5 pb-4">
                     <div className="flex flex-shrink-0 items-center px-4">
-                      <Link href="/">
+                      <Link href="https://toolidarity.app">
                         <img
                           className="h-auto w-auto"
                           src={`${router.basePath}/assets/images/logo.png`}

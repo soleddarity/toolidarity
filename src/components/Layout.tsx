@@ -225,7 +225,6 @@ export default function Layout({ children }: LayoutProps) {
                     <div className="flex flex-shrink-0 items-center px-4">
                       <Link href="https://toolidarity.app">
                         <img
-                          href ="https://toolidarity.app"
                           className="h-auto w-auto"
                           src={`${router.basePath}/assets/images/logo.png`}
                           alt="Your Company"

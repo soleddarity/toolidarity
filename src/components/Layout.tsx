@@ -31,12 +31,6 @@ export default function Layout({ children }: LayoutProps) {
   const { publicKey } = useWallet();
   const [nickname, setnickname] = useState<any>(publicKey?.toBase58());
   const [pfp, setpfp] = useState("default.png");
-
-  const handleNickname = (event: {
-    target: { value: SetStateAction<undefined> };
-  }) => {
-    setnickname(event.target.value);
-  };
   const cancelButtonRef = useRef(null);
   var truncate = function (
     fullStr: string,
@@ -63,9 +57,9 @@ export default function Layout({ children }: LayoutProps) {
   const navigation = [
     {
       name: "Home",
-      href: "/",
+      href: "https://www.toolidarity.app/",
       icon: HomeIcon,
-      active: router.pathname == "/" ? true : false,
+      active: router.pathname == "https://www.toolidarity.app/" ? true : false,
     },
     {
       name: "Staking",

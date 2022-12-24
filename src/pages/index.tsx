@@ -50,7 +50,7 @@ const Index = () => {
       icon: "https://pbs.twimg.com/profile_images/1562853552816521216/dnNBcFXM_400x400.jpg",
       twitter: "https://twitter.com/hadeswap",
       discord: "https://discord.com/invite/hadeswap",
-      website: "https://hadeswap.com/collection/8FkVVh3m8fwuZSm76C3kfHCyRYDprfJjqNQZrFYdtsba",
+      website: "https://app.hadeswap.com/trade/supportive_dude",
       category: "AMM,Marketplace",
       from: "#2B2263",
       to: "#7B72B0",

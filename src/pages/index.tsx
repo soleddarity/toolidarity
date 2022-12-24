@@ -272,6 +272,17 @@ const Index = () => {
       from: "#45C447",
       to: "#092B0A",
     },
+{
+      name: "Simmple Labs",
+      description: "An old version of Toolidarity clearly outdated...... nobody uses it anymore!",
+      icon: "https://pbs.twimg.com/profile_images/1555891086828384256/4PoA1Js1_400x400.jpg",
+      twitter: "https://twitter.com/soleddarity",
+      discord: "https://discord.gg/soleddarity",
+      website: "https://toolidarity.app",
+      category: "Soleddarity SubDAO",
+      from: "#2C0E63",
+      to: "#7D53CA",
+    },
   ];
 
   const Holderstools = [

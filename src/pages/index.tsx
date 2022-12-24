@@ -47,7 +47,7 @@ const Index = () => {
       name: "Hadeswap",
       description:
         "the most efficient & decentralized NFT trading platform that act as an Automated Market Maker (AMM) NFT marketplace that improves NFT liquidity and its trading experience.",
-      icon: "https://pbs.twimg.com/profile_images/1562853552816521216/dnNBcFXM_400x400.jpg",
+      icon: "https://www.hadeswap.com/static/media/Logo.a1c390c903824737567f56baa63a6151.svg",
       twitter: "https://twitter.com/hadeswap",
       discord: "https://discord.com/invite/hadeswap",
       website: "https://app.hadeswap.com/trade/supportive_dude",

@@ -34,9 +34,6 @@ export default function Layout({ children }: LayoutProps) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const { publicKey } = useWallet();
-  const [nickname, setnickname] = useState<any>(publicKey?.toBase58());
-  const [pfp, setpfp] = useState("default.png");
-  const cancelButtonRef = useRef(null);
   var truncate = function (
     fullStr: string,
     strLen: number,
@@ -144,16 +141,6 @@ export default function Layout({ children }: LayoutProps) {
         console.log("error");
       });
   };
-
-  const updateNickname = async (pfp: any) => {
-    axios
-      .post(
-        "http://localhost:3030/api/auth/updatenickname",
-        {
-          publicKey: publicKey,
-          nickname: nickname,
-          pfp: pfp ? pfp : "",
-        }
       )
       .then(() => {
         setOpen(false);

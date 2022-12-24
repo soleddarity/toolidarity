@@ -4,7 +4,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import {
   CurrencyDollarIcon,
   HomeIcon,
-  TagIcon,
+  TicketIcon,
 } from "@heroicons/react/outline";
 import { useRouter } from "next/router";
 import axios from "axios";

@@ -76,7 +76,7 @@ export default function Layout({ children }: LayoutProps) {
     {
       name: "Raffles",
       href: "https://soleddarity-utilities.vercel.app/raffles",
-      icon: TagIcon,
+      icon: TicketIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/raffles" ? true : false,
     },
   ];

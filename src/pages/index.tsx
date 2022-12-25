@@ -163,7 +163,7 @@ const Index = () => {
     {
       name: "Metaplex",
       description: "Metaplex is a platform for NFT creators and developers on Solana. The top creators and game studios use Metaplex to create, grow, and engage their communities.",
-      icon: "https://pbs.twimg.com/profile_images/1570854270668537857/ncgWvFCj_400x400.jpg",
+      icon: "https://global-uploads.webflow.com/6143dddcc9cc40b6339177b7/62a55795e68245d68bdc3e80_vDaw9IxG.jpg",
       twitter: "https://twitter.com/metaplex",
       discord: "https://discord.com/invite/7hfGph2K",
       website: "https://www.metaplex.com/",

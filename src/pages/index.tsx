@@ -47,7 +47,7 @@ const Index = () => {
       name: "Hadeswap",
       description:
         "the most efficient & decentralized NFT trading platform that act as an Automated Market Maker (AMM) NFT marketplace that improves NFT liquidity and its trading experience.",
-      icon: "https://www.hadeswap.com/static/media/Logo.a1c390c903824737567f56baa63a6151.svg",
+      icon: "https://pbs.twimg.com/profile_images/1580240739551875083/aHCD1pur_400x400.jpg",
       twitter: "https://twitter.com/hadeswap",
       discord: "https://discord.com/invite/hadeswap",
       website: "https://app.hadeswap.com/trade/supportive_dude",
@@ -152,7 +152,7 @@ const Index = () => {
     {
       name: "Builderz",
       description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
-      icon: "https://pbs.twimg.com/profile_images/1559181313021775874/f0qkorJr_400x400.jpg",
+      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
       twitter: "https://twitter.com/builderz__",
       discord: "https://discord.gg/QFZAkbVmjE",
       website: "https://tools.builderz.build/",
@@ -163,7 +163,7 @@ const Index = () => {
     {
       name: "Metaplex",
       description: "Metaplex is a platform for NFT creators and developers on Solana. The top creators and game studios use Metaplex to create, grow, and engage their communities.",
-      icon: "https://pbs.twimg.com/profile_images/1570854270668537857/ncgWvFCj_400x400.jpg",
+      icon: "https://miro.medium.com/max/2400/1*n7hQXmgsfpxFDQe8kbuN4g.png",
       twitter: "https://twitter.com/metaplex",
       discord: "https://discord.com/invite/7hfGph2K",
       website: "https://www.metaplex.com/",

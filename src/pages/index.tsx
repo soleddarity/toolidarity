@@ -629,6 +629,18 @@ const Index = () => {
       from: "#1C1C1C",
       to: "#DFB0B0",
     },
+    {
+      name: "Magic Eden's Intro to Solana NFTs",
+      description:
+        "Get to know the basic of NFts and Solana Blockchain on the official's Magic Eden guide",
+      icon: "https://yt3.ggpht.com/HRtpijPgB6rijcMFphGjxEUb5QGFdGFpLVzE_harHbuAi-7VP0S8-2ihkRxF8okOkZo2_yINBw=s900-c-k-c0x00ffffff-no-rj",
+      twitter: "https://twitter.com/MagicEden",
+      discord: "https://discord.com/invite/magiceden",
+      website: "https://contenthub.magiceden.io/playbook",
+      category: "Full Guide",
+      from: "#950BC6",
+      to: "#B657A9",
+    },
   ];
 
   const navigation = [

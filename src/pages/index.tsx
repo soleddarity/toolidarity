@@ -465,6 +465,18 @@ const Index = () => {
       from: "#161203",
       to: "#B0A98C",
     },
+    {
+      name: "Matrica",
+      description:
+        "NFT-based verification, token-gating, and voting services to Discord servers, and an NFT wallet. ",
+      icon: "https://nftsolana.io/wp-content/uploads/2021/09/nX5X4u3w_400x400.jpg",
+      twitter: "https://twitter.com/MatricaLabs",
+      discord: "https://discord.com/invite/MatricaLabs",
+      website: "https://matrica.io/community/sol-edda-rity",
+      category: "Portfolio Tracker,Verification",
+      from: "#83C2AA",
+      to: "#494E6C",
+    },
   ];
 
   const discounts = [

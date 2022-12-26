@@ -284,6 +284,17 @@ const Index = () => {
       from: "#45C447",
       to: "#092B0A",
     },
+    {
+      name: "Orca",
+      description: "Orca is the easiest, fastest, and most user-friendly cryptocurrency exchange on the Solana blockchain.",
+      icon: "https://www.orca.so/static/media/logomark.55072c62035cc78cda4510b2ae9b9a69.svg",
+      twitter: "https://twitter.com/orca_so",
+      discord: "https://discord.com/invite/nSwGWn5KSG",
+      website: "https://www.orca.so/",
+      category: "Dex, LP",
+      from: "#45C447",
+      to: "#092B0A",
+    },
 {
       name: "Simmple Labs",
       description: "An old version of Toolidarity clearly outdated...... nobody uses it anymore!",

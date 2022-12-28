@@ -647,6 +647,18 @@ const Index = () => {
       from: "#544F64",
       to: "#068FC7",
     },
+    {
+      name: "Oak Paradise",
+      description:
+        "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens, E-Sports betting and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
+      icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
+      twitter: "https://twitter.com/oakparadisenft",
+      discord: "https://discord.com/invite/oakdystopia",
+      website: "https://registration.oak.bet/?referral=Soleddarity",
+      category: "Casino,Poker",
+      from: "#5C8656",
+      to: "#314631",
+    },
   ];
 
   const educations = [

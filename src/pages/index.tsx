@@ -59,7 +59,7 @@ const Index = () => {
       name: "SOLANA Chart",
       description:"Solana",
       icon: "https://seeklogo.com/images/S/solana-sol-logo-9AA58519FE-seeklogo.com.png",
-      discord:
+      discord:"#",
       website: "https://coin360.com/coin/solana-sol",
       category: "AMM,Marketplace",
       from: "#2B2263",

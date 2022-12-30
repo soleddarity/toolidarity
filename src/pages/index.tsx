@@ -977,10 +977,10 @@ const Index = () => {
                             alt="Your Company"
                           />
                           <h1 className="text-3xl xl:text-5xl text-center font-semibold leading-none">
-                            You don't have access
+                            ACCESS DENIED!
                           </h1>
                           <p className="leading-none opacity-40">
-                            Please connect your wallet to use the tool !
+                            Connect your wallet to access toolidarity !
                           </p>
                           <div className="mt-5">
                             <WalletMultiButton></WalletMultiButton>

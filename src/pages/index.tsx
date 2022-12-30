@@ -55,6 +55,16 @@ const Index = () => {
       from: "#2B2263",
       to: "#7B72B0",
     },
+{
+      name: "SOLANA Chart",
+      description:"Solana",
+      icon: "https://seeklogo.com/images/S/solana-sol-logo-9AA58519FE-seeklogo.com.png",
+      discord:
+      website: "https://coin360.com/coin/solana-sol",
+      category: "AMM,Marketplace",
+      from: "#2B2263",
+      to: "#7B72B0",
+    },
     {
       name: "Magic Eden",
       description:

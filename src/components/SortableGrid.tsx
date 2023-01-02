@@ -12,15 +12,15 @@ const SortableGrid = (props: any) => {
     const gridRef = useRef(null);
     const sortableJsRef = useRef(null);
 
-    const [data, setData] = useState(JSON.parse(sessionStorage.getItem(props.name)) || initData);
-    const [filteredData, setFilteredData] = useState(JSON.parse(sessionStorage.getItem(props.name)) || data);
+    const [data, setData] = useState(JSON.parse(localStorage.getItem(props.name)) || initData);
+    const [filteredData, setFilteredData] = useState(JSON.parse(localStorage.getItem(props.name)) || data);
 
     const onListChange = () => {
         const newData = [...gridRef.current.children]
         .map(i => i.dataset.id)
         .map(id => data.find(item => item._id === id));
         console.log(newData);
-        sessionStorage.setItem(props.name, JSON.stringify(newData));
+        localStorage.setItem(props.name, JSON.stringify(newData));
         setData(data);
     };
 
@@ -31,7 +31,7 @@ const SortableGrid = (props: any) => {
         onEnd: onListChange,
         });
 
-        let storage = JSON.parse(sessionStorage.getItem(props.name)) ?? [];
+        let storage = JSON.parse(localStorage.getItem(props.name)) ?? [];
         const incoming = props.tools;
         
         let newItems = [];
@@ -61,12 +61,12 @@ const SortableGrid = (props: any) => {
                     return true;
                 })
             
-                sessionStorage.setItem(props.name, JSON.stringify(newItems));
+                localStorage.setItem(props.name, JSON.stringify(newItems));
                 setData(newItems);
             }        
         } 
 
-        storage = JSON.parse(sessionStorage.getItem(props.name)) ?? [];
+        storage = JSON.parse(localStorage.getItem(props.name)) ?? [];
 
         // add new items to storage
         if (storage.length > 0 && incoming.length > storage.length) {
@@ -80,7 +80,7 @@ const SortableGrid = (props: any) => {
 
                 if (!found) {
                     storage.push({ _id: (i+1).toString(), content: incoming[i] });
-                    sessionStorage.setItem(props.name, JSON.stringify(storage));
+                    localStorage.setItem(props.name, JSON.stringify(storage));
                     setData(storage);
                 }
             }

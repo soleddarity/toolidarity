@@ -105,6 +105,7 @@
     "react-twitter-auth": "^0.0.13",
     "react-twitter-login": "^1.5.0",
     "rimraf": "^3.0.2",
+    "sortablejs": "^1.15.0",
     "styled-components": "^5.3.5",
     "styled-jsx-plugin-postcss": "^4.0.1",
     "sweetalert2": "^11.4.17",

@@ -4,7 +4,8 @@ import { Main } from "@/templates/Main";
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 import Layout from "@/components/Layout";
-import { ToolCard } from "@/components/ToolCard";
+// import { ToolCard } from "@/components/ToolCard";
+import SortableGrid from "@/components/SortableGrid";
 import {
   FireIcon,
   HomeIcon,
@@ -25,12 +26,35 @@ import router from "next/router";
 import { getCookie, setCookie } from "cookies-next";
 import axios from "axios";
 
+type ToolType = {
+  name: string;
+  description: string;
+  icon: string;
+  twitter: string;
+  discord: string;
+  website: string;
+  category: string;
+  from: string;
+  to: string;
+  id: string;
+}
+
 const Index = () => {
   const [typeTools, settypeTools] = useState("Free tools");
   //@ts-ignore
   const [jwt, setjwt] = useState(getCookie("jwt"));
-  const tools = [
+  const [filterInput, setFilterInput] = useState("");
+  const [freeTools, setFreeTools] = useState<ToolType[]>([]);
+  const [holderTools, setHolderTools] = useState<ToolType[]>([]);
+  const [gameTools, setGameTools] = useState<ToolType[]>([]);
+  const [discountTools, setDiscountTools] = useState<ToolType[]>([]);
+  const [educationTools, setEducationTools] = useState<ToolType[]>([]);
 
+  const handleFilterChange = (event: any) => {
+    setFilterInput(event.target.value);
+  }
+
+  const tools = [
     {
       name: "Hyperspace",
       description:
@@ -637,6 +661,18 @@ const Index = () => {
     login();
   }, [publicKey]);
 
+  useEffect(() => {
+    setFreeTools(tools);
+    setHolderTools(Holderstools);
+    setGameTools(games);
+    setDiscountTools(discounts);
+    setEducationTools(educations);
+  }, []);
+
+  useEffect(() => {
+    setFilterInput('');
+  }, [typeTools]);
+  
   return (
     <Main meta={<Meta title="Toolidarity" description="" />}>
       {publicKey || haveAnubis ? (
@@ -652,8 +688,8 @@ const Index = () => {
                           onClick={() => settypeTools("Free tools")}
                           className={
                             typeTools == "Free tools"
-                              ? "p-2 lg:p-5 w-auto lg:w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Free Tools
@@ -662,8 +698,8 @@ const Index = () => {
                           onClick={() => settypeTools("Holders only")}
                           className={
                             typeTools == "Holders only"
-                              ? "p-2 lg:p-5 w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Dudes Tools
@@ -672,8 +708,8 @@ const Index = () => {
                           onClick={() => settypeTools("Discounts")}
                           className={
                             typeTools == "Discounts"
-                              ? "p-2 lg:p-5 w-auto lg:w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Discounts
@@ -682,8 +718,8 @@ const Index = () => {
                           onClick={() => settypeTools("Games")}
                           className={
                             typeTools == "Games"
-                              ? "p-2 lg:p-5 w-auto lg:w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[100px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Games
@@ -692,52 +728,48 @@ const Index = () => {
                           onClick={() => settypeTools("Educations")}
                           className={
                             typeTools == "Educations"
-                              ? "p-2 lg:p-5 w-auto lg:w-[100px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Educational
                         </div>
                       </div>
                     </div>
+                    <div className="filter-div">
+                      <input value={filterInput} onChange={handleFilterChange} placeholder="Filter items" />
+                    </div>
+
                     <div className="flex items-center gap-2">
                       <WalletMultiButton></WalletMultiButton>
                     </div>
                   </div>
-                  <div className="grid gap-2 lg:p-5 grid-cols-1 2xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-2">
+                  
+                  {/* <div className="grid gap-2 lg:p-5 grid-cols-1 2xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-2"> */}
+                  <div>
                     {typeTools == "Free tools" ? (
                       <>
-                        {tools.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                      <SortableGrid key="freetoolskey" tools={freeTools} name="free-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Holders only" ? (
                       <>
-                        {Holderstools.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                      <SortableGrid key="holdertoolskey" tools={holderTools} name="holder-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Games" ? (
                       <>
-                        {games.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="gametoolskey" tools={gameTools} name="game-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Educations" ? (
                       <>
-                        {educations.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="educationtoolskey" tools={educationTools} name="education-tools" filter={filterInput} />
                       </>
                     ) : (
                       <>
-                        {" "}
-                        {discounts.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="discounttoolskey" tools={discountTools} name="discount-tools" filter={filterInput} />
                       </>
                     )}
                   </div>
+
                 </div>
               </Layout>
             </>

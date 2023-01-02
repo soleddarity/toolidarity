@@ -1,3 +1,4 @@
+import { ECONNRESET } from 'constants';
 import React, { useState, useEffect, useRef } from 'react';
 import Sortable from 'sortablejs';
 
@@ -26,8 +27,64 @@ const SortableGrid = (props: any) => {
     useEffect(() => {
         sortableJsRef.current = new Sortable(gridRef.current, {
         animation: 150,
+        filter: ".static",
         onEnd: onListChange,
         });
+
+        let storage = JSON.parse(sessionStorage.getItem(props.name)) ?? [];
+        const incoming = props.tools;
+        
+        let newItems = [];
+        let removes:[] = [];
+
+        // remove items from storage
+        if (storage.length > 0 && storage.length > incoming.length) {
+            for (let i = 0; i < storage.length; i++) {
+                let found = false;
+                for (let k = 0; k < incoming.length; k++) {
+                    if (storage[i].content.name === incoming[k].name) {
+                        found = true;
+                    }
+                }
+
+                if (!found) {
+                    removes.push(storage[i].content.name);
+                }
+            }
+
+            if (removes.length > 0) {
+                newItems = storage.filter(item => {
+                    if (removes.includes(item.content.name)) {
+                        return false;
+                    }
+
+                    return true;
+                })
+            
+                sessionStorage.setItem(props.name, JSON.stringify(newItems));
+                setData(newItems);
+            }        
+        } 
+
+        storage = JSON.parse(sessionStorage.getItem(props.name)) ?? [];
+
+        // add new items to storage
+        if (storage.length > 0 && incoming.length > storage.length) {
+            for (let i = 0; i < incoming.length; i++) {
+                let found = false;
+                for (let k = 0; k < storage.length; k++) {
+                    if (storage[k].content.name === incoming[i].name) {
+                        found = true;
+                    }
+                }
+
+                if (!found) {
+                    storage.push({ _id: (i+1).toString(), content: incoming[i] });
+                    sessionStorage.setItem(props.name, JSON.stringify(storage));
+                    setData(storage);
+                }
+            }
+        }
     }, []);
 
     useEffect(() => {
@@ -60,7 +117,7 @@ const SortableGrid = (props: any) => {
     return (
         <div ref={gridRef} className="grid-box">
            {filteredData.map(({ _id, content }) => (
-            <div key={_id} data-id={_id} className="grid-square" style={{
+            <div key={_id} data-id={_id} className={props.filter.length > 1 ? "grid-square static" : "grid-square"} style={{
                 background:
                   "linear-gradient(180deg, " +
                   content.from +

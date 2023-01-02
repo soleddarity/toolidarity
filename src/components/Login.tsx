@@ -1,17 +1,26 @@
-import {
-  FireIcon,
-  HomeIcon,
-  InboxIcon,
-  UserIcon,
-} from "@heroicons/react/outline";
+// import {
+//   FireIcon,
+//   HomeIcon,
+//   InboxIcon,
+//   UserIcon,
+// } from "@heroicons/react/outline";
+import StakingIcon from "../styles/icons/StakingIcon";
+import HomeIcon from "../styles/icons/HomeIcon";
+import AuctionsIcon from "../styles/icons/AuctionsIcon";
+import RafflesIcon from "../styles/icons/RafflesIcon";
+import CoinflipIcon from "../styles/icons/CoinflipIcon";
+import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
+
 import { useRouter } from "next/router";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 const navigation = [
   { name: "Home", href: "#", icon: HomeIcon, active: false },
-  { name: "Trending", href: "#", icon: FireIcon, active: false },
-  { name: "Messages", href: "#", icon: InboxIcon, active: false },
-  { name: "Profile", href: "#", icon: UserIcon, active: false },
+  { name: "Staking", href: "#", icon: StakingIcon, active: false },
+  { name: "Auctions", href: "#", icon: AuctionsIcon, active: false },
+  { name: "Raffles", href: "#", icon: RafflesIcon, active: false },
+  { name: "Coinflip", href: "#", icon: CoinflipIcon, active: false },
+  { name: "Royalties", href: "#", icon: RoyaltiesIcon, active: false },
 ];
 
 export default function Login() {

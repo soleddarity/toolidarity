@@ -1,12 +1,13 @@
 import { SetStateAction, useEffect, useRef, useState } from "react";
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import {
-  CurrencyDollarIcon,
-  HomeIcon,
-  TagIcon,
-} from "@heroicons/react/outline";
-import RectangleStackIcon from "../styles/icons/RectangleStackIcon.js";
+import StakingIcon from "../styles/icons/StakingIcon";
+import HomeIcon from "../styles/icons/HomeIcon";
+import AuctionsIcon from "../styles/icons/AuctionsIcon";
+import RafflesIcon from "../styles/icons/RafflesIcon";
+import CoinflipIcon from "../styles/icons/CoinflipIcon";
+import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
+
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
@@ -65,20 +66,32 @@ export default function Layout({ children }: LayoutProps) {
     {
       name: "Staking",
       href: "https://soleddarity-utilities.vercel.app/staking",
-      icon: RectangleStackIcon,
+      icon: StakingIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/staking" ? true : false,
     },
     {
       name: "Auctions",
       href: "https://soleddarity-utilities.vercel.app/auctions",
-      icon: CurrencyDollarIcon,
+      icon: AuctionsIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/auctions" ? true : false,
     },
     {
       name: "Raffles",
       href: "https://soleddarity-utilities.vercel.app/raffles",
-      icon: TagIcon,
+      icon: RafflesIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/raffles" ? true : false,
+    },
+    {
+      name: "Coinflip",
+      href: "https://soleddarity-coinflip.vercel.app/",
+      icon: CoinflipIcon,
+      active: router.pathname == "https://soleddarity-coinflip.vercel.app/" ? true : false,
+    },
+    {
+      name: "Royalties",
+      href: "https://tools.builderz.build/pay-royalties",
+      icon: RoyaltiesIcon,
+      active: router.pathname == "https://tools.builderz.build/pay-royalties" ? true : false,
     },
   ];
 
@@ -226,7 +239,7 @@ export default function Layout({ children }: LayoutProps) {
                         />
                       </Link>
                     </div>
-                    <nav aria-label="Sidebar" className="mt-5">
+                    <nav aria-label="Sidebar" className="mt-5 ml-5">
                       <div className="space-y-1 px-2">
                         {navigation.map((item) => (
                           <a
@@ -235,7 +248,7 @@ export default function Layout({ children }: LayoutProps) {
                             className="group flex items-center rounded-md p-2 text-base font-medium text-gray-600 hover:opacity-50 "
                           >
                             <item.icon
-                              className="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500"
+                              className="h-6 w-6 text-gray-400 group-hover:text-gray-500"
                               aria-hidden="true"
                             />
                             {item.name}

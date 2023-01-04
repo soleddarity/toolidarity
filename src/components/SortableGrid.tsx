@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Sortable from 'sortablejs';
 
 const SortableGrid = (props: any) => {
-    const initData = props.tools.map(function (tool, idx) {
+    const initData = props.tools.map(function (tool: any, idx: any) {
         return {
         _id: (idx + 1).toString(),
         content: tool,
@@ -11,9 +11,15 @@ const SortableGrid = (props: any) => {
         
     const gridRef = useRef(null);
     const sortableJsRef = useRef(null);
+    
+    let storage = localStorage.getItem(props.name);
+    
+    if (storage) {
+        storage = JSON.parse(storage);
+    }
 
-    const [data, setData] = useState(JSON.parse(localStorage.getItem(props.name)) || initData);
-    const [filteredData, setFilteredData] = useState(JSON.parse(localStorage.getItem(props.name)) || data);
+    const [data, setData] = useState(storage || initData);
+    const [filteredData, setFilteredData] = useState(storage || data);
 
     const onListChange = () => {
         const newData = [...gridRef.current.children]
@@ -31,7 +37,12 @@ const SortableGrid = (props: any) => {
         onEnd: onListChange,
         });
 
-        let storage = JSON.parse(localStorage.getItem(props.name)) ?? [];
+        let storage = localStorage.getItem(props.name) || [];
+    
+        if (storage) {
+            storage = JSON.parse(storage);
+        }
+
         const incoming = props.tools;
         
         let newItems = [];
@@ -66,7 +77,11 @@ const SortableGrid = (props: any) => {
             }        
         } 
 
-        storage = JSON.parse(localStorage.getItem(props.name)) ?? [];
+        storage = localStorage.getItem(props.name) || [];
+    
+        if (storage) {
+            storage = JSON.parse(storage);
+        }
 
         // add new items to storage
         if (storage.length > 0 && incoming.length > storage.length) {

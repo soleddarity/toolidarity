@@ -37,10 +37,11 @@ const SortableGrid = (props: any) => {
         onEnd: onListChange,
         });
 
-        let storage = localStorage.getItem(props.name) || [];
-    
-        if (storage) {
-            storage = JSON.parse(storage);
+        let storageStr = localStorage.getItem(props.name) || '';
+        let storage = [];
+
+        if (storageStr) {
+            storage = JSON.parse(storageStr);
         }
 
         const incoming = props.tools;
@@ -77,10 +78,10 @@ const SortableGrid = (props: any) => {
             }        
         } 
 
-        storage = localStorage.getItem(props.name) || [];
+        storageStr = localStorage.getItem(props.name) || '';
     
-        if (storage) {
-            storage = JSON.parse(storage);
+        if (storageStr) {
+            storage = JSON.parse(storageStr);
         }
 
         // add new items to storage

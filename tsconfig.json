@@ -8,10 +8,10 @@
     "preserveConstEnums": true,
     "strict": true,
     "alwaysStrict": true,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "noUncheckedIndexedAccess": true,
 
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,

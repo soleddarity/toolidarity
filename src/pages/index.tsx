@@ -954,7 +954,6 @@ const Index = () => {
                               }
                             >
                               <item.icon
-                                className="h-6 w-6"
                                 aria-hidden="true"
                               />
                               <span className="sr-only">{item.name}</span>

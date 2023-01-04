@@ -247,7 +247,7 @@ export default function Layout({ children }: LayoutProps) {
                             className="group flex items-center rounded-md p-2 text-base font-medium text-gray-600 hover:opacity-50 "
                           >
                             <item.icon
-                              className="h-6 w-6 text-gray-400 group-hover:text-gray-500"
+                              // className="h-6 w-6 text-gray-400 group-hover:text-gray-500"
                               aria-hidden="true"
                             />
                             {item.name}

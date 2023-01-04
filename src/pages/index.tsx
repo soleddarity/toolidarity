@@ -51,11 +51,11 @@ const Index = () => {
   //@ts-ignore
   const [jwt, setjwt] = useState(getCookie("jwt"));
   const [filterInput, setFilterInput] = useState("");
-  const [freeTools, setFreeTools] = useState<ToolType[]>([]);
-  const [holderTools, setHolderTools] = useState<ToolType[]>([]);
-  const [gameTools, setGameTools] = useState<ToolType[]>([]);
-  const [discountTools, setDiscountTools] = useState<ToolType[]>([]);
-  const [educationTools, setEducationTools] = useState<ToolType[]>([]);
+  const [freeTools, setFreeTools] = useState<any[]>([]);
+  const [holderTools, setHolderTools] = useState<any[]>([]);
+  const [gameTools, setGameTools] = useState<any[]>([]);
+  const [discountTools, setDiscountTools] = useState<any[]>([]);
+  const [educationTools, setEducationTools] = useState<any[]>([]);
 
   const handleFilterChange = (event: any) => {
     setFilterInput(event.target.value);

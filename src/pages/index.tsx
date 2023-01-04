@@ -33,18 +33,6 @@ import router from "next/router";
 import { getCookie, setCookie } from "cookies-next";
 import axios from "axios";
 
-type ToolType = {
-  name: string;
-  description: string;
-  icon: string;
-  twitter: string;
-  discord: string;
-  website: string;
-  category: string;
-  from: string;
-  to: string;
-  id: string;
-}
 
 const Index = () => {
   const [typeTools, settypeTools] = useState("Free tools");

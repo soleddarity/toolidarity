@@ -469,7 +469,7 @@ export default function Layout({ children }: LayoutProps) {
                               : "flex items-center  p-4 text-white hover:opacity-80 ml-[-15px]"
                           }
                         >
-                          <item.icon className="h-6 w-6" aria-hidden="true" />
+                          <item.icon aria-hidden="true" />
                           <span className="sr-only">{item.name}</span>
                         </div>
                       </Link>

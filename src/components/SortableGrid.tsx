@@ -107,7 +107,7 @@ const SortableGrid = (props: any) => {
         if (data && props.filter.length > 1) {
             let items = [...data];
 
-            let newItems = items.filter((item) => {
+            let newItems = items.filter((item: any) => {
               let categories = item.content.category.toLowerCase().split(",");
               
               const match = categories.find((element: any) => {

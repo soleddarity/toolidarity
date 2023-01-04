@@ -4,13 +4,21 @@ import { Main } from "@/templates/Main";
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 import Layout from "@/components/Layout";
-import { ToolCard } from "@/components/ToolCard";
-import {
-  FireIcon,
-  HomeIcon,
-  InboxIcon,
-  UserIcon,
-} from "@heroicons/react/outline";
+// import { ToolCard } from "@/components/ToolCard";
+import SortableGrid from "@/components/SortableGrid";
+// import {
+//   FireIcon,
+//   HomeIcon,
+//   InboxIcon,
+//   UserIcon,
+// } from "@heroicons/react/outline";
+
+import StakingIcon from "../styles/icons/StakingIcon";
+import HomeIcon from "../styles/icons/HomeIcon";
+import AuctionsIcon from "../styles/icons/AuctionsIcon";
+import RafflesIcon from "../styles/icons/RafflesIcon";
+import CoinflipIcon from "../styles/icons/CoinflipIcon";
+import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
 
 // Import Swiper styles
 import "swiper/css";
@@ -25,12 +33,23 @@ import router from "next/router";
 import { getCookie, setCookie } from "cookies-next";
 import axios from "axios";
 
+
 const Index = () => {
   const [typeTools, settypeTools] = useState("Free tools");
   //@ts-ignore
   const [jwt, setjwt] = useState(getCookie("jwt"));
-  const tools = [
+  const [filterInput, setFilterInput] = useState("");
+  const [freeTools, setFreeTools] = useState<any[]>([]);
+  const [holderTools, setHolderTools] = useState<any[]>([]);
+  const [gameTools, setGameTools] = useState<any[]>([]);
+  const [discountTools, setDiscountTools] = useState<any[]>([]);
+  const [educationTools, setEducationTools] = useState<any[]>([]);
 
+  const handleFilterChange = (event: any) => {
+    setFilterInput(event.target.value);
+  }
+
+  const tools = [
     {
       name: "Hyperspace",
       description:
@@ -711,9 +730,11 @@ const Index = () => {
 
   const navigation = [
     { name: "Home", href: "#", icon: HomeIcon, active: false },
-    { name: "Trending", href: "#", icon: FireIcon, active: false },
-    { name: "Messages", href: "#", icon: InboxIcon, active: false },
-    { name: "Profile", href: "#", icon: UserIcon, active: false },
+    { name: "Staking", href: "#", icon: StakingIcon, active: false },
+    { name: "Auctions", href: "#", icon: AuctionsIcon, active: false },
+    { name: "Raffles", href: "#", icon: RafflesIcon, active: false },
+    { name: "Coinflip", href: "#", icon: CoinflipIcon, active: false },
+    { name: "Royalties", href: "#", icon: RoyaltiesIcon, active: false },
   ];
 
   const { publicKey } = useWallet();
@@ -762,6 +783,18 @@ const Index = () => {
     login();
   }, [publicKey]);
 
+  useEffect(() => {
+    setFreeTools(tools);
+    setHolderTools(Holderstools);
+    setGameTools(games);
+    setDiscountTools(discounts);
+    setEducationTools(educations);
+  }, []);
+
+  useEffect(() => {
+    setFilterInput('');
+  }, [typeTools]);
+  
   return (
     <Main meta={<Meta title="Toolidarity" description="" />}>
       {publicKey || haveAnubis ? (
@@ -777,8 +810,8 @@ const Index = () => {
                           onClick={() => settypeTools("Free tools")}
                           className={
                             typeTools == "Free tools"
-                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Free Tools
@@ -787,8 +820,8 @@ const Index = () => {
                           onClick={() => settypeTools("Holders only")}
                           className={
                             typeTools == "Holders only"
-                              ? "p-2 lg:p-5 w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Dudes Tools
@@ -797,8 +830,8 @@ const Index = () => {
                           onClick={() => settypeTools("Discounts")}
                           className={
                             typeTools == "Discounts"
-                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Discounts
@@ -807,8 +840,8 @@ const Index = () => {
                           onClick={() => settypeTools("Games")}
                           className={
                             typeTools == "Games"
-                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Games
@@ -817,52 +850,48 @@ const Index = () => {
                           onClick={() => settypeTools("Educations")}
                           className={
                             typeTools == "Educations"
-                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Educational
                         </div>
                       </div>
                     </div>
+                    <div className="filter-div">
+                      <input value={filterInput} onChange={handleFilterChange} placeholder="Filter items" />
+                    </div>
+
                     <div className="flex items-center gap-2">
                       <WalletMultiButton></WalletMultiButton>
                     </div>
                   </div>
-                  <div className="grid gap-2 lg:p-5 grid-cols-1 2xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-2">
+                  
+                  {/* <div className="grid gap-2 lg:p-5 grid-cols-1 2xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-2"> */}
+                  <div>
                     {typeTools == "Free tools" ? (
                       <>
-                        {tools.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                      <SortableGrid key="freetoolskey" tools={freeTools} name="free-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Holders only" ? (
                       <>
-                        {Holderstools.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                      <SortableGrid key="holdertoolskey" tools={holderTools} name="holder-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Games" ? (
                       <>
-                        {games.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="gametoolskey" tools={gameTools} name="game-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Educations" ? (
                       <>
-                        {educations.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="educationtoolskey" tools={educationTools} name="education-tools" filter={filterInput} />
                       </>
                     ) : (
                       <>
-                        {" "}
-                        {discounts.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="discounttoolskey" tools={discountTools} name="discount-tools" filter={filterInput} />
                       </>
                     )}
                   </div>
+
                 </div>
               </Layout>
             </>
@@ -878,10 +907,10 @@ const Index = () => {
                             <img
                               className="h-12 w-auto"
                               src={`${router.basePath}/assets/images/logo.png`}
-                              alt="Your Company"
+                              alt="Toolidarity"
                             />
                           </div>
-                          <div className="flex items-center justify-center mt-5 flex-shrink-0 pb-5">
+                          {/* <div className="flex items-center justify-center mt-5 flex-shrink-0 pb-5">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
@@ -896,7 +925,7 @@ const Index = () => {
                                 d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
                               />
                             </svg>
-                          </div>
+                          </div> */}
                         </div>
                         <nav
                           aria-label="Sidebar"
@@ -913,7 +942,6 @@ const Index = () => {
                               }
                             >
                               <item.icon
-                                className="h-6 w-6"
                                 aria-hidden="true"
                               />
                               <span className="sr-only">{item.name}</span>

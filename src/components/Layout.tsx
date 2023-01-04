@@ -1,12 +1,14 @@
 import { SetStateAction, useEffect, useRef, useState } from "react";
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
+
 import StakingIcon from "../styles/icons/StakingIcon";
 import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
 import CoinflipIcon from "../styles/icons/CoinflipIcon";
 import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
+
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
@@ -24,15 +26,6 @@ export default function Layout({ children }: LayoutProps) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const { publicKey } = useWallet();
-  const [nickname, setnickname] = useState<any>(publicKey?.toBase58());
-  const [pfp, setpfp] = useState("default.png");
-
-  const handleNickname = (event: {
-    target: { value: SetStateAction<undefined> };
-  }) => {
-    setnickname(event.target.value);
-  };
-  const cancelButtonRef = useRef(null);
   var truncate = function (
     fullStr: string,
     strLen: number,
@@ -58,9 +51,9 @@ export default function Layout({ children }: LayoutProps) {
   const navigation = [
     {
       name: "Home",
-      href: "/",
+      href: "https://www.toolidarity.app/",
       icon: HomeIcon,
-      active: router.pathname == "/" ? true : false,
+      active: router.pathname == "https://www.toolidarity.app/" ? true : false,
     },
     {
       name: "Staking",
@@ -152,16 +145,6 @@ export default function Layout({ children }: LayoutProps) {
         console.log("error");
       });
   };
-
-  const updateNickname = async (pfp: any) => {
-    axios
-      .post(
-        "http://localhost:3030/api/auth/updatenickname",
-        {
-          publicKey: publicKey,
-          nickname: nickname,
-          pfp: pfp ? pfp : "",
-        }
       )
       .then(() => {
         setOpen(false);

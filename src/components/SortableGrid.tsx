@@ -38,7 +38,7 @@ const SortableGrid = (props: any) => {
         });
 
         let storageStr = localStorage.getItem(props.name) || '';
-        let storage = [];
+        let storage: any[] = [];
 
         if (storageStr) {
             storage = JSON.parse(storageStr);
@@ -47,7 +47,7 @@ const SortableGrid = (props: any) => {
         const incoming = props.tools;
         
         let newItems = [];
-        let removes:[] = [];
+        let removes: any[] = [];
 
         // remove items from storage
         if (storage.length > 0 && storage.length > incoming.length) {
@@ -110,7 +110,7 @@ const SortableGrid = (props: any) => {
             let newItems = items.filter((item) => {
               let categories = item.content.category.toLowerCase().split(",");
               
-              const match = categories.find(element => {
+              const match = categories.find((element: any) => {
                 if (element.toString().includes(props.filter)) {
                   return true;
                 }

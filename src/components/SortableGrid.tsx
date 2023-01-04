@@ -147,7 +147,7 @@ const SortableGrid = (props: any) => {
                         <img src={content.icon} className="rounded-xl w-14" />
                     </div>
 
-                    <div className="flex overflow-scroll items-center gap-2">
+                    <div className="flex overflow-scroll items-center gap-2 hide-scrollbar">
                         {content.category.split(",").map(function (item: any) {
                         return (
                             <>

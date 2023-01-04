@@ -432,7 +432,7 @@ export default function Layout({ children }: LayoutProps) {
                       />
                     </Link>
                   </div>
-                  <div className="flex flex-shrink-0 pb-5">
+                  {/* <div className="flex flex-shrink-0 pb-5">
                     <a className="w-full relative flex-shrink-0 flex items-center justify-center flex-col">
                       <img
                         onClick={() => setOpen(true)}
@@ -447,7 +447,7 @@ export default function Layout({ children }: LayoutProps) {
                      
                       <div className="sr-only"></div>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <nav
                   aria-label="Sidebar"
@@ -469,7 +469,7 @@ export default function Layout({ children }: LayoutProps) {
                               : "flex items-center  p-4 text-white hover:opacity-80 ml-[-15px]"
                           }
                         >
-                          <item.icon aria-hidden="true" />
+                          <item.icon className="h-6 w-6" aria-hidden="true" />
                           <span className="sr-only">{item.name}</span>
                         </div>
                       </Link>

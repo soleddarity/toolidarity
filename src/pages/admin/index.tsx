@@ -685,7 +685,7 @@ export default function Layout({}: LayoutProps) {
                       <h3 className="text-lg font-medium leading-6 text-gray-100 mb-2">
                         Current Categorys
                       </h3>
-                      <div className="items-center gap-2 flex">
+                      <div className="items-center gap-2 flex hide-scrollbar">
                         {
                           //@ts-ignore
                           categorys?.map(function (cat: any, idx: any) {

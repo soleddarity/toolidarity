@@ -250,6 +250,7 @@ html {
   border-radius: 4px;
   overflow: hidden;
   position: relative;
+  background: #fff;
 }
 
 div.grid-box {
@@ -276,6 +277,12 @@ div.grid-square {
   width: 100%;
   height: 250px;
   padding: 20px;
+}
+
+.hide-scrollbar {
+    overflow: auto;
+    -ms-overflow-style: none; /* IE 11 */
+    scrollbar-width: none; /* Firefox 64 */
 }
 
 @media (max-width: 1400px) {

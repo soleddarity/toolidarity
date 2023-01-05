@@ -64,7 +64,7 @@ export default function Layout({ children }: LayoutProps) {
     },
     {
       name: "Staking",
-      href: "https://soleddarity-utilities.vercel.app/staking",
+      href: "https://stake.cardinal.so/supportive-dudes",
       icon: StakingIcon,
       active: router.pathname == "https://stake.cardinal.so/supportive-dudes" ? true : false,
     },

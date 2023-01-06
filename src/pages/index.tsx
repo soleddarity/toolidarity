@@ -687,7 +687,7 @@ const Index = () => {
       to: "#22072F",
     },
 {
-      name: "AibaverseNFT",
+      name: "Shuffle by Immortals",
       description:
         "PVP betting games to Web3",
       icon: "https://pbs.twimg.com/profile_images/1602577769359151111/bW5dZD_h_400x400.jpg",

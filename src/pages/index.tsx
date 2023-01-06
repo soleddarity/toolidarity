@@ -686,6 +686,18 @@ const Index = () => {
       from: "#B929FF",
       to: "#22072F",
     },
+{
+      name: "AibaverseNFT",
+      description:
+        "PVP betting games to Web3",
+      icon: "https://pbs.twimg.com/profile_images/1602577769359151111/bW5dZD_h_400x400.jpg",
+      twitter: "https://twitter.com/immortalsSOL",
+      discord: "discord.gg/immortalsSOL",
+      website: "https://t.co/yAYgHYrDIY",
+      category: "Betting",
+      from: "#14171F",
+      to: "#2B3039",
+    },
     {
       name: "Solcrash.io",
       description:
@@ -699,7 +711,7 @@ const Index = () => {
       to: "#068FC7",
     },
     {
-      name: "Oak Paradise",
+      name: "Oak Poker Paradise",
       description:
         "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens, E-Sports betting and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
       icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",

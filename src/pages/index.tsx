@@ -51,6 +51,17 @@ const Index = () => {
 
   const tools = [
     {
+      name: "Builderz",
+      description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
+      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
+      twitter: "https://twitter.com/builderz__",
+      discord: "https://discord.gg/QFZAkbVmjE",
+      website: "https://tools.builderz.build/",
+      category: "Repay Royalties,Utility Tools",
+      from: "#D8D8D8",
+      to: "#3B3B3B",
+    },
+    {
       name: "Hyperspace",
       description:
         "Solana's best NFT marketplace. Save money sweeping floors by buying across all marketplaces at once.",
@@ -74,7 +85,31 @@ const Index = () => {
       from: "#2B2263",
       to: "#7B72B0",
     },
-{
+    {
+      name: "Jupiter Aggregator",
+      description:
+        "The best swap aggregator & infrastructure for Solana - powering best price, token selection and UX for all users and devs.",
+      icon: "data:image/jpeg;base64,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",
+      twitter: "https://twitter.com/JupiterExchange",
+      discord: "http://discord.gg/jup",
+      website: "https://jup.ag",
+      category: "DEX",
+      from: "#14171F",
+      to: "#2B3039",
+    },
+    {
+      name: "Famous Fox Federation",
+      description:
+        "The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain. Enjoy a multitude of tools for users and owners",
+      icon: "https://famousfoxes.com/logo.b8610686.svg",
+      twitter: "https://twitter.com/FamousFoxFed",
+      discord: "https://discord.com/invite/famousfoxes",
+      website: "https://famousfoxes.com/",
+      category: "Marketplace,Token Market,Utility Tools",
+      from: "#FF7612",
+      to: "#974D09",
+    },
+    {
       name: "Coin360",
       description:"Watch the heatmap of cryptocurrency prices, market capitalizations, and volumes",
       icon: "https://www.pngall.com/wp-content/uploads/10/Solana-Crypto-Logo-PNG-File.png",
@@ -97,30 +132,6 @@ const Index = () => {
       to: "#B657A9",
     },
     {
-      name: "Elixir",
-      description:
-        "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
-      icon: "https://pbs.twimg.com/profile_images/1555641321783795712/gM1cgQjs_400x400.jpg",
-      twitter: "https://twitter.com/ElixirNFT",
-      discord: "https://discord.com/invite/elixirnft",
-      website: "https://app.elixirnft.io/",
-      category: "AMM,Marketplace,Lend/Borrow",
-      from: "#FFE3FF",
-      to: "#C66BEE",
-    },
-    {
-      name: "Jupiter Aggregator",
-      description:
-        "The best swap aggregator & infrastructure for Solana - powering best price, token selection and UX for all users and devs.",
-      icon: "data:image/jpeg;base64,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",
-      twitter: "https://twitter.com/JupiterExchange",
-      discord: "http://discord.gg/jup",
-      website: "https://jup.ag",
-      category: "DEX",
-      from: "#14171F",
-      to: "#2B3039",
-    },
-    {
       name: "Phantom",
       description:
         "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain. Coming to Ethereum and Polygon soon!",
@@ -131,6 +142,18 @@ const Index = () => {
       category: "Wallet",
       from: "#4024DE",
       to: "#CFC9F3",
+    },
+    {
+      name: "Elixir",
+      description:
+        "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
+      icon: "https://pbs.twimg.com/profile_images/1555641321783795712/gM1cgQjs_400x400.jpg",
+      twitter: "https://twitter.com/ElixirNFT",
+      discord: "https://discord.com/invite/elixirnft",
+      website: "https://app.elixirnft.io/",
+      category: "AMM,Marketplace,Lend/Borrow",
+      from: "#FFE3FF",
+      to: "#C66BEE",
     },
     {
       name: "Mercury",
@@ -156,18 +179,6 @@ const Index = () => {
       to: "#B03AA8",
     },
     {
-      name: "Famous Fox Federation",
-      description:
-        "The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain. Enjoy a multitude of tools for users and owners",
-      icon: "https://famousfoxes.com/logo.b8610686.svg",
-      twitter: "https://twitter.com/FamousFoxFed",
-      discord: "https://discord.com/invite/famousfoxes",
-      website: "https://famousfoxes.com/",
-      category: "Marketplace,Token Market,Utility Tools",
-      from: "#FF7612",
-      to: "#974D09",
-    },
-    {
       name: "SolSniper.xyz",
       description:
         "SolSniper is a free Solana NFT analytics and trading tool that outlines trending collections and popular searches, indicating what’s receiving attention amongst the broader community. One of the best features about SolSniper is that it includes multifaceted trading charts with built-in tools that allows for technical analysis. ",
@@ -189,17 +200,6 @@ const Index = () => {
       category: "Burner",
       from: "#FF3200",
       to: "#FBD111",
-    },
-    {
-      name: "Builderz",
-      description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
-      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
-      twitter: "https://twitter.com/builderz__",
-      discord: "https://discord.gg/QFZAkbVmjE",
-      website: "https://tools.builderz.build/",
-      category: "Repay Royalties,Utility Tools",
-      from: "#D8D8D8",
-      to: "#3B3B3B",
     },
     {
       name: "Metaplex",

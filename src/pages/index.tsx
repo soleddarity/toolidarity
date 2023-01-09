@@ -704,7 +704,7 @@ const Index = () => {
       icon: "https://pbs.twimg.com/profile_images/1602577769359151111/bW5dZD_h_400x400.jpg",
       twitter: "https://twitter.com/immortalsSOL",
       discord: "discord.gg/immortalsSOL",
-      website: "https://t.co/yAYgHYrDIY",
+      website: "https://www.solanashuffle.com/jackpot/1bbd7349-15cc-4ffc-95ad-3bff22108aa8",
       category: "Betting",
       from: "#14171F",
       to: "#2B3039",

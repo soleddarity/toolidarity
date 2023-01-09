@@ -482,7 +482,7 @@ const Index = () => {
       icon: "https://hub3.ee/favicon.png",
       twitter: "https://twitter.com/hub3ee",
       discord: "https://discord.com/invite/d49SfuhApQ",
-      website: "https://hub3.ee/",
+      website: "https://hub3.ee/app/collections/soleddarity-",
       category: "WL Gestion,Portfolio Tracker",
       from: "#581A99",
       to: "#4E1D5B",

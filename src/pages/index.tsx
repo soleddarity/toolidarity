@@ -748,6 +748,18 @@ const Index = () => {
       from: "#9AC786",
       to: "#6BCF39",
     },
+{
+      name: "Solana NFT Review",
+      description: "Your #1 resource for Solana NFT education",
+      icon: "https://pbs.twimg.com/profile_images/1491548889182265352/bhWpS1Pn_400x400.jpg",
+      twitter: "https://twitter.com/ReviewSolana",
+      discord: "#",
+      website:
+        "https://t.co/W06ZhRt78E",
+      category: "Review",
+      from: "#7C9CD8",
+      to: "#03C2BC",
+    },
     {
       name: "Ledger Academy",
       description: "Ledger academy is here to provide you with all the content you need to safely navigate Web3. Learn crypto on your own terms.",

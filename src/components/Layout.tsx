@@ -1,11 +1,12 @@
 import { SetStateAction, useEffect, useRef, useState } from "react";
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import {
-  CurrencyDollarIcon,
-  HomeIcon,
-  TicketIcon,
-} from "@heroicons/react/outline";
+import StakingIcon from "../styles/icons/StakingIcon";
+import HomeIcon from "../styles/icons/HomeIcon";
+import AuctionsIcon from "../styles/icons/AuctionsIcon";
+import RafflesIcon from "../styles/icons/RafflesIcon";
+import CoinflipIcon from "../styles/icons/CoinflipIcon";
+import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
@@ -18,22 +19,20 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 
-function RectangleStackIcon() {
-  return <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6.878V6a2.25 2.25 0 012.25-2.25h7.5A2.25 2.25 0 0118 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 004.5 9v.878m13.5-3A2.25 2.25 0 0119.5 9v.878m0 0a2.246 2.246 0 00-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0121 12v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6c0-.98.626-1.813 1.5-2.122" />
-  </svg>;
-}
-function TicketIcon() {
-  return <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
-</svg>;
-}
-
 export default function Layout({ children }: LayoutProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const { publicKey } = useWallet();
+  const [nickname, setnickname] = useState<any>(publicKey?.toBase58());
+  const [pfp, setpfp] = useState("default.png");
+
+  const handleNickname = (event: {
+    target: { value: SetStateAction<undefined> };
+  }) => {
+    setnickname(event.target.value);
+  };
+  const cancelButtonRef = useRef(null);
   var truncate = function (
     fullStr: string,
     strLen: number,
@@ -59,27 +58,39 @@ export default function Layout({ children }: LayoutProps) {
   const navigation = [
     {
       name: "Home",
-      href: "https://www.toolidarity.app/",
+      href: "/",
       icon: HomeIcon,
-      active: router.pathname == "https://www.toolidarity.app/" ? true : false,
+      active: router.pathname == "/" ? true : false,
     },
     {
       name: "Staking",
-      href: "https://soleddarity-utilities.vercel.app/staking",
-      icon: RectangleStackIcon,
-      active: router.pathname == "https://soleddarity-utilities.vercel.app/staking" ? true : false,
+      href: "https://stake.cardinal.so/supportive-dudes",
+      icon: StakingIcon,
+      active: router.pathname == "https://stake.cardinal.so/supportive-dudes" ? true : false,
     },
     {
       name: "Auctions",
       href: "https://soleddarity-utilities.vercel.app/auctions",
-      icon: CurrencyDollarIcon,
+      icon: AuctionsIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/auctions" ? true : false,
     },
     {
       name: "Raffles",
       href: "https://soleddarity-utilities.vercel.app/raffles",
-      icon: TicketIcon,
+      icon: RafflesIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/raffles" ? true : false,
+    },
+    {
+      name: "Coinflip",
+      href: "https://soleddarity-coinflip.vercel.app/",
+      icon: CoinflipIcon,
+      active: router.pathname == "https://soleddarity-coinflip.vercel.app/" ? true : false,
+    },
+    {
+      name: "Royalties",
+      href: "https://tools.builderz.build/pay-royalties",
+      icon: RoyaltiesIcon,
+      active: router.pathname == "https://tools.builderz.build/pay-royalties" ? true : false,
     },
   ];
 
@@ -141,6 +152,16 @@ export default function Layout({ children }: LayoutProps) {
         console.log("error");
       });
   };
+
+  const updateNickname = async (pfp: any) => {
+    axios
+      .post(
+        "http://localhost:3030/api/auth/updatenickname",
+        {
+          publicKey: publicKey,
+          nickname: nickname,
+          pfp: pfp ? pfp : "",
+        }
       )
       .then(() => {
         setOpen(false);
@@ -217,7 +238,7 @@ export default function Layout({ children }: LayoutProps) {
                         />
                       </Link>
                     </div>
-                    <nav aria-label="Sidebar" className="mt-5">
+                    <nav aria-label="Sidebar" className="mt-5 ml-5">
                       <div className="space-y-1 px-2">
                         {navigation.map((item) => (
                           <a
@@ -226,7 +247,7 @@ export default function Layout({ children }: LayoutProps) {
                             className="group flex items-center rounded-md p-2 text-base font-medium text-gray-600 hover:opacity-50 "
                           >
                             <item.icon
-                              className="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500"
+                              // className="h-6 w-6 text-gray-400 group-hover:text-gray-500"
                               aria-hidden="true"
                             />
                             {item.name}
@@ -411,7 +432,7 @@ export default function Layout({ children }: LayoutProps) {
                       />
                     </Link>
                   </div>
-                  <div className="flex flex-shrink-0 pb-5">
+                  {/* <div className="flex flex-shrink-0 pb-5">
                     <a className="w-full relative flex-shrink-0 flex items-center justify-center flex-col">
                       <img
                         onClick={() => setOpen(true)}
@@ -426,7 +447,7 @@ export default function Layout({ children }: LayoutProps) {
                      
                       <div className="sr-only"></div>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <nav
                   aria-label="Sidebar"
@@ -448,7 +469,7 @@ export default function Layout({ children }: LayoutProps) {
                               : "flex items-center  p-4 text-white hover:opacity-80 ml-[-15px]"
                           }
                         >
-                          <item.icon className="h-6 w-6" aria-hidden="true" />
+                          <item.icon aria-hidden="true" />
                           <span className="sr-only">{item.name}</span>
                         </div>
                       </Link>

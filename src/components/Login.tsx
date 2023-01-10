@@ -1,17 +1,26 @@
-import {
-  FireIcon,
-  HomeIcon,
-  InboxIcon,
-  UserIcon,
-} from "@heroicons/react/outline";
+// import {
+//   FireIcon,
+//   HomeIcon,
+//   InboxIcon,
+//   UserIcon,
+// } from "@heroicons/react/outline";
+import StakingIcon from "../styles/icons/StakingIcon";
+import HomeIcon from "../styles/icons/HomeIcon";
+import AuctionsIcon from "../styles/icons/AuctionsIcon";
+import RafflesIcon from "../styles/icons/RafflesIcon";
+import CoinflipIcon from "../styles/icons/CoinflipIcon";
+import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
+
 import { useRouter } from "next/router";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 const navigation = [
   { name: "Home", href: "#", icon: HomeIcon, active: false },
-  { name: "Trending", href: "#", icon: FireIcon, active: false },
-  { name: "Messages", href: "#", icon: InboxIcon, active: false },
-  { name: "Profile", href: "#", icon: UserIcon, active: false },
+  { name: "Staking", href: "#", icon: StakingIcon, active: false },
+  { name: "Auctions", href: "#", icon: AuctionsIcon, active: false },
+  { name: "Raffles", href: "#", icon: RafflesIcon, active: false },
+  { name: "Coinflip", href: "#", icon: CoinflipIcon, active: false },
+  { name: "Royalties", href: "#", icon: RoyaltiesIcon, active: false },
 ];
 
 export default function Login() {
@@ -32,7 +41,7 @@ export default function Login() {
                       alt="Your Company"
                     />
                   </div>
-                  <div className="flex items-center justify-center mt-5 flex-shrink-0 pb-5">
+                  {/* <div className="flex items-center justify-center mt-5 flex-shrink-0 pb-5">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -47,7 +56,7 @@ export default function Login() {
                         d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
                       />
                     </svg>
-                  </div>
+                  </div> */}
                 </div>
                 <nav
                   aria-label="Sidebar"
@@ -63,7 +72,7 @@ export default function Login() {
                           : "flex items-center  p-4 text-white hover:opacity-80 ml-[-15px]"
                       }
                     >
-                      <item.icon className="h-6 w-6" aria-hidden="true" />
+                      <item.icon aria-hidden="true" />
                       <span className="sr-only">{item.name}</span>
                     </a>
                   ))}

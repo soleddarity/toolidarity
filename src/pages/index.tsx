@@ -4,13 +4,21 @@ import { Main } from "@/templates/Main";
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 import Layout from "@/components/Layout";
-import { ToolCard } from "@/components/ToolCard";
-import {
-  FireIcon,
-  HomeIcon,
-  InboxIcon,
-  UserIcon,
-} from "@heroicons/react/outline";
+// import { ToolCard } from "@/components/ToolCard";
+import SortableGrid from "@/components/SortableGrid";
+// import {
+//   FireIcon,
+//   HomeIcon,
+//   InboxIcon,
+//   UserIcon,
+// } from "@heroicons/react/outline";
+
+import StakingIcon from "../styles/icons/StakingIcon";
+import HomeIcon from "../styles/icons/HomeIcon";
+import AuctionsIcon from "../styles/icons/AuctionsIcon";
+import RafflesIcon from "../styles/icons/RafflesIcon";
+import CoinflipIcon from "../styles/icons/CoinflipIcon";
+import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
 
 // Import Swiper styles
 import "swiper/css";
@@ -25,12 +33,34 @@ import router from "next/router";
 import { getCookie, setCookie } from "cookies-next";
 import axios from "axios";
 
+
 const Index = () => {
   const [typeTools, settypeTools] = useState("Free tools");
   //@ts-ignore
   const [jwt, setjwt] = useState(getCookie("jwt"));
-  const tools = [
+  const [filterInput, setFilterInput] = useState("");
+  const [freeTools, setFreeTools] = useState<any[]>([]);
+  const [holderTools, setHolderTools] = useState<any[]>([]);
+  const [gameTools, setGameTools] = useState<any[]>([]);
+  const [discountTools, setDiscountTools] = useState<any[]>([]);
+  const [educationTools, setEducationTools] = useState<any[]>([]);
 
+  const handleFilterChange = (event: any) => {
+    setFilterInput(event.target.value);
+  }
+
+  const tools = [
+    {
+      name: "Builderz",
+      description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
+      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
+      twitter: "https://twitter.com/builderz__",
+      discord: "https://discord.gg/QFZAkbVmjE",
+      website: "https://tools.builderz.build/",
+      category: "Repay Royalties,Utility Tools",
+      from: "#D8D8D8",
+      to: "#3B3B3B",
+    },
     {
       name: "Hyperspace",
       description:
@@ -46,14 +76,48 @@ const Index = () => {
     {
       name: "Hadeswap",
       description:
-        "the most efficient & decentralized NFT trading platform that act as an Automated Market Maker (AMM) NFT marketplace that improves NFT liquidity and its trading experience.",
-      icon: "https://pbs.twimg.com/profile_images/1580240739551875083/aHCD1pur_400x400.jpg",
+        "The most efficient & decentralized NFT trading platform that act as an Automated Market Maker (AMM) NFT marketplace that improves NFT liquidity and its trading experience.",
+      icon: "data:image/jpeg;base64,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",
       twitter: "https://twitter.com/hadeswap",
       discord: "https://discord.com/invite/hadeswap",
       website: "https://app.hadeswap.com/trade/supportive_dude",
       category: "AMM,Marketplace",
       from: "#2B2263",
       to: "#7B72B0",
+    },
+    {
+      name: "Jupiter Aggregator",
+      description:
+        "The best swap aggregator & infrastructure for Solana - powering best price, token selection and UX for all users and devs.",
+      icon: "data:image/jpeg;base64,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",
+      twitter: "https://twitter.com/JupiterExchange",
+      discord: "http://discord.gg/jup",
+      website: "https://jup.ag",
+      category: "DEX",
+      from: "#14171F",
+      to: "#2B3039",
+    },
+    {
+      name: "Famous Fox Federation",
+      description:
+        "The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain. Enjoy a multitude of tools for users and owners",
+      icon: "https://famousfoxes.com/logo.b8610686.svg",
+      twitter: "https://twitter.com/FamousFoxFed",
+      discord: "https://discord.com/invite/famousfoxes",
+      website: "https://famousfoxes.com/",
+      category: "Marketplace,Token Market,Utility Tools",
+      from: "#FF7612",
+      to: "#974D09",
+    },
+    {
+      name: "Coin360",
+      description:"Watch the heatmap of cryptocurrency prices, market capitalizations, and volumes",
+      icon: "https://www.pngall.com/wp-content/uploads/10/Solana-Crypto-Logo-PNG-File.png",
+      discord:"#",
+      website: "https://coin360.com/coin/solana-sol",
+      category: "Charts",
+      from: "#1BCDD5",
+      to: "#D51BCA",
     },
     {
       name: "Magic Eden",
@@ -68,30 +132,6 @@ const Index = () => {
       to: "#B657A9",
     },
     {
-      name: "Elixir",
-      description:
-        "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
-      icon: "https://pbs.twimg.com/profile_images/1555641321783795712/gM1cgQjs_400x400.jpg",
-      twitter: "https://twitter.com/ElixirNFT",
-      discord: "https://discord.com/invite/elixirnft",
-      website: "https://app.elixirnft.io/",
-      category: "AMM,Marketplace,Lend/Borrow",
-      from: "#FFE3FF",
-      to: "#C66BEE",
-    },
-    {
-      name: "Jupiter Aggregator",
-      description:
-        "The best swap aggregator & infrastructure for Solana - powering best price, token selection and UX for all users and devs.",
-      icon: "https://pbs.twimg.com/profile_images/1446493130555990024/xggcEv5a_400x400.jpg",
-      twitter: "https://twitter.com/JupiterExchange",
-      discord: "http://discord.gg/jup",
-      website: "https://jup.ag",
-      category: "DEX",
-      from: "#14171F",
-      to: "#2B3039",
-    },
-    {
       name: "Phantom",
       description:
         "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain. Coming to Ethereum and Polygon soon!",
@@ -102,6 +142,18 @@ const Index = () => {
       category: "Wallet",
       from: "#4024DE",
       to: "#CFC9F3",
+    },
+    {
+      name: "Elixir",
+      description:
+        "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
+      icon: "https://pbs.twimg.com/profile_images/1555641321783795712/gM1cgQjs_400x400.jpg",
+      twitter: "https://twitter.com/ElixirNFT",
+      discord: "https://discord.com/invite/elixirnft",
+      website: "https://app.elixirnft.io/",
+      category: "AMM,Marketplace,Lend/Borrow",
+      from: "#FFE3FF",
+      to: "#C66BEE",
     },
     {
       name: "Mercury",
@@ -127,16 +179,16 @@ const Index = () => {
       to: "#B03AA8",
     },
     {
-      name: "Famous Fox Federation",
+      name: "SolSniper.xyz",
       description:
-        "The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain. Enjoy a multitude of tools for users and owners",
-      icon: "https://famousfoxes.com/logo.b8610686.svg",
-      twitter: "https://twitter.com/FamousFoxFed",
-      discord: "https://discord.com/invite/famousfoxes",
-      website: "https://famousfoxes.com/",
-      category: "Marketplace,Token Market,Utility Tools",
-      from: "#FF7612",
-      to: "#974D09",
+        "SolSniper is a free Solana NFT analytics and trading tool that outlines trending collections and popular searches, indicating what’s receiving attention amongst the broader community. One of the best features about SolSniper is that it includes multifaceted trading charts with built-in tools that allows for technical analysis. ",
+      icon: "https://www.solsniper.xyz/images/solsniper.png",
+      twitter: "https://twitter.com/solsniperxyz",
+      discord: "https://discord.com/invite/3zbckERyff",
+      website: "https://www.solsniper.xyz/collection/supportive_dude",
+      category: "Analytics,Portfolio Tracker",
+      from: "#7541ED",
+      to: "#4B0375",
     },
     {
       name: "Sol Incinerator",
@@ -150,20 +202,9 @@ const Index = () => {
       to: "#FBD111",
     },
     {
-      name: "Builderz",
-      description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
-      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
-      twitter: "https://twitter.com/builderz__",
-      discord: "https://discord.gg/QFZAkbVmjE",
-      website: "https://tools.builderz.build/",
-      category: "Repay Royalties, Utility Tools",
-      from: "#D8D8D8",
-      to: "#3B3B3B",
-    },
-    {
       name: "Metaplex",
       description: "Metaplex is a platform for NFT creators and developers on Solana. The top creators and game studios use Metaplex to create, grow, and engage their communities.",
-      icon: "https://miro.medium.com/max/2400/1*n7hQXmgsfpxFDQe8kbuN4g.png",
+      icon: "https://global-uploads.webflow.com/6143dddcc9cc40b6339177b7/62a55795e68245d68bdc3e80_vDaw9IxG.jpg",
       twitter: "https://twitter.com/metaplex",
       discord: "https://discord.com/invite/7hfGph2K",
       website: "https://www.metaplex.com/",
@@ -173,7 +214,7 @@ const Index = () => {
     },
     {
       name: "Atadia",
-      description: "Atadia combine their machine learning expertise with the collective wisdom of their community to create ecosystem-enabling products",
+      description: "Build your on-chain identity & benefit endlessly through Solana's first credit scoring-powered uncollateralised loans and an analytics-driven whitelisting tool.",
       icon: "https://uploads-ssl.webflow.com/61ce513cf689b19dbc7ffdda/61de6a8ad23bc18159efc177_Logo.png",
       twitter: "https://twitter.com/atadia_io",
       discord: "https://discord.com/invite/atadia",
@@ -262,6 +303,17 @@ const Index = () => {
       to: "#7D53CA",
     },
     {
+      name: "Rentii",
+      description: "Rentii is the NFT renting marketplace.",
+      icon: "https://d1fdloi71mui9q.cloudfront.net/xDTY9bWAQO8EVrxOzo9X_yVupir1FAMzqjXmn",
+      twitter: "https://twitter.com/Rentii_NFT",
+      discord: "http://discord.gg/rentiirebellion",
+      website: "https://www.rentii.xyz/",
+      category: "Renting",
+      from: "#C9C2C2",
+      to: "#6A6666",
+    },
+    {
       name: "Crossmint",
       description: "Making digital assets accessible to all. Create, sell & distribute NFTs in minutes with our APIs, fiat on-ramp & user-friendly wallets - no crypto required.",
       icon: "https://pbs.twimg.com/profile_images/1535656143988707330/Wg16GKQ2_400x400.png",
@@ -272,12 +324,78 @@ const Index = () => {
       from: "#45C447",
       to: "#092B0A",
     },
-{
+    {
+      name: "Orca",
+      description: "Orca is the easiest, fastest, and most user-friendly cryptocurrency exchange on the Solana blockchain.",
+      icon: "https://www.orca.so/static/media/logomark.55072c62035cc78cda4510b2ae9b9a69.svg",
+      twitter: "https://twitter.com/orca_so",
+      discord: "https://discord.com/invite/nSwGWn5KSG",
+      website: "https://www.orca.so/",
+      category: "DEX, LP",
+      from: "#DCD912",
+      to: "#353404",
+    },
+    {
+      name: "Yawww",
+      description: "The number #1 OTC Marketplace for Solana NFTs",
+      icon: "https://d1fdloi71mui9q.cloudfront.net/YaPRM1YTliyfUSb64cXE_Or3p1vTGQTVPnFrd",
+      twitter: "https://twitter.com/yawwwnft",
+      discord: "https://discord.com/invite/nSwGWn5KSG",
+      website: "https://www.yawww.io/",
+      category: "Marketplace,OTC",
+      from: "#353404",
+      to: "#8CD288",
+    },
+    {
+      name: "ExchangeArt",
+      description: "Exchange Art is the leading digital art marketplace on Solana. Browse, create, buy, sell, and auction your artworks.",
+      icon: "https://pbs.twimg.com/profile_images/1538859020894838786/vhqI2qxD_400x400.png",
+      twitter: "https://twitter.com/exchgART",
+      discord: "https://discord.gg/2ambwf3z4A",
+      website: "https://exchange.art/",
+      category: "Marketplace",
+      from: "#F0F0F0",
+      to: "#191919",
+    },
+    {
+      name: "Cardinal",
+      description: "Cardinal is a Solana Protocol that enables the conditional ownership of NFTs. We're powering the future of NFT utility through royalty enforcement, rentals, subscriptions, staking, tickets and more.",
+      icon: "https://s3.amazonaws.com/keybase_processed_uploads/4333ae7c8fa57975e6432bdef31aec05_360_360.jpg",
+      twitter: "https://twitter.com/cardinal_labs",
+      discord: "https://discord.com/invite/cardinallabs",
+      website: "https://www.cardinal.so/",
+      category: "Utility Tools,Staking,Royalties Enforcement",
+      from: "#751111",
+      to: "#1A0404",
+    },
+    {
+      name: "Birdeye",
+      description: "View real-time trade data, token price, and gems finder on Solana, plus instant swap with best price.",
+      icon: "https://pbs.twimg.com/profile_images/1468800070652887045/swKTrO_m_400x400.jpg",
+      twitter: "https://twitter.com/birdeye_so",
+      discord: "https://discord.com/invite/WWeVDpT9FK",
+      website: "https://birdeye.so/",
+      category: "Charts,DEX",
+      from: "#E3A412",
+      to: "#261D07",
+    },
+    {
+      name: "Diamond Vaults",
+      description: "Solana's leading free staking & raffles self-service platform!",
+      icon: "https://pbs.twimg.com/profile_images/1536722516412080135/kGcFt_xv_400x400.jpg",
+      twitter: "https://twitter.com/DiamondVaults",
+      discord: "https://discord.com/invite/gx2b8jTq3q",
+      website: "https://diamondvaults.io/",
+      category: "Staking,Raffles",
+      from: "#59DF77",
+      to: "#A9B2AB",
+    },
+    {
       name: "Simmple Labs",
       description: "An old version of Toolidarity clearly outdated...... nobody uses it anymore!",
       icon: "https://pbs.twimg.com/profile_images/1555891086828384256/4PoA1Js1_400x400.jpg",
       twitter: "https://twitter.com/soleddarity",
-      discord: "https://discord.gg/soleddarity",
+      discord: "https://discord.gg/Dv8beXu8pR",
       website: "https://toolidarity.app",
       category: "Soleddarity SubDAO",
       from: "#2C0E63",
@@ -364,7 +482,7 @@ const Index = () => {
       icon: "https://hub3.ee/favicon.png",
       twitter: "https://twitter.com/hub3ee",
       discord: "https://discord.com/invite/d49SfuhApQ",
-      website: "https://hub3.ee/",
+      website: "https://hub3.ee/app/collections/soleddarity-",
       category: "WL Gestion,Portfolio Tracker",
       from: "#581A99",
       to: "#4E1D5B",
@@ -453,6 +571,18 @@ const Index = () => {
       from: "#161203",
       to: "#B0A98C",
     },
+    {
+      name: "Matrica",
+      description:
+        "NFT-based verification, token-gating, and voting services to Discord servers, and an NFT wallet. ",
+      icon: "https://nftsolana.io/wp-content/uploads/2021/09/nX5X4u3w_400x400.jpg",
+      twitter: "https://twitter.com/MatricaLabs",
+      discord: "https://discord.com/invite/MatricaLabs",
+      website: "https://matrica.io/community/sol-edda-rity",
+      category: "Portfolio Tracker,Verification",
+      from: "#83C2AA",
+      to: "#494E6C",
+    },
   ];
 
   const discounts = [
@@ -463,7 +593,7 @@ const Index = () => {
       icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
       twitter: "https://twitter.com/oakparadisenft",
       discord: "https://discord.com/invite/oakdystopia",
-      website: "https://oak.bet/?ref=soleddarity",
+      website: "https://registration.oak.bet/?referral=Soleddarity",
       category: "Casino,P2E,SportsBook",
       from: "#5C8656",
       to: "#314631",
@@ -567,6 +697,18 @@ const Index = () => {
       from: "#B929FF",
       to: "#22072F",
     },
+{
+      name: "Shuffle by Immortals",
+      description:
+        "PVP betting games to Web3",
+      icon: "https://pbs.twimg.com/profile_images/1602577769359151111/bW5dZD_h_400x400.jpg",
+      twitter: "https://twitter.com/immortalsSOL",
+      discord: "discord.gg/immortalsSOL",
+      website: "https://www.solanashuffle.com/jackpot/1bbd7349-15cc-4ffc-95ad-3bff22108aa8",
+      category: "Betting",
+      from: "#14171F",
+      to: "#2B3039",
+    },
     {
       name: "Solcrash.io",
       description:
@@ -578,6 +720,18 @@ const Index = () => {
       category: "Betting",
       from: "#544F64",
       to: "#068FC7",
+    },
+    {
+      name: "Oak Poker Paradise",
+      description:
+        "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens, E-Sports betting and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
+      icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
+      twitter: "https://twitter.com/oakparadisenft",
+      discord: "https://discord.com/invite/oakdystopia",
+      website: "https://registration.oak.bet/?referral=Soleddarity",
+      category: "Casino,Poker",
+      from: "#5C8656",
+      to: "#314631",
     },
   ];
 
@@ -594,6 +748,18 @@ const Index = () => {
       from: "#9AC786",
       to: "#6BCF39",
     },
+{
+      name: "Solana NFT Review",
+      description: "Your #1 resource for Solana NFT education",
+      icon: "https://pbs.twimg.com/profile_images/1491548889182265352/bhWpS1Pn_400x400.jpg",
+      twitter: "https://twitter.com/ReviewSolana",
+      discord: "#",
+      website:
+        "https://t.co/W06ZhRt78E",
+      category: "Review",
+      from: "#7C9CD8",
+      to: "#03C2BC",
+    },
     {
       name: "Ledger Academy",
       description: "Ledger academy is here to provide you with all the content you need to safely navigate Web3. Learn crypto on your own terms.",
@@ -605,13 +771,27 @@ const Index = () => {
       from: "#1C1C1C",
       to: "#DFB0B0",
     },
+    {
+      name: "Magic Eden's Intro to Solana NFTs",
+      description:
+        "Get to know the basic of NFts and Solana Blockchain on the official's Magic Eden guide",
+      icon: "https://yt3.ggpht.com/HRtpijPgB6rijcMFphGjxEUb5QGFdGFpLVzE_harHbuAi-7VP0S8-2ihkRxF8okOkZo2_yINBw=s900-c-k-c0x00ffffff-no-rj",
+      twitter: "https://twitter.com/MagicEden",
+      discord: "https://discord.com/invite/magiceden",
+      website: "https://contenthub.magiceden.io/playbook",
+      category: "Full Guide",
+      from: "#950BC6",
+      to: "#B657A9",
+    },
   ];
 
   const navigation = [
     { name: "Home", href: "#", icon: HomeIcon, active: false },
-    { name: "Trending", href: "#", icon: FireIcon, active: false },
-    { name: "Messages", href: "#", icon: InboxIcon, active: false },
-    { name: "Profile", href: "#", icon: UserIcon, active: false },
+    { name: "Staking", href: "#", icon: StakingIcon, active: false },
+    { name: "Auctions", href: "#", icon: AuctionsIcon, active: false },
+    { name: "Raffles", href: "#", icon: RafflesIcon, active: false },
+    { name: "Coinflip", href: "#", icon: CoinflipIcon, active: false },
+    { name: "Royalties", href: "#", icon: RoyaltiesIcon, active: false },
   ];
 
   const { publicKey } = useWallet();
@@ -624,7 +804,7 @@ const Index = () => {
   });
 
   const isFound = nfts.some((element) => {
-    if (element.data.symbol === "SOLEDD"||element.data.symbol === "PRIM"||element.data.symbol === "HODLERS"||element.data.symbol === "FLOPPAS"||element.data.symbol === "ZK"||element.data.symbol === "CoC"||element.data.symbol === "KING"||element.data.symbol === "CURSED"||element.data.symbol === "PP"||element.data.symbol === "UNIREX"||element.data.symbol === "NEXI"||element.data.symbol === "soldecoder"||element.data.symbol === "SC"||element.data.symbol === "OAK"||element.data.symbol === "SEN"||element.data.symbol === "DC"||element.data.symbol === "KNIT"||element.data.symbol === "DGOD"||element.data.symbol === "Y00T"||element.data.symbol === "DINO"||element.data.symbol === "MARA"||element.data.symbol === "ABC"||element.data.symbol === "DUELBOTS"||element.data.symbol === "sharx"||element.data.symbol === "okay_bears"||element.data.symbol === "OON"||element.data.symbol === "OVOL"||element.data.symbol === "LILY"||element.data.symbol === "CC"||element.data.symbol === "FFF"||element.data.symbol === "YC"||element.data.symbol === "DFC"||element.data.symbol === "AP"||element.data.symbol === "DAPE"||element.data.symbol === "SMB"||element.data.symbol === "AUROR"||element.data.symbol === "LUNAR"||element.data.symbol === "sss"||element.data.symbol === "AoM"||element.data.symbol === "WN"||element.data.symbol === "MoMa") {
+    if (element.data.symbol === "SOLEDD"||element.data.symbol === "MIDH"||element.data.symbol === "GREATGOATS"||element.data.symbol === "SAC"||element.data.symbol === "BASC"||element.data.symbol === "HANA"||element.data.symbol === "SSL"||element.data.symbol === "NH"||element.data.symbol === "Rentii"||element.data.symbol === "EXP"||element.data.symbol === "HL"||element.data.symbol === "KBC"||element.data.symbol === "BSL"||element.data.symbol === "SMB"||element.data.symbol === "FT"||element.data.symbol === "IMRTL"||element.data.symbol === "NOVA"||element.data.symbol === "UGS"||element.data.symbol === "JA"||element.data.symbol === "KK"||element.data.symbol === "HODLERS"||element.data.symbol === "HSKI"||element.data.symbol === "ZUMA"||element.data.symbol === "APINLABS"||element.data.symbol === "TYP"||element.data.symbol === "GOON"||element.data.symbol === "INFKTED"||element.data.symbol === "LS"||element.data.symbol === "LILY"||element.data.symbol === "BVD"||element.data.symbol === "TSHS"||element.data.symbol === "GHOSTKID"||element.data.symbol === "FLOPPAS"||element.data.symbol === "ZK"||element.data.symbol === "CoC"||element.data.symbol === "KING"||element.data.symbol === "CURSED"||element.data.symbol === "PP"||element.data.symbol === "UNIREX"||element.data.symbol === "NEXI"||element.data.symbol === "soldecoder"||element.data.symbol === "SC"||element.data.symbol === "OAK"||element.data.symbol === "SEN"||element.data.symbol === "DC"||element.data.symbol === "KNIT"||element.data.symbol === "DGOD"||element.data.symbol === "Y00T"||element.data.symbol === "DINO"||element.data.symbol === "MARA"||element.data.symbol === "ABC"||element.data.symbol === "DUELBOTS"||element.data.symbol === "sharx"||element.data.symbol === "okay_bears"||element.data.symbol === "OON"||element.data.symbol === "OVOL"||element.data.symbol === "LILY"||element.data.symbol === "CC"||element.data.symbol === "FFF"||element.data.symbol === "YC"||element.data.symbol === "DFC"||element.data.symbol === "AP"||element.data.symbol === "DAPE"||element.data.symbol === "SMB"||element.data.symbol === "AUROR"||element.data.symbol === "LUNAR"||element.data.symbol === "sss"||element.data.symbol === "AoM"||element.data.symbol === "WN"||element.data.symbol === "C3"||element.data.symbol === "DG"||element.data.symbol === "SNR"||element.data.symbol === "JUSTAPE"||element.data.symbol === "DN"||element.data.symbol === "okay_bears"||element.data.symbol === "BSL"||element.data.symbol === "SOLANOSAURUS"||element.data.symbol === "GMERS"||element.data.symbol === "UKIYO"||element.data.symbol === "SOR"||element.data.symbol === "LLGEN2"||element.data.symbol === "MTC"||element.data.symbol === "SOLGods"||element.data.symbol === "sharx"||element.data.symbol === "ATP"||element.data.symbol === "V") {
       if (typeof window !== "undefined") {
         localStorage.setItem("haveAnubis", "true");
       }
@@ -660,6 +840,18 @@ const Index = () => {
     login();
   }, [publicKey]);
 
+  useEffect(() => {
+    setFreeTools(tools);
+    setHolderTools(Holderstools);
+    setGameTools(games);
+    setDiscountTools(discounts);
+    setEducationTools(educations);
+  }, []);
+
+  useEffect(() => {
+    setFilterInput('');
+  }, [typeTools]);
+  
   return (
     <Main meta={<Meta title="Toolidarity" description="" />}>
       {publicKey || haveAnubis ? (
@@ -675,8 +867,8 @@ const Index = () => {
                           onClick={() => settypeTools("Free tools")}
                           className={
                             typeTools == "Free tools"
-                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Free Tools
@@ -685,8 +877,8 @@ const Index = () => {
                           onClick={() => settypeTools("Holders only")}
                           className={
                             typeTools == "Holders only"
-                              ? "p-2 lg:p-5 w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Dudes Tools
@@ -695,8 +887,8 @@ const Index = () => {
                           onClick={() => settypeTools("Discounts")}
                           className={
                             typeTools == "Discounts"
-                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Discounts
@@ -705,8 +897,8 @@ const Index = () => {
                           onClick={() => settypeTools("Games")}
                           className={
                             typeTools == "Games"
-                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Games
@@ -715,52 +907,48 @@ const Index = () => {
                           onClick={() => settypeTools("Educations")}
                           className={
                             typeTools == "Educations"
-                              ? "p-2 lg:p-5 w-auto lg:w-[120px] text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
-                              : "p-2 lg:p-5 w-auto lg:w-[120px] cursor-pointer hover:opacity-80 text-center"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
                           Educational
                         </div>
                       </div>
                     </div>
+                    <div className="filter-div">
+                      <input value={filterInput} onChange={handleFilterChange} placeholder="Filter items" />
+                    </div>
+
                     <div className="flex items-center gap-2">
                       <WalletMultiButton></WalletMultiButton>
                     </div>
                   </div>
-                  <div className="grid gap-2 lg:p-5 grid-cols-1 2xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-2">
+                  
+                  {/* <div className="grid gap-2 lg:p-5 grid-cols-1 2xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-2"> */}
+                  <div>
                     {typeTools == "Free tools" ? (
                       <>
-                        {tools.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                      <SortableGrid key="freetoolskey" tools={freeTools} name="free-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Holders only" ? (
                       <>
-                        {Holderstools.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                      <SortableGrid key="holdertoolskey" tools={holderTools} name="holder-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Games" ? (
                       <>
-                        {games.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="gametoolskey" tools={gameTools} name="game-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Educations" ? (
                       <>
-                        {educations.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="educationtoolskey" tools={educationTools} name="education-tools" filter={filterInput} />
                       </>
                     ) : (
                       <>
-                        {" "}
-                        {discounts.map(function (tool, idx) {
-                          return <ToolCard key={idx} tool={tool}></ToolCard>;
-                        })}
+                        <SortableGrid key="discounttoolskey" tools={discountTools} name="discount-tools" filter={filterInput} />
                       </>
                     )}
                   </div>
+
                 </div>
               </Layout>
             </>
@@ -776,10 +964,10 @@ const Index = () => {
                             <img
                               className="h-12 w-auto"
                               src={`${router.basePath}/assets/images/logo.png`}
-                              alt="Your Company"
+                              alt="Toolidarity"
                             />
                           </div>
-                          <div className="flex items-center justify-center mt-5 flex-shrink-0 pb-5">
+                          {/* <div className="flex items-center justify-center mt-5 flex-shrink-0 pb-5">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               fill="none"
@@ -794,7 +982,7 @@ const Index = () => {
                                 d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
                               />
                             </svg>
-                          </div>
+                          </div> */}
                         </div>
                         <nav
                           aria-label="Sidebar"
@@ -811,7 +999,6 @@ const Index = () => {
                               }
                             >
                               <item.icon
-                                className="h-6 w-6"
                                 aria-hidden="true"
                               />
                               <span className="sr-only">{item.name}</span>
@@ -875,10 +1062,10 @@ const Index = () => {
                             alt="Your Company"
                           />
                           <h1 className="text-3xl xl:text-5xl text-center font-semibold leading-none">
-                            You don't have access
+                            ACCESS DENIED!
                           </h1>
                           <p className="leading-none opacity-40">
-                            Please connect your wallet to use the tool !
+                            Connect your wallet to access toolidarity !
                           </p>
                           <div className="mt-5">
                             <WalletMultiButton></WalletMultiButton>
@@ -894,7 +1081,7 @@ const Index = () => {
                                   className="h-[20px] mr-2 relative z-10 cursor-pointer hover:opacity-80"
                                   src={`${router.basePath}/assets/images/me.png`}
                                 />
-                                Buy a Supportive Dude on Magic Eden
+                                Buy a Supportive Dude on Magic Eden!
                               </div>
                             </a>
                           </div>

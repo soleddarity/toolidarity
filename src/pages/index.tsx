@@ -252,7 +252,7 @@ const Index = () => {
       icon: "https://pbs.twimg.com/profile_images/1578148009526714368/GVLnj0Tu_400x400.jpg",
       twitter: "https://twitter.com/subberxyz",
       discord: "https://discord.com/invite/subber",
-      website: "https://www.subber.xyz/",
+      website: "https://www.subber.xyz/suppdudes",
       category: "WL Gestion",
       from: "#DA1020",
       to: "#1A0103",

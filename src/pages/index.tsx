@@ -269,6 +269,17 @@ const Index = () => {
       to: "#DDDEFF",
     },
     {
+      name: "ClaimYourSol",
+      description: "Solana Blockchain keeps your SOL! We give it back to you!",
+      icon: "https://claimyoursol.com/images/cys-logo.png",
+      twitter: "https://twitter.com/claimyoursol",
+      discord: "https://discord.gg/A2m4PVXJZz",
+      website: "https://claimyoursol.com/SolEddaRity",
+      category: "Claim SOL",
+      from: "#00F4E9",
+      to: "#031593",
+    },
+    {
       name: "HowRare.is",
       description:
         "Find out how rare is your Solana NFT.",

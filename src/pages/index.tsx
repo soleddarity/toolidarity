@@ -314,6 +314,17 @@ const Index = () => {
       to: "#7D53CA",
     },
     {
+      name: "Strata",
+      description: "Launch a token in minutes on the Solana blockchain. Zero listing fees.",
+      icon: "https://pbs.twimg.com/profile_images/1460988164634558464/HPGE_W7r_400x400.jpg",
+      twitter: "https://twitter.com/StrataProtocol",
+      discord: "https://discord.gg/XQhCFg77WM",
+      website: "https://app.strataprotocol.com/launchpad",
+      category: "Launchpad,Token Creation",
+      from: "#F27633",
+      to: "#0C5CBD",
+    },
+    {
       name: "Rentii",
       description: "Rentii is the NFT renting marketplace.",
       icon: "https://d1fdloi71mui9q.cloudfront.net/xDTY9bWAQO8EVrxOzo9X_yVupir1FAMzqjXmn",

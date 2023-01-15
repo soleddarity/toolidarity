@@ -117,27 +117,40 @@ const Index = () => {
 
   useEffect(() => {
     if (chain && chain.value === 'solana') {
+      settypeTools("");
+
       setFreeTools(solanaTools.tools);
       setHolderTools(solanaTools.Holderstools);
       setGameTools(solanaTools.games);
       setDiscountTools(solanaTools.discounts);
       setEducationTools(solanaTools.educations);
+      setTimeout(() => {
+        settypeTools("Free tools");
+      }, 100);
     }
 
     if (chain && chain.value === 'ethereum') {
-      setFreeTools(ethereumTools.tools);
+      settypeTools("");
+      setFreeTools([...ethereumTools.tools]);
       setHolderTools(ethereumTools.Holderstools);
       setGameTools(ethereumTools.games);
       setDiscountTools(ethereumTools.discounts);
       setEducationTools(ethereumTools.educations);
+      setTimeout(() => {
+        settypeTools("Free tools");
+      }, 100);
     }
 
     if (chain && chain.value === 'polygon') {
+      settypeTools("");
       setFreeTools(polygonTools.tools);
       setHolderTools(polygonTools.Holderstools);
       setGameTools(polygonTools.games);
       setDiscountTools(polygonTools.discounts);
       setEducationTools(polygonTools.educations);
+      setTimeout(() => {
+        settypeTools("Free tools");
+      }, 100);
     }
   }, [chain]);
 
@@ -289,11 +302,11 @@ const Index = () => {
                       <>
                         <SortableGrid key="educationtoolskey" tools={educationTools} chain={chain} name="education-tools" filter={filterInput} />
                       </>
-                    ) : (
+                    ) : typeTools == "Discounts" ? (
                       <>
                         <SortableGrid key="discounttoolskey" tools={discountTools} chain={chain} name="discount-tools" filter={filterInput} />
                       </>
-                    )}
+                    ) : (<></>)}
                   </div>
 
                 </div>

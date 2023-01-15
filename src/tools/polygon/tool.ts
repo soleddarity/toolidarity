@@ -1,6 +1,6 @@
 export const tools = [
     {
-      name: "Builderz",
+      name: "Builderz3",
       description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
       icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
       twitter: "https://twitter.com/builderz__",

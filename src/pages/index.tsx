@@ -144,6 +144,17 @@ const Index = () => {
       to: "#CFC9F3",
     },
     {
+      name: "ClaimYourSol",
+      description: "Solana Blockchain keeps your SOL! We give it back to you! Don't worry, 100% legit",
+      icon: "https://claimyoursol.com/images/cys-logo.png",
+      twitter: "https://twitter.com/claimyoursol",
+      discord: "https://discord.gg/A2m4PVXJZz",
+      website: "https://claimyoursol.com/SolEddaRity",
+      category: "Claim SOL",
+      from: "#00F4E9",
+      to: "#031593",
+    },
+    {
       name: "Elixir",
       description:
         "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
@@ -267,17 +278,6 @@ const Index = () => {
       category: "Launchpad",
       from: "#2B31FF",
       to: "#DDDEFF",
-    },
-    {
-      name: "ClaimYourSol",
-      description: "Solana Blockchain keeps your SOL! We give it back to you!",
-      icon: "https://claimyoursol.com/images/cys-logo.png",
-      twitter: "https://twitter.com/claimyoursol",
-      discord: "https://discord.gg/A2m4PVXJZz",
-      website: "https://claimyoursol.com/SolEddaRity",
-      category: "Claim SOL",
-      from: "#00F4E9",
-      to: "#031593",
     },
     {
       name: "HowRare.is",

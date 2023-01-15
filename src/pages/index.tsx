@@ -145,7 +145,7 @@ const Index = () => {
     },
     {
       name: "ClaimYourSol",
-      description: "Solana Blockchain keeps your SOL! We give it back to you! Don't worry, 100% legit",
+      description: "Claim your SOL from forgotten empty SPL accounts, 100% legit",
       icon: "https://claimyoursol.com/images/cys-logo.png",
       twitter: "https://twitter.com/claimyoursol",
       discord: "https://discord.gg/A2m4PVXJZz",

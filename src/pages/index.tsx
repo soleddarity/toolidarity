@@ -180,7 +180,7 @@ const Index = () => {
   {chains.map(ch => (
      <li>
      <input type="radio" id={ch.name} name="chain-select" value={ch.value} className="hidden peer" checked={chain.name === ch.name} required />
-     <label for={ch.name} class="inline-flex items-center px-5 py-2 text-gray-500 border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+     <label htmlFor={ch.name} className="inline-flex items-center px-5 py-2 text-gray-500 border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
          <img src={ch.image} width="32" height="32" />
          <div className="pl-4">{ch.name}</div>
      </label>

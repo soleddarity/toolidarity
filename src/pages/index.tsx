@@ -1,7 +1,7 @@
 import "@fortawesome/fontawesome-free/css/all.css";
 import { Meta } from "@/layout/Meta";
 import { Main } from "@/templates/Main";
-import React, { useEffect, useState, Fragment } from "react";
+import React, { useEffect, useState } from "react";
 import _ from "lodash";
 import Layout from "@/components/Layout";
 import SortableGrid from "@/components/SortableGrid";
@@ -11,8 +11,7 @@ import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
 import CoinflipIcon from "../styles/icons/CoinflipIcon";
 import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
-import { Listbox, Transition, RadioGroup } from '@headlessui/react'
-import { CheckIcon, ChevronRightIcon } from '@heroicons/react/outline'
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/grid";

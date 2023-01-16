@@ -11,7 +11,7 @@ import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
 import CoinflipIcon from "../styles/icons/CoinflipIcon";
 import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
-import { Listbox, Transition } from '@headlessui/react'
+import { Listbox, Transition, RadioGroup } from '@headlessui/react'
 import { CheckIcon, ChevronRightIcon } from '@heroicons/react/outline'
 // Import Swiper styles
 import "swiper/css";
@@ -31,9 +31,9 @@ import * as polygonTools from "../tools/polygon/tool";
 
 const Index = () => {
   const chains = [
-    { id: 1, name: 'Solana', value: 'solana', unavailable: false },
-    { id: 2, name: 'Ethereum', value: 'ethereum', unavailable: false },
-    { id: 3, name: 'Polygon', value: 'polygon', unavailable: false },
+    { id: 1, name: 'Solana', value: 'solana', image: 'assets/images/solana.svg', unavailable: false },
+    { id: 2, name: 'Ethereum', value: 'ethereum', image: 'assets/images/ethereum.svg', unavailable: false },
+    { id: 3, name: 'Polygon', value: 'polygon', image: 'assets/images/polygon.svg', unavailable: false },
   ];
 
   const [chain, setChain] = useState(null);
@@ -154,7 +154,9 @@ const Index = () => {
     }
   }, [chain]);
 
-  const setSelectedChain = (value: any) => {
+  const setSelectedChain = (event: any) => {
+    let value = event.target.value;
+
     for (let i = 0; i < chains.length; i++) {
       if (chains[i].value === value) {
         setChain(chains[i]);
@@ -172,56 +174,21 @@ const Index = () => {
                 <div className="flex flex-col gap-2 lg:p-5">
                   <div className="flex items-center flex-col xl:flex-row justify-between">
                     <div className="flex flex-col gap-2 lg:p-5">
-                    <Listbox value={chain.name} onChange={setSelectedChain}>
-        <div className="relative mt-1">
-          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
-            <span className="block truncate text-black">Blockchain: {chain && chain.name}</span>
-            <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-              <ChevronRightIcon
-                className="h-5 w-5 text-gray-400"
-                aria-hidden="true"
-              />
-            </span>
-          </Listbox.Button>
-          <Transition
-            as={Fragment}
-            leave="transition ease-in duration-100"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <Listbox.Options className="z-50 absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-              {chains.map((ch, chIdx) => (
-                <Listbox.Option
-                  key={chIdx}
-                  className={({ active }) =>
-                    `relative cursor-default select-none py-2 pl-10 pr-4 ${
-                      active ? 'bg-amber-100 text-amber-900' : 'text-gray-900'
-                    }`
-                  }
-                  value={ch.value}
-                >
-                  {({ selected }) => (
-                    <>
-                      <span
-                        className={`block truncate ${
-                          selected ? 'font-medium' : 'font-normal'
-                        }`}
-                      >
-                        {ch.name}
-                      </span>
-                      {selected ? (
-                        <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-amber-600">
-                          <CheckIcon className="h-5 w-5" aria-hidden="true" />
-                        </span>
-                      ) : null}
-                    </>
-                  )}
-                </Listbox.Option>
-              ))}
-            </Listbox.Options>
-          </Transition>
-        </div>
-      </Listbox>
+                    
+
+
+<ul className="flex gap-4" onChange={setSelectedChain}>
+  {chains.map(ch => (
+     <li>
+     <input type="radio" id={ch.name} name="chain-select" value={ch.value} className="hidden peer" required />
+     <label for={ch.name} class="inline-flex items-center px-5 py-2 text-gray-500 border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+         <img src={ch.image} width="32" height="32" />
+         <div className="font-semibold pl-4">{ch.name}</div>
+     </label>
+ </li>
+  ))}
+</ul>
+
                       <div className="bg-[#171E27] font-semibold flex items-center border border-[#2f3a47] rounded-xl">
                         <div
                           onClick={() => settypeTools("Free tools")}

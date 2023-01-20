@@ -1,12 +1,12 @@
 export const tools = [
     {
-      name: "Builderz2",
-      description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
-      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
-      twitter: "https://twitter.com/builderz__",
+      name: "OpenSea",
+      description: "The largest NFT marketplace. Buy, sell, & discover the internet of goods.",
+      icon: "https://pbs.twimg.com/profile_images/1544105652330631168/ZuvjfGkT_400x400.png",
+      twitter: "https://twitter.com/opensea",
       discord: "https://discord.gg/QFZAkbVmjE",
-      website: "https://tools.builderz.build/",
-      category: "Repay Royalties,Utility Tools",
+      website: "https://t.co/prq7Jdur5I",
+      category: "Marketplace",
       from: "#D8D8D8",
       to: "#3B3B3B",
     },

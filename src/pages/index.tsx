@@ -1094,7 +1094,7 @@ const Index = () => {
                           </div>
                           <div>
                             <a
-                              href="https://magiceden.io/marketplace/supportive_dude"
+                              href="https://magiceden.io/creators/soleddarity"
                               target="_blank"
                               className="block w-full"
                             >
@@ -1103,7 +1103,7 @@ const Index = () => {
                                   className="h-[20px] mr-2 relative z-10 cursor-pointer hover:opacity-80"
                                   src={`${router.basePath}/assets/images/me.png`}
                                 />
-                                Buy a Supportive Dude on Magic Eden!
+                                JOIN THE DUDES!
                               </div>
                             </a>
                           </div>

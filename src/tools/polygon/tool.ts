@@ -61,9 +61,9 @@ export const tools = [
     {
       name: "Coin360",
       description:"Watch the heatmap of cryptocurrency prices, market capitalizations, and volumes",
-      icon: "https://www.pngall.com/wp-content/uploads/10/Solana-Crypto-Logo-PNG-File.png",
+      icon: "https://coin360.com/assets/logo.svg",
       discord:"#",
-      website: "https://coin360.com/coin/solana-sol",
+      website: "https://coin360.com/coin/polygon-matic",
       category: "Charts",
       from: "#1BCDD5",
       to: "#D51BCA",

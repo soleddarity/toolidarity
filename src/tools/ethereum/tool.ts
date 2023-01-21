@@ -22,6 +22,16 @@ export const tools = [
       from: "#96C6FF",
       to: "#1C334E",
     },
+{
+      name: "Coin360",
+      description:"Watch the heatmap of cryptocurrency prices, market capitalizations, and volumes",
+      icon: "https://coin360.com/assets/logo.svg",
+      discord:"#",
+      website: "https://coin360.com/coin/ethereum-eth",
+      category: "Charts",
+      from: "#1BCDD5",
+      to: "#D51BCA",
+    },
   ];
 
   export const Holderstools = [

@@ -1,4 +1,4 @@
-export const tools = [
+export const tools = [ 
     {
       name: "OpenSea",
       description: "The largest NFT marketplace. Buy, sell, & discover the internet of goods.",

@@ -7,8 +7,8 @@ export const tools = [
       discord: "https://discord.gg/QFZAkbVmjE",
       website: "https://t.co/prq7Jdur5I",
       category: "Marketplace",
-      from: "#D8D8D8",
-      to: "#3B3B3B",
+      from: "#3C69F7",
+      to: "#18317B",
     },
     {
       name: "Icy.tools",
@@ -29,8 +29,8 @@ export const tools = [
       discord:"#",
       website: "https://coin360.com/coin/ethereum-eth",
       category: "Charts",
-      from: "#1BCDD5",
-      to: "#D51BCA",
+      from: "#3C69F7",
+      to: "#18317B",
     },
   ];
 

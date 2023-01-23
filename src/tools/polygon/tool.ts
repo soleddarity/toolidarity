@@ -17,8 +17,8 @@ export const tools = [
       discord:"#",
       website: "https://coin360.com/coin/polygon-matic",
       category: "Charts",
-      from: "#1BCDD5",
-      to: "#D51BCA",
+      from: "#7541ED",
+      to: "#4B0375",
     },
     {
       name: "OnePlanet",

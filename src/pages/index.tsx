@@ -528,7 +528,7 @@ const Index = () => {
       icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1026491471471329300/125.png",
       twitter: "https://twitter.com/ParrotTools",
       discord: "https://discord.gg/parrotflock",
-      website: "https://www.parrottrading.com/app/portfolio",
+      website: "https://www.parrottrading.com/app/",
       category: "Portfolio Tracker,Copy Trading",
       from: "#003748",
       to: "#4AE486",

@@ -32,6 +32,18 @@ export const tools = [
       from: "#3C69F7",
       to: "#18317B",
     },
+ {
+      name: "MetaMask",
+      description:
+  "The World’s Leading Web3 Wallet",
+      icon: "https://pbs.twimg.com/profile_images/1514275943300284417/2Ubgzfgg_400x400.jpg",
+      twitter: "https://twitter.com/MetaMask",
+      discord: "",
+      website: "https://t.co/8UNUrkShG6",
+      category: "Wallet",
+      from: "#FF7612",
+      to: "#974D09",
+    },
   ];
 
   export const Holderstools = [

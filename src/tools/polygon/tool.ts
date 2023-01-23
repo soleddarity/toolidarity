@@ -7,8 +7,8 @@ export const tools = [
       discord: "",
       website: "https://polygon.magiceden.io/collections/polygon/0x4bca2c2ece9402b5d4dd031b49d48166c40b7957",
       category: "Marketplace",
-      from: "#D8D8D8",
-      to: "#3B3B3B",
+      from: "#950BC6",
+      to: "#B657A9",
     },
     {
       name: "Coin360",
@@ -29,8 +29,8 @@ export const tools = [
       discord: "https://discord.com/invite/oneplanetnft",
       website: "https://www.oneplanetnft.io/",
       category: "Marketplace,Launchpad",
-      from: "#950BC6",
-      to: "#B657A9",
+      from: "#2B31FF",
+      to: "#DDDEFF",
     },
     {
       name: "Phantom",

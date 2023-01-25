@@ -286,7 +286,7 @@ const Index = () => {
       icon: "https://pbs.twimg.com/profile_images/1469349925632811017/tjls0SwZ_400x400.jpg",
       twitter: "https://twitter.com/howrareis",
       discord: "https://discord.com/invite/XWAQzNwn8n",
-      website: "https://howrare.is/",
+      website: "https://howrare.is/supportive_dude",
       category: "Rarity",
       from: "#E163F4",
       to: "#DAC623",

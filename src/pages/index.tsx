@@ -423,6 +423,17 @@ const Index = () => {
       from: "#2C0E63",
       to: "#7D53CA",
     },
+    {
+      name: "OpenBook",
+      description: "Solana-based Dex.Trade on the world’s fastest and most powerful decentralized exchange.",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM5yGWEZ19zG4_MpraafBlE5p9uick1MfeUCztT7jOw&s",
+      twitter: "https://twitter.com/openbookdex",
+      discord: "https://discord.com/invite/pX3n5Sercb",
+      website: "https://www.openbook-solana.com/",
+      category: "DEX",
+      from: "#661C90",
+      to: "#2E0662",
+    },
   ];
 
   const Holderstools = [

@@ -44,6 +44,18 @@ export const tools = [
       from: "#FF7612",
       to: "#974D09",
     },
+{
+      name: "TrustWallet",
+      description:
+  "THE One-Stop-Shop, True Multi-Chain Crypto Wallet - Supports 70 blockchains & 9 MILLION tokens - Store NFTs - Earn Crypto - Easy to use!",
+      icon: "https://pbs.twimg.com/profile_images/1610563499628929026/8ti4ksPT_400x400.png",
+      twitter: "https://twitter.com/TrustWallet",
+      discord: "",
+      website: "https://trustwallet.com/browser-extension",
+      category: "Wallet",
+      from: "#338aff",
+      to: "#f7fbff",
+    },
   ];
 
   export const Holderstools = [

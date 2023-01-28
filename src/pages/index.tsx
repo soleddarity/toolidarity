@@ -126,7 +126,7 @@ const Index = () => {
       icon: "https://yt3.ggpht.com/HRtpijPgB6rijcMFphGjxEUb5QGFdGFpLVzE_harHbuAi-7VP0S8-2ihkRxF8okOkZo2_yINBw=s900-c-k-c0x00ffffff-no-rj",
       twitter: "https://twitter.com/MagicEden",
       discord: "https://discord.com/invite/magiceden",
-      website: "https://magiceden.io/marketplace/supportive_dude",
+      website: "https://magiceden.io/creators/dudes",
       category: "Marketplace,Analytics,Launchpad",
       from: "#950BC6",
       to: "#B657A9",
@@ -1105,7 +1105,7 @@ const Index = () => {
                           </div>
                           <div>
                             <a
-                              href="https://magiceden.io/creators/soleddarity"
+                              href="https://magiceden.io/creators/dudes"
                               target="_blank"
                               className="block w-full"
                             >

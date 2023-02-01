@@ -116,8 +116,8 @@ const Index = () => {
       discord:"#",
       website: "https://vanity.dandies.xyz/",
       category: "KeyGen",
-      from: "#1BCDD5",
-      to: "#D51BCA",
+      from: "#F0F0F0",
+      to: "#191919",
     },
     {
       name: "Coin360",

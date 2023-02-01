@@ -109,6 +109,16 @@ const Index = () => {
       from: "#FF7612",
       to: "#974D09",
     },
+{
+      name: "Dandies V.A.G",
+      description:"This application can be used to generate vanity addresses for use with Solana programs, such as SPL tokens, NFTs, or wallet addresses. It is intended to provide a fun and personalised address for you.",
+      icon: "https://pbs.twimg.com/profile_images/1592519546753241088/Ys4YwMl4_400x400.jpg",
+      discord:"#",
+      website: "https://vanity.dandies.xyz/",
+      category: "KeyGen",
+      from: "#1BCDD5",
+      to: "#D51BCA",
+    },
     {
       name: "Coin360",
       description:"Watch the heatmap of cryptocurrency prices, market capitalizations, and volumes",

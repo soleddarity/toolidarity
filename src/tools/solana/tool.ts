@@ -629,7 +629,7 @@ export const tools = [
     },
   ];
 
-  const games = [
+  export const games = [
     {
       name: "Soleddarity's CoinFlip",
       description:

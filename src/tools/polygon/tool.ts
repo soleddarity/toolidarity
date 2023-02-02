@@ -27,7 +27,7 @@ export const tools = [
       icon: "https://pbs.twimg.com/profile_images/1610696234536431617/gmig-i50_400x400.jpg",
       twitter: "https://twitter.com/OnePlanet_NFT",
       discord: "https://discord.com/invite/oneplanetnft",
-      website: "https://www.oneplanetnft.io/",
+      website: "https://www.oneplanetnft.io/collections/items/0x9d5533a41578917ac1ece34078f7b8dd5a24bc7e?sort=price_low_to_high",
       category: "Marketplace,Launchpad",
       from: "#2B31FF",
       to: "#DDDEFF",

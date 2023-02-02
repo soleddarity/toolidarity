@@ -384,7 +384,7 @@ export const tools = [
     },
   ];
 
-  const Holderstools = [
+  export const Holderstools = [
     {
       name: "Zilla VS Kong",
       description:
@@ -566,7 +566,7 @@ export const tools = [
     },
   ];
 
-  const discounts = [
+ export const discounts = [
     {
       name: "Oak Paradise",
       description:
@@ -716,7 +716,7 @@ export const tools = [
     },
   ];
 
-  const educations = [
+  export const educations = [
     {
       name: "Max Educational Platform",
       description: "Sharing knowledge on the Solana NFT market @MaxbrsNFT",

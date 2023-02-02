@@ -51,17 +51,6 @@ const Index = () => {
 
   const tools = [
     {
-      name: "Builderz",
-      description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
-      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
-      twitter: "https://twitter.com/builderz__",
-      discord: "https://discord.gg/QFZAkbVmjE",
-      website: "https://tools.builderz.build/",
-      category: "Repay Royalties,Utility Tools",
-      from: "#D8D8D8",
-      to: "#3B3B3B",
-    },
-    {
       name: "Hyperspace",
       description:
         "Solana's best NFT marketplace. Save money sweeping floors by buying across all marketplaces at once.",
@@ -471,13 +460,13 @@ const Index = () => {
       to: "#28122C",
     },
     {
-      name: "Own-2-Earn by Soleddarity",
+      name: "Own-2-Earn by Dudes",
       description:
         "Earn $EDD by holding multiple NFTs and special traits on several NFT collections.",
       icon: "https://st2.depositphotos.com/3491355/7921/v/450/depositphotos_79212646-stock-illustration-diamond-outline-vector-icon-modern.jpg",
-      twitter: "https://twitter.com/soleddarity",
-      discord: "https://discord.gg/soleddarity",
-      website: "https://soleddarity.com",
+      twitter: "https://twitter.com/dudes_sol",
+      discord: "https://discord.gg/dudessol",
+      website: "https://toolidarity.app",
       category: "Inner Discord,Own-2-Earn",
       from: "#0EFFEA",
       to: "#445D5B",

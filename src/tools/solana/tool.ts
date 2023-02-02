@@ -1,16 +1,5 @@
 export const tools = [
     {
-      name: "Builderz",
-      description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
-      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
-      twitter: "https://twitter.com/builderz__",
-      discord: "https://discord.gg/QFZAkbVmjE",
-      website: "https://tools.builderz.build/",
-      category: "Repay Royalties,Utility Tools",
-      from: "#D8D8D8",
-      to: "#3B3B3B",
-    },
-    {
       name: "Hyperspace",
       description:
         "Solana's best NFT marketplace. Save money sweeping floors by buying across all marketplaces at once.",
@@ -58,6 +47,16 @@ export const tools = [
       from: "#FF7612",
       to: "#974D09",
     },
+{
+      name: "Dandies V.A.G",
+      description:"This application can be used to generate vanity addresses for use with Solana programs, such as SPL tokens, NFTs, or wallet addresses. It is intended to provide a fun and personalised address for you.",
+      icon: "https://pbs.twimg.com/profile_images/1592519546753241088/Ys4YwMl4_400x400.jpg",
+      discord:"#",
+      website: "https://vanity.dandies.xyz/",
+      category: "KeyGen",
+      from: "#F0F0F0",
+      to: "#191919",
+    },
     {
       name: "Coin360",
       description:"Watch the heatmap of cryptocurrency prices, market capitalizations, and volumes",
@@ -75,7 +74,7 @@ export const tools = [
       icon: "https://yt3.ggpht.com/HRtpijPgB6rijcMFphGjxEUb5QGFdGFpLVzE_harHbuAi-7VP0S8-2ihkRxF8okOkZo2_yINBw=s900-c-k-c0x00ffffff-no-rj",
       twitter: "https://twitter.com/MagicEden",
       discord: "https://discord.com/invite/magiceden",
-      website: "https://magiceden.io/marketplace/supportive_dude",
+      website: "https://magiceden.io/creators/dudes",
       category: "Marketplace,Analytics,Launchpad",
       from: "#950BC6",
       to: "#B657A9",
@@ -91,6 +90,17 @@ export const tools = [
       category: "Wallet",
       from: "#4024DE",
       to: "#CFC9F3",
+    },
+    {
+      name: "ClaimYourSol",
+      description: "Claim your SOL from forgotten empty SPL accounts, 100% legit",
+      icon: "https://claimyoursol.com/images/cys-logo.png",
+      twitter: "https://twitter.com/claimyoursol",
+      discord: "https://discord.gg/A2m4PVXJZz",
+      website: "https://claimyoursol.com/SolEddaRity",
+      category: "Claim SOL",
+      from: "#00F4E9",
+      to: "#031593",
     },
     {
       name: "Elixir",
@@ -224,7 +234,7 @@ export const tools = [
       icon: "https://pbs.twimg.com/profile_images/1469349925632811017/tjls0SwZ_400x400.jpg",
       twitter: "https://twitter.com/howrareis",
       discord: "https://discord.com/invite/XWAQzNwn8n",
-      website: "https://howrare.is/",
+      website: "https://howrare.is/supportive_dude",
       category: "Rarity",
       from: "#E163F4",
       to: "#DAC623",
@@ -250,6 +260,17 @@ export const tools = [
       category: "Explorer,Analytics",
       from: "#2C0E63",
       to: "#7D53CA",
+    },
+    {
+      name: "Strata",
+      description: "Launch a token in minutes on the Solana blockchain. Zero listing fees.",
+      icon: "https://pbs.twimg.com/profile_images/1460988164634558464/HPGE_W7r_400x400.jpg",
+      twitter: "https://twitter.com/StrataProtocol",
+      discord: "https://discord.gg/XQhCFg77WM",
+      website: "https://app.strataprotocol.com/launchpad",
+      category: "Launchpad,Token Creation",
+      from: "#F27633",
+      to: "#0C5CBD",
     },
     {
       name: "Rentii",
@@ -340,19 +361,30 @@ export const tools = [
       to: "#A9B2AB",
     },
     {
-      name: "Simmple Labs",
-      description: "An old version of Toolidarity clearly outdated...... nobody uses it anymore!",
-      icon: "https://pbs.twimg.com/profile_images/1555891086828384256/4PoA1Js1_400x400.jpg",
-      twitter: "https://twitter.com/soleddarity",
+      name: "Moonrank",
+      description: "The statistical rarity service for the Solana NFT",
+      icon: "https://moonrank.app/static/moonrank_icon.png?1637140874",
+      twitter: "#",
       discord: "https://discord.gg/Dv8beXu8pR",
-      website: "https://toolidarity.app",
-      category: "Soleddarity SubDAO",
+      website: "https://moonrank.app/collection/supportive_dude",
+      category: "Rarity",
       from: "#2C0E63",
       to: "#7D53CA",
     },
+    {
+      name: "OpenBook",
+      description: "Solana-based Dex.Trade on the world’s fastest and most powerful decentralized exchange.",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM5yGWEZ19zG4_MpraafBlE5p9uick1MfeUCztT7jOw&s",
+      twitter: "https://twitter.com/openbookdex",
+      discord: "https://discord.com/invite/pX3n5Sercb",
+      website: "https://www.openbook-solana.com/",
+      category: "DEX",
+      from: "#661C90",
+      to: "#2E0662",
+    },
   ];
 
-  export const Holderstools = [
+  const Holderstools = [
     {
       name: "Zilla VS Kong",
       description:
@@ -377,13 +409,13 @@ export const tools = [
       to: "#28122C",
     },
     {
-      name: "Own-2-Earn by Soleddarity",
+      name: "Own-2-Earn by Dudes",
       description:
         "Earn $EDD by holding multiple NFTs and special traits on several NFT collections.",
       icon: "https://st2.depositphotos.com/3491355/7921/v/450/depositphotos_79212646-stock-illustration-diamond-outline-vector-icon-modern.jpg",
-      twitter: "https://twitter.com/soleddarity",
-      discord: "https://discord.gg/soleddarity",
-      website: "https://soleddarity.com",
+      twitter: "https://twitter.com/dudes_sol",
+      discord: "https://discord.gg/dudessol",
+      website: "https://toolidarity.app",
       category: "Inner Discord,Own-2-Earn",
       from: "#0EFFEA",
       to: "#445D5B",
@@ -455,7 +487,7 @@ export const tools = [
       icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1026491471471329300/125.png",
       twitter: "https://twitter.com/ParrotTools",
       discord: "https://discord.gg/parrotflock",
-      website: "https://www.parrottrading.com/app/portfolio",
+      website: "https://www.parrottrading.com/app/",
       category: "Portfolio Tracker,Copy Trading",
       from: "#003748",
       to: "#4AE486",
@@ -534,7 +566,7 @@ export const tools = [
     },
   ];
 
-  export const discounts = [
+  const discounts = [
     {
       name: "Oak Paradise",
       description:
@@ -597,7 +629,7 @@ export const tools = [
     },
   ];
 
-  export const games = [
+  const games = [
     {
       name: "Soleddarity's CoinFlip",
       description:
@@ -684,7 +716,7 @@ export const tools = [
     },
   ];
 
-  export const educations = [
+  const educations = [
     {
       name: "Max Educational Platform",
       description: "Sharing knowledge on the Solana NFT market @MaxbrsNFT",

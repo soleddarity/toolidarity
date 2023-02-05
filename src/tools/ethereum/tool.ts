@@ -65,8 +65,8 @@ export const tools = [
       discord: "https://t.co/oa6B6eA1i7",
       website: "https://dune.com/browse/dashboards",
       category: "Wallet",
-      from: "#338aff",
-      to: "#f7fbff",
+      from: "#FE642E",
+      to: "#013ADF",
     },
   ];
 
@@ -125,7 +125,7 @@ export const tools = [
       website:
         "https://www.web3collection.app/",
       category: "Full Guide",
-      from: "#9AC786",
-      to: "#6BCF39",
+      from: "#01DF74",
+      to: "#424242",
     },
   ];

@@ -72,16 +72,16 @@ export const tools = [
 
   export const Holderstools = [
     {
-      name: "COMING SOON",
+      name: "HyHu Network",
       description:
-        "",
-      icon: "",
-      twitter: "",
-      discord: "",
-      website: "",
-      category: "",
-      from: "#D32204",
-      to: "#746ADE",
+        "The HyHu Network is a one of a kind web3 project. Our vision is to build the biggest Network of Pay2Play ecosystems in Web3 that all ties back to one NFT collection and runs on an off-chain $HyHu Token.",
+      icon: "https://pbs.twimg.com/profile_images/1559620639744466946/bzsYMWyD_400x400.jpg",
+      twitter: "https://twitter.com/HyHuNetwork",
+      discord: "https://discord.com/invite/kM8m9uPE54",
+      website: "https://www.hyhuraffles.xyz/overview",
+      category: "Gamble",
+      from: "#DA81F5",
+      to: "#5F04B4",
     },
   ];
 

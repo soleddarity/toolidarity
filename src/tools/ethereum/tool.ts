@@ -56,6 +56,18 @@ export const tools = [
       from: "#338aff",
       to: "#f7fbff",
     },
+{
+      name: "Dune Analytics",
+      description:
+  "Free crypto analytics by and for the community!Create + find + fork 1000s of dashboards",
+      icon: "https://pbs.twimg.com/profile_images/1127499943114096645/RMWlZ_aT_400x400.png",
+      twitter: "https://twitter.com/DuneAnalytics",
+      discord: "https://t.co/oa6B6eA1i7",
+      website: "https://dune.com/browse/dashboards",
+      category: "Wallet",
+      from: "#338aff",
+      to: "#f7fbff",
+    },
   ];
 
   export const Holderstools = [

@@ -102,16 +102,16 @@ export const tools = [
 
   export const games = [
     {
-      name: "COMING SOON",
+      name: "Sorare",
       description:
-        "",
-      icon: "",
-      twitter: "#",
+        "Experience fantasy football like never before. ⚽",
+      icon: "https://pbs.twimg.com/profile_images/1605297440546082837/z-XohDqH_400x400.png",
+      twitter: "https://twitter.com/Sorare",
       discord: "",
-      website: "",
-      category: "",
-      from: "#7C9CD8",
-      to: "#8E68D5",
+      website: "https://sorare.com/",
+      category: "Game",
+      from: "#070100",
+      to: "#fefcfc",
     },
   ];
 

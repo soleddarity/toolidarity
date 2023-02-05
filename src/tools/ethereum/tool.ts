@@ -64,7 +64,7 @@ export const tools = [
       twitter: "https://twitter.com/DuneAnalytics",
       discord: "https://t.co/oa6B6eA1i7",
       website: "https://dune.com/browse/dashboards",
-      category: "Wallet",
+      category: "Analytics",
       from: "#FE642E",
       to: "#013ADF",
     },
@@ -72,14 +72,14 @@ export const tools = [
 
   export const Holderstools = [
     {
-      name: "Zilla VS Kong",
+      name: "COMING SOON",
       description:
-        "Get an exclusive access to Zilla vs Kong's Sniper Bot !",
-      icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1027961050710155274/j0OYQ1WEgr6TkzKJ3oA4Q-yH3uXv68hH5tyU9Vk3xcA.png",
-      twitter: "https://twitter.com/Zilla_VS_Kong",
-      discord: "https://discord.com/invite/seyEZ8Ekrt",
-      website: "https://snapshots-toolkit.com/home",
-      category: "Sniper Bot",
+        "",
+      icon: "",
+      twitter: "",
+      discord: "",
+      website: "",
+      category: "",
       from: "#D32204",
       to: "#746ADE",
     },
@@ -87,29 +87,29 @@ export const tools = [
 
   export const discounts = [
     {
-      name: "Oak Paradise",
+      name: "COMING SOON",
       description:
-        "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens, E-Sports betting and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
-      icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
-      twitter: "https://twitter.com/oakparadisenft",
-      discord: "https://discord.com/invite/oakdystopia",
-      website: "https://registration.oak.bet/?referral=Soleddarity",
-      category: "Casino,P2E,SportsBook",
-      from: "#5C8656",
-      to: "#314631",
+        "",
+      icon: "",
+      twitter: "",
+      discord: "",
+      website: "",
+      category: "",
+      from: "",
+      to: "",
     },
   ];
 
   export const games = [
     {
-      name: "Soleddarity's CoinFlip",
+      name: "COMING SOON",
       description:
-        "Bet in SOL or $EDD in a 50/50 coin flip. 2.5% fee on each games shared with the dudes.",
-      icon: "https://pbs.twimg.com/profile_images/1583022448844460034/YqGEyBmC_400x400.jpg",
+        "",
+      icon: "",
       twitter: "#",
-      discord: "discord.gg/soleddarity",
-      website: "https://soleddarity-coinflip.vercel.app/",
-      category: "Coin Flip, Betting",
+      discord: "",
+      website: "",
+      category: "",
       from: "#7C9CD8",
       to: "#8E68D5",
     },

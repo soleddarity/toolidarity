@@ -105,13 +105,13 @@ export const tools = [
 
   export const educations = [
     {
-      name: "Max Educational Platform",
-      description: "Sharing knowledge on the Solana NFT market @MaxbrsNFT",
-      icon: "https://cdn.discordapp.com/attachments/1021030450371772446/1034516444408459384/Capture_decran_2022-10-25_a_19.18.31.png",
-      twitter: "#",
+      name: "Web3 Collection",
+      description: "The biggest collection of tools and resources for web3 developer",
+      icon: "https://pbs.twimg.com/profile_images/1499537220801286144/FekpQ0JE_400x400.jpg",
+      twitter: "https://twitter.com/codevore1",
       discord: "#",
       website:
-        "https://maxbrs.notion.site/Max-Educational-Platform-0459f9ed8e3a418ea07854a5595adcf2",
+        "https://www.web3collection.app/",
       category: "Full Guide",
       from: "#9AC786",
       to: "#6BCF39",

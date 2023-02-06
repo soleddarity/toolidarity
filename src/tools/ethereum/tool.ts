@@ -109,9 +109,33 @@ export const tools = [
       twitter: "https://twitter.com/Sorare",
       discord: "",
       website: "https://sorare.com/",
-      category: "Game",
+      category: "Football Game",
       from: "#070100",
       to: "#fefcfc",
+    },
+{
+      name: "Immortal Game",
+      description:
+        "♟ The World’s First Play-And-Earn Chess Platform",
+      icon: "https://pbs.twimg.com/profile_images/1476662498879328258/wAr3M662_400x400.jpg",
+      twitter: "https://twitter.com/TheImmortalGame",
+      discord: "https://discord.com/invite/fSZuWVkQsb",
+      website: "https://immortal.game/",
+      category: "Chess Game",
+      from: "#fefcfc",
+      to: "#070100",
+    },
+{
+      name: "Gods Unchained",
+      description:
+        "Trading Card Game by @immutable. Play & earn, build & trade with true NFT & $GODS ownership",
+      icon: "https://pbs.twimg.com/profile_images/1614807969732112385/Q_j0Qn3z_400x400.png",
+      twitter: "https://twitter.com/GodsUnchained",
+      discord: "https://discord.com/invite/godsunchained",
+      website: "https://godsunchained.com/",
+      category: "Cards Game",
+      from: "#0fa1fa",
+      to: "#070100",
     },
   ];
 

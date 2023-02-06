@@ -654,6 +654,18 @@ const Index = () => {
       from: "#003748",
       to: "#4AE486",
     },
+{
+      name: "SOL Casino",
+      description:
+        "First Licensed Live Casino / Sportsbook / Crash playable directly with your Web3 wallets",
+      icon: "https://pbs.twimg.com/profile_images/1466791696063156230/_uYOZtNS_400x400.jpg",
+      twitter: "https://twitter.com/Solcasinoio",
+      discord: "",
+      website: "https://solcasino.io/r/95gFTW3T",
+      category: "Casino",
+      from: "#059368",
+      to: "#3f4543",
+    },
     {
       name: "Doge Capital",
       description:

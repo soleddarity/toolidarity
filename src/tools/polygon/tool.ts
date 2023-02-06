@@ -67,6 +67,18 @@ export const tools = [
       category: "Lend/Borrow",
       from: "#EF4129",
       to: "#FFAFA4",
+    },
+    {
+      name: "Floor",
+      description:
+  "Floor helps its users understand their NFTs, discover new ones and participate in the Web3 communities behind tokens through a user-friendly mobile app.",
+      icon: "https://www.floornfts.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffloor-app-icon.53c03b65.png&w=384&q=75",
+      twitter: "https://twitter.com/floor",
+      discord: "https://discord.gg/floor",
+      website: "https://www.floornfts.io/",
+      category: "Analytics,Mobile App",
+      from: "#F74CFF",
+      to: "#FCBFFF",
     }
   ];
 
@@ -93,7 +105,7 @@ export const tools = [
       icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
       twitter: "https://twitter.com/oakparadisenft",
       discord: "https://discord.com/invite/oakdystopia",
-      website: "https://registration.oak.bet/?referral=Soleddarity",
+      website: "https://app.plotx.io/sign-in",
       category: "Casino,P2E,SportsBook",
       from: "#5C8656",
       to: "#314631",
@@ -102,16 +114,16 @@ export const tools = [
 
   export const games = [
     {
-      name: "Soleddarity's CoinFlip",
+      name: "PlotX",
       description:
-        "Bet in SOL or $EDD in a 50/50 coin flip. 2.5% fee on each games shared with the dudes.",
-      icon: "https://pbs.twimg.com/profile_images/1583022448844460034/YqGEyBmC_400x400.jpg",
-      twitter: "#",
-      discord: "discord.gg/soleddarity",
-      website: "https://soleddarity-coinflip.vercel.app/",
-      category: "Coin Flip, Betting",
-      from: "#7C9CD8",
-      to: "#8E68D5",
+        "PlotX is an all new crypto-based fantasy trivia game!",
+      icon: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.coingecko.com%2Ffr%2Fpi%25C3%25A8ces%2Fplotx&psig=AOvVaw0I9_xwU14-LKNXTvzxZwRO&ust=1675785388380000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIj2spihgf0CFQAAAAAdAAAAABAE",
+      twitter: "https://twitter.com/TryPlotX",
+      discord: "https://discord.gg/8CWNQnG",
+      website: "https://plotx.io/",
+      category: "Prediction",
+      from: "#AD0D00",
+      to: "#1FAD00",
     },
   ];
 

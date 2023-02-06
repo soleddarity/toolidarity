@@ -68,6 +68,30 @@ export const tools = [
       from: "#FE642E",
       to: "#013ADF",
     },
+{
+      name: "Bubblemaps",
+      description:
+  "Innovative Visuals for Blockchain Data",
+      icon: "https://pbs.twimg.com/profile_images/1542463278412169216/dj1tOY36_400x400.png",
+      twitter: "https://twitter.com/bubblemaps",
+      discord: "https://discord.com/invite/6DexjezHzV",
+      website: "https://app.bubblemaps.io/eth/",
+      category: "Analytics",
+      from: "#fa05fa",
+      to: "#05b0fa",
+    },
+{
+      name: "NFTGo.io",
+      description:
+        "The best all-in-one NFT analytics and trading platform. Your gateway to the NFT ecosystem.",
+      icon: "https://pbs.twimg.com/profile_images/1608018891439243264/Xxr3C_5O_400x400.jpg",
+      twitter: "https://twitter.com/nftgoio",
+      discord: "https://discord.com/invite/nftgo",
+      website: "https://nftgo.io/",
+      category: "Analytics",
+      from: "#a182f5",
+      to: "#f8f7fb",
+    },
   ];
 
   export const Holderstools = [

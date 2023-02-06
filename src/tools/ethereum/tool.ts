@@ -87,7 +87,7 @@ export const tools = [
 
   export const discounts = [
     {
-      name: "COMING SOON",
+      name: "SOL Casino",
       description:
         "First Licensed Live Casino / Sportsbook / Crash playable directly with your Web3 wallets",
       icon: "https://pbs.twimg.com/profile_images/1466791696063156230/_uYOZtNS_400x400.jpg",

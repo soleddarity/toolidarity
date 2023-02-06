@@ -43,6 +43,30 @@ export const tools = [
       category: "Wallet",
       from: "#FF7612",
       to: "#974D09",
+    },
+    {
+      name: "QuickSwap",
+      description:
+  "QuickSwap is a next-generation layer-2 decentralized exchange and Automated Market Maker. Swap tokens at near-zero gas fees",
+      icon: "https://s2.coinmarketcap.com/static/img/coins/200x200/8206.png",
+      twitter: "https://twitter.com/QuickswapDEX",
+      discord: "https://discord.gg/dSMd7AFH36",
+      website: "https://quickswap.exchange/",
+      category: "DEX,AMM",
+      from: "#0F2FCF",
+      to: "#8793CF",
+    },
+    {
+      name: "Mai Finance",
+      description:
+  "Mai Finance is an open source and non-custodial stable protocol for extracting value out of priced assets",
+      icon: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcoinmarketcap.com%2Ffr%2Fcurrencies%2Fmai%2F&psig=AOvVaw0DwHcXwBXIyxd8SgiX95Vo&ust=1675783273226000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJifhKiZgf0CFQAAAAAdAAAAABAE",
+      twitter: "https://twitter.com/QuickswapDEX",
+      discord: "https://twitter.com/QiDaoProtocol",
+      website: "https://www.mai.finance/",
+      category: "Lend/Borrow",
+      from: "#EF4129",
+      to: "#FFAFA4",
     }
   ];
 

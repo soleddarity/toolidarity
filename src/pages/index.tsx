@@ -804,17 +804,16 @@ const Index = () => {
       from: "#7C9CD8",
       to: "#03C2BC",
     },
-    {
-      name: "THE BEST PROJECT",
-      description: "This is a short presentation of the best project upcoming (except DUDES)",
-      icon: "https://pbs.twimg.com/profile_images/1618313883147550720/ayuM4xMJ_400x400.jpg",
+     {
+      name: "Ledger Academy",
+      description: "Ledger academy is here to provide you with all the content you need to safely navigate Web3. Learn crypto on your own terms.",
+      icon: "https://finance-et-compagnies.com/storage/media/1244/N44_mYZ7_400x400.jpg",
       twitter: "#",
       discord: "#",
       website: "https://www.ledger.com/academy",
-      category: "Portfolio, Promotion",
+      category: "Full Guide",
       from: "#1C1C1C",
       to: "#DFB0B0",
-    },
     {
       name: "Magic Eden's Intro to Solana NFTs",
       description:

@@ -814,6 +814,7 @@ const Index = () => {
       category: "Full Guide",
       from: "#1C1C1C",
       to: "#DFB0B0",
+},
     {
       name: "Magic Eden's Intro to Solana NFTs",
       description:

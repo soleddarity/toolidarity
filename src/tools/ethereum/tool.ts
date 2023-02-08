@@ -163,7 +163,7 @@ export const tools = [
     },
   ];
 
-  export const educations = [
+  export const TEST = [
     {
       name: "Web3 Collection",
       description: "The biggest collection of tools and resources for web3 developer",

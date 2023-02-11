@@ -146,7 +146,7 @@ const Index = () => {
       name: "Elixir",
       description:
         "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
-      icon: "https://pbs.twimg.com/profile_images/1555641321783795712/gM1cgQjs_400x400.jpg",
+      icon: "https://pbs.twimg.com/profile_images/1618643252302778368/nsTmlFb-_400x400.jpg",
       twitter: "https://twitter.com/ElixirNFT",
       discord: "https://discord.com/invite/elixirnft",
       website: "https://app.elixirnft.io/",
@@ -432,7 +432,7 @@ const Index = () => {
       icon: "https://pbs.twimg.com/profile_images/1578148009526714368/GVLnj0Tu_400x400.jpg",
       twitter: "https://twitter.com/subberxyz",
       discord: "https://discord.com/invite/subber",
-      website: "https://www.subber.xyz/suppdudes",
+      website: "https://www.subber.xyz/dudessol",
       category: "WL Gestion",
       from: "#DA1020",
       to: "#1A0103",
@@ -734,7 +734,7 @@ const Index = () => {
       name: "Shuffle by Immortals",
       description:
         "PVP betting games to Web3",
-      icon: "https://pbs.twimg.com/profile_images/1602577769359151111/bW5dZD_h_400x400.jpg",
+      icon: "https://pbs.twimg.com/profile_images/1622049430877732866/ITATkpZL_400x400.jpg",
       twitter: "https://twitter.com/immortalsSOL",
       discord: "discord.gg/immortalsSOL",
       website: "https://www.solanashuffle.com/jackpot/1bbd7349-15cc-4ffc-95ad-3bff22108aa8",

@@ -81,6 +81,30 @@ export const tools = [
       to: "#F536FE",
     },
     {
+      name: "Holders.at",
+      description:
+  "Take a snapshot of NFT token holders on ETH/Polygon and share a public link",
+      icon: "https://assets-global.website-files.com/6364e65656ab107e465325d2/639bc246d9193e2c3d75de66_Pi9C7-Tiq8uZYQBbTaFcXMHtjxd1jBhmaxzxHvy3Fwk.png",
+      twitter: "https://twitter.com/jackqack",
+      discord: "#",
+      website: "https://holders.at/",
+      category: "Snapshot",
+      from: "#312D31",
+      to: "#CCE8FC",
+    },
+    {
+      name: "Maindrop",
+      description:
+  "An easy way to create and send NFTs to anyone with or without a wallet",
+      icon: "https://assets-global.website-files.com/6364e65656ab107e465325d2/637added52d8a8891d788519_V6fLmOSEeDzVz1OeYsDDRcKjBoWTrXtJrs0Dab-3FFA.jpeg",
+      twitter: "https://twitter.com/maindropxyz",
+      discord: "#",
+      website: "https://www.maindrop.xyz/",
+      category: "Utility Tools",
+      from: "#81E04B",
+      to: "#9EC80D",
+    },
+    {
       name: "Mai Finance",
       description:
   "Mai Finance is an open source and non-custodial stable protocol for extracting value out of priced assets",

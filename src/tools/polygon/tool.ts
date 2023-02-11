@@ -105,6 +105,18 @@ export const tools = [
       to: "#9EC80D",
     },
     {
+      name: "TofuNFT",
+      description:
+  "tofuNFT.com is the largest multichain NFT marketplace lives on 30+ EVM-compatible public chains, focused on GameFi.",
+      icon: "https://i0.wp.com/thecronicle.com/wp-content/uploads/2022/01/light_round.png?fit=1024%2C1024&ssl=1",
+      twitter: "https://twitter.com/tofuNFT",
+      discord: "https://discord.gg/3wFUTZmTm7",
+      website: "https://tofunft.com/fr/polygon",
+      category: "Marketplace,Launchpad",
+      from: "#F4F26A",
+      to: "#E7E7E7",
+    },
+    {
       name: "Mai Finance",
       description:
   "Mai Finance is an open source and non-custodial stable protocol for extracting value out of priced assets",
@@ -177,15 +189,14 @@ export const tools = [
 
   export const educations = [
     {
-      name: "Max Educational Platform",
-      description: "Sharing knowledge on the Solana NFT market @MaxbrsNFT",
-      icon: "https://cdn.discordapp.com/attachments/1021030450371772446/1034516444408459384/Capture_decran_2022-10-25_a_19.18.31.png",
+      name: "Polygon NFT Guide",
+      description: "The complete beginner's guide to NFTs on Polygon",
+      icon: "data:image/png;base64,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",
       twitter: "#",
       discord: "#",
-      website:
-        "https://maxbrs.notion.site/Max-Educational-Platform-0459f9ed8e3a418ea07854a5595adcf2",
+      website: "https://polygon.technology/blog/the-complete-beginners-guide-to-nfts-on-polygon",
       category: "Full Guide",
-      from: "#9AC786",
-      to: "#6BCF39",
+      from: "#D2B7FF",
+      to: "#A36DFD",
     },
   ];

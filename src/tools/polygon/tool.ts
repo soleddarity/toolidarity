@@ -2,7 +2,7 @@ export const tools = [
     {
       name: "MagicEden",
       description: "Growing the Polygon NFT ecosystem everyday.",
-      icon: "https://pbs.twimg.com/profile_images/1615351119638568960/a9yUmrf4_400x400.jpg",
+      icon: "https://play-lh.googleusercontent.com/Z1Bws4X7ZpDWT5qaEO9D2LO3Ts9vvyUQNJFtnHkFrmNBL6JaxjDvHjJtlPGSyELdlAs",
       twitter: "https://twitter.com/MEonPolygon",
       discord: "",
       website: "https://polygon.magiceden.io/collections/polygon/0x4bca2c2ece9402b5d4dd031b49d48166c40b7957",
@@ -57,10 +57,34 @@ export const tools = [
       to: "#8793CF",
     },
     {
+      name: "Ayzd",
+      description:
+  "Ayzd aggregates the best sources of NFT news and puts them in a convenient way for users.",
+      icon: "https://assets-global.website-files.com/6364e65656ab107e465325d2/637aeeafe4418c7d42c78a09_JhsgZjgTAlKrFUvedUYsfAdiRXnkoIB8ARI1mM5vT1s.webp",
+      twitter: "https://twitter.com/ayzdcom",
+      discord: "https://discord.gg/e4TB473y",
+      website: "https://ayzd.com/",
+      category: "Analytics,News",
+      from: "#6D0DAC",
+      to: "#5F36EA",
+    },
+    {
+      name: "Candy Shop",
+      description:
+  "Candy Shop is a one-stop solution provider for all your NFT needs.",
+      icon: "https://assets-global.website-files.com/6364e65656ab107e465325d2/6397dd5deee98ea59d9c68c9_v3eLzmFVeLdt1pOiRVrL_knb62uhaZpq-EbuI1WX30I.png",
+      twitter: "https://twitter.com/CandyShopSpace",
+      discord: "https://discord.com/invite/PYZWRHgVwM",
+      website: "https://candyshop.space/",
+      category: "Marketplace, Launchpad",
+      from: "#BC7BDF",
+      to: "#F536FE",
+    },
+    {
       name: "Mai Finance",
       description:
   "Mai Finance is an open source and non-custodial stable protocol for extracting value out of priced assets",
-      icon: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcoinmarketcap.com%2Ffr%2Fcurrencies%2Fmai%2F&psig=AOvVaw0DwHcXwBXIyxd8SgiX95Vo&ust=1675783273226000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJifhKiZgf0CFQAAAAAdAAAAABAE",
+      icon: "https://www.mai.finance/mai-logo.svg",
       twitter: "https://twitter.com/QuickswapDEX",
       discord: "https://twitter.com/QiDaoProtocol",
       website: "https://www.mai.finance/",
@@ -117,7 +141,7 @@ export const tools = [
       name: "PlotX",
       description:
         "PlotX is an all new crypto-based fantasy trivia game!",
-      icon: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.coingecko.com%2Ffr%2Fpi%25C3%25A8ces%2Fplotx&psig=AOvVaw0I9_xwU14-LKNXTvzxZwRO&ust=1675785388380000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIj2spihgf0CFQAAAAAdAAAAABAE",
+      icon: "https://assets.coingecko.com/coins/images/12795/large/PlotX.png?1611109969",
       twitter: "https://twitter.com/TryPlotX",
       discord: "https://discord.gg/8CWNQnG",
       website: "https://plotx.io/",

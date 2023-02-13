@@ -2,7 +2,6 @@ import { SetStateAction, useEffect, useRef, useState } from "react";
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import StakingIcon from "../styles/icons/StakingIcon";
-import StakingIcon from "../styles/icons/Staking2Icon";
 import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
@@ -65,12 +64,6 @@ export default function Layout({ children }: LayoutProps) {
       name: "Supportive Dudes Staking",
       href: "https://stake.cardinal.so/supportivedudes",
       icon: StakingIcon,
-      active: router.pathname == "https://stake.cardinal.so/supportivedudes" ? true : false,
-    },
-{
-      name: "Supportive Dudes Staking",
-      href: "https://stake.cardinal.so/supportivedudes",
-      icon: Staking2Icon,
       active: router.pathname == "https://stake.cardinal.so/supportivedudes" ? true : false,
     },
     {

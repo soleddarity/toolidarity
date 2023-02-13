@@ -64,9 +64,9 @@ export default function Layout({ children }: LayoutProps) {
     },
     {
       name: "Staking",
-      href: "https://stake.cardinal.so/supportive-dudes",
+      href: "https://stake.cardinal.so/supportivedudes",
       icon: StakingIcon,
-      active: router.pathname == "https://stake.cardinal.so/supportive-dudes" ? true : false,
+      active: router.pathname == "https://stake.cardinal.so/supportivedudes" ? true : false,
     },
     {
       name: "Auctions",

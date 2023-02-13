@@ -681,22 +681,10 @@ const Index = () => {
 
   const games = [
     {
-      name: "Soleddarity's CoinFlip",
-      description:
-        "Bet in SOL or $EDD in a 50/50 coin flip. 2.5% fee on each games shared with the dudes.",
-      icon: "https://pbs.twimg.com/profile_images/1583022448844460034/YqGEyBmC_400x400.jpg",
-      twitter: "#",
-      discord: "discord.gg/soleddarity",
-      website: "https://soleddarity-coinflip.vercel.app/",
-      category: "Coin Flip, Betting",
-      from: "#7C9CD8",
-      to: "#8E68D5",
-    },
-    {
       name: "EDD's Multiflip",
       description:
         "Flip in $EDD or Solana with up to 10x Multipliers and 1-click lightning fast transactions",
-      icon: "https://img.freepik.com/vecteurs-premium/solana-sol-crypto-monnaie-piece-orechange-argent-numerique_268461-144.jpg?w=740",
+      icon: "https://edd.multiflip.io/images/icon.png",
       twitter: "#",
       discord: "discord.gg/soleddarity",
       website: "https://edd.multiflip.io/",

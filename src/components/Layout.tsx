@@ -6,7 +6,6 @@ import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
 import CoinflipIcon from "../styles/icons/CoinflipIcon";
-import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
@@ -85,12 +84,6 @@ export default function Layout({ children }: LayoutProps) {
       href: "https://soleddarity-coinflip.vercel.app/",
       icon: CoinflipIcon,
       active: router.pathname == "https://soleddarity-coinflip.vercel.app/" ? true : false,
-    },
-    {
-      name: "Royalties",
-      href: "https://tools.builderz.build/pay-royalties",
-      icon: RoyaltiesIcon,
-      active: router.pathname == "https://tools.builderz.build/pay-royalties" ? true : false,
     },
   ];
 

@@ -56,12 +56,12 @@ export default function Layout({ children }: LayoutProps) {
   const navigation = [
     {
       name: "Home",
-      href: "/",
+      href: "https://www.toolidarity.app/",
       icon: HomeIcon,
-      active: router.pathname == "/" ? true : false,
+      active: router.pathname == "https://www.toolidarity.app/" ? true : false,
     },
     {
-      name: "Supportive Staking",
+      name: "Supportive Dudes Staking",
       href: "https://stake.cardinal.so/supportivedudes",
       icon: StakingIcon,
       active: router.pathname == "https://stake.cardinal.so/supportivedudes" ? true : false,

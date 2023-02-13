@@ -79,12 +79,6 @@ export default function Layout({ children }: LayoutProps) {
       icon: RafflesIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/raffles" ? true : false,
     },
-    {
-      name: "Coinflip",
-      href: "https://soleddarity-coinflip.vercel.app/",
-      icon: CoinflipIcon,
-      active: router.pathname == "https://soleddarity-coinflip.vercel.app/" ? true : false,
-    },
   ];
 
   const [image, setImage] = useState(null);

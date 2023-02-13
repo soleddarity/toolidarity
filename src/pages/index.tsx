@@ -821,8 +821,6 @@ const Index = () => {
     { name: "Staking", href: "#", icon: StakingIcon, active: false },
     { name: "Auctions", href: "#", icon: AuctionsIcon, active: false },
     { name: "Raffles", href: "#", icon: RafflesIcon, active: false },
-    { name: "Coinflip", href: "#", icon: CoinflipIcon, active: false },
-    { name: "Royalties", href: "#", icon: RoyaltiesIcon, active: false },
   ];
 
   const { publicKey } = useWallet();

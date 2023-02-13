@@ -17,8 +17,6 @@ import StakingIcon from "../styles/icons/StakingIcon";
 import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
-import CoinflipIcon from "../styles/icons/CoinflipIcon";
-import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
 
 // Import Swiper styles
 import "swiper/css";

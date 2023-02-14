@@ -660,8 +660,8 @@ const Index = () => {
       discord: "https://discord.com/invite/dudessol",
       website: "",
       category: "Art Creation",
-      from: "#ffd623",
-      to: "#24292f",
+      from: "#070100",
+      to: "#fefcfc",
     },
     {
       name: "Oak Paradise",

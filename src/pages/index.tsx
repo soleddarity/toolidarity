@@ -409,6 +409,28 @@ const Index = () => {
       from: "#661C90",
       to: "#2E0662",
     },
+{
+      name: "Bonfida Solana Name Service",
+      description: "Get your .sol domain that can be used to represent you in the metaverse",
+      icon: "https://naming.bonfida.org/assets/white-logo.df40a8e5.svg",
+      twitter: "",
+      discord: "https://discord.com/invite/J927gF8kaM",
+      website: "https://naming.bonfida.org/",
+      category: "Naming Service",
+      from: "#03001a",
+      to: "#0e183c",
+    },
+{
+      name: ".ABC Domains",
+      description: "Claim your .abc domain",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM5yGWEZ19zG4_MpraafBlE5p9uick1MfeUCztT7jOw&s",
+      twitter: "https://twitter.com/ansprotocol",
+      discord: "https://discord.com/invite/AJK53MMd7K",
+      website: "https://abc.onsol.io/",
+      category: "Naming Service",
+      from: "#4ea6c3",
+      to: "#34c8ae",
+    },
   ];
 
   const Holderstools = [

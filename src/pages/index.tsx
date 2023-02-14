@@ -828,12 +828,12 @@ const Index = () => {
   };
 
   useEffect(() => {
-    sethaveAnubis(false);
-    if (isFound) {
-      sethaveAnubis(true);
-    } else {
-      sethaveAnubis(false);
-    }
+    sethaveAnubis(true);
+    // if (isFound) {
+    //   sethaveAnubis(true);
+    // } else {
+    //   sethaveAnubis(false);
+    // }
   });
 
   useEffect(() => {

@@ -421,9 +421,9 @@ const Index = () => {
       to: "#0e183c",
     },
 {
-      name: ".ABC Domains",
+      name: "ANS Protocol - .ABC Domains",
       description: "Claim your .abc domain",
-      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM5yGWEZ19zG4_MpraafBlE5p9uick1MfeUCztT7jOw&s",
+      icon: "https://pbs.twimg.com/profile_images/1617874905273450496/s9CBuEVM_400x400.jpg",
       twitter: "https://twitter.com/ansprotocol",
       discord: "https://discord.com/invite/AJK53MMd7K",
       website: "https://abc.onsol.io/",

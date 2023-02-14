@@ -24,7 +24,7 @@ import "swiper/css/grid";
 import "swiper/css/pagination";
 
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import { useConnection, useWallet } from "@solana/wallet-adapter-react";
+import { useWallet } from "@solana/wallet-adapter-react";
 import Login from "@/components/Login";
 // import { useWalletNfts } from "@nfteyez/sol-rayz-react";
 import router from "next/router";

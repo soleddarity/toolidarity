@@ -422,7 +422,7 @@ const Index = () => {
       website: "https://t.co/kvNuWOJheJ",
       category: "Raid2Earn",
       from: "#fefe30",
-      to: "#14c7aa",
+      to: "#161203",
     },
     {
       name: "Zilla VS Kong",

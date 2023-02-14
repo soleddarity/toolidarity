@@ -5,6 +5,7 @@ import StakingIcon from "../styles/icons/StakingIcon";
 import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
+import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
@@ -65,6 +66,12 @@ export default function Layout({ children }: LayoutProps) {
       href: "https://stake.cardinal.so/supportivedudes",
       icon: StakingIcon,
       active: router.pathname == "https://stake.cardinal.so/supportivedudes" ? true : false,
+    },
+ {
+      name: "Pixel Dudes Staking",
+      href: "https://stake.cardinal.so/pixel-dudes",
+      icon: RoyaltiesIcon,
+      active: router.pathname == "https://stake.cardinal.so/pixel-dudes" ? true : false,
     },
     {
       name: "Auctions",

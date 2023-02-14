@@ -17,8 +17,6 @@ import StakingIcon from "../styles/icons/StakingIcon";
 import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
-import CoinflipIcon from "../styles/icons/CoinflipIcon";
-import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
 
 // Import Swiper styles
 import "swiper/css";
@@ -50,17 +48,6 @@ const Index = () => {
   }
 
   const tools = [
-    {
-      name: "Builderz",
-      description: "Pay your outstanding royalties, Find hashlist, Snapshot, Airdrop...",
-      icon: "https://static.wixstatic.com/media/8b296b_44cb315bd4b3459f9406b8e123e32a04~mv2.png/v1/fill/w_278,h_278,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/BUILDERZ%20LOGO-02.png",
-      twitter: "https://twitter.com/builderz__",
-      discord: "https://discord.gg/QFZAkbVmjE",
-      website: "https://tools.builderz.build/",
-      category: "Repay Royalties,Utility Tools",
-      from: "#D8D8D8",
-      to: "#3B3B3B",
-    },
     {
       name: "Hyperspace",
       description:
@@ -109,6 +96,16 @@ const Index = () => {
       from: "#FF7612",
       to: "#974D09",
     },
+{
+      name: "Dandies V.A.G",
+      description:"This application can be used to generate vanity addresses for use with Solana programs, such as SPL tokens, NFTs, or wallet addresses. It is intended to provide a fun and personalised address for you.",
+      icon: "https://pbs.twimg.com/profile_images/1592519546753241088/Ys4YwMl4_400x400.jpg",
+      discord:"#",
+      website: "https://vanity.dandies.xyz/",
+      category: "KeyGen",
+      from: "#F0F0F0",
+      to: "#191919",
+    },
     {
       name: "Coin360",
       description:"Watch the heatmap of cryptocurrency prices, market capitalizations, and volumes",
@@ -126,7 +123,7 @@ const Index = () => {
       icon: "https://yt3.ggpht.com/HRtpijPgB6rijcMFphGjxEUb5QGFdGFpLVzE_harHbuAi-7VP0S8-2ihkRxF8okOkZo2_yINBw=s900-c-k-c0x00ffffff-no-rj",
       twitter: "https://twitter.com/MagicEden",
       discord: "https://discord.com/invite/magiceden",
-      website: "https://magiceden.io/marketplace/supportive_dude",
+      website: "https://magiceden.io/creators/dudes",
       category: "Marketplace,Analytics,Launchpad",
       from: "#950BC6",
       to: "#B657A9",
@@ -147,7 +144,7 @@ const Index = () => {
       name: "Elixir",
       description:
         "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
-      icon: "https://pbs.twimg.com/profile_images/1555641321783795712/gM1cgQjs_400x400.jpg",
+      icon: "https://pbs.twimg.com/profile_images/1618643252302778368/nsTmlFb-_400x400.jpg",
       twitter: "https://twitter.com/ElixirNFT",
       discord: "https://discord.com/invite/elixirnft",
       website: "https://app.elixirnft.io/",
@@ -247,17 +244,6 @@ const Index = () => {
       to: "#0D7744",
     },
     {
-      name: "Subber",
-      description: "High quality, easy-to-use products for NFT communities. Save time and effort. Connect with your holders.",
-      icon: "https://pbs.twimg.com/profile_images/1578148009526714368/GVLnj0Tu_400x400.jpg",
-      twitter: "https://twitter.com/subberxyz",
-      discord: "https://discord.com/invite/subber",
-      website: "https://www.subber.xyz/suppdudes",
-      category: "WL Gestion",
-      from: "#DA1020",
-      to: "#1A0103",
-    },
-    {
       name: "LMNFT.io",
       description: "The largest web-based generative NFT project launchpad.",
       icon: "https://pbs.twimg.com/profile_images/1592614814764916738/ZT5r2Qlk_400x400.jpg",
@@ -275,7 +261,7 @@ const Index = () => {
       icon: "https://pbs.twimg.com/profile_images/1469349925632811017/tjls0SwZ_400x400.jpg",
       twitter: "https://twitter.com/howrareis",
       discord: "https://discord.com/invite/XWAQzNwn8n",
-      website: "https://howrare.is/",
+      website: "https://howrare.is/supportive_dude",
       category: "Rarity",
       from: "#E163F4",
       to: "#DAC623",
@@ -301,6 +287,17 @@ const Index = () => {
       category: "Explorer,Analytics",
       from: "#2C0E63",
       to: "#7D53CA",
+    },
+    {
+      name: "Strata",
+      description: "Launch a token in minutes on the Solana blockchain. Zero listing fees.",
+      icon: "https://pbs.twimg.com/profile_images/1460988164634558464/HPGE_W7r_400x400.jpg",
+      twitter: "https://twitter.com/StrataProtocol",
+      discord: "https://discord.gg/XQhCFg77WM",
+      website: "https://app.strataprotocol.com/launchpad",
+      category: "Launchpad,Token Creation",
+      from: "#F27633",
+      to: "#0C5CBD",
     },
     {
       name: "Rentii",
@@ -391,19 +388,76 @@ const Index = () => {
       to: "#A9B2AB",
     },
     {
-      name: "Simmple Labs",
-      description: "An old version of Toolidarity clearly outdated...... nobody uses it anymore!",
-      icon: "https://pbs.twimg.com/profile_images/1555891086828384256/4PoA1Js1_400x400.jpg",
-      twitter: "https://twitter.com/soleddarity",
+      name: "Moonrank",
+      description: "The statistical rarity service for the Solana NFT",
+      icon: "https://moonrank.app/static/moonrank_icon.png?1637140874",
+      twitter: "#",
       discord: "https://discord.gg/Dv8beXu8pR",
-      website: "https://toolidarity.app",
-      category: "Soleddarity SubDAO",
+      website: "https://moonrank.app/collection/supportive_dude",
+      category: "Rarity",
       from: "#2C0E63",
       to: "#7D53CA",
+    },
+    {
+      name: "OpenBook",
+      description: "Solana-based Dex.Trade on the world’s fastest and most powerful decentralized exchange.",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoM5yGWEZ19zG4_MpraafBlE5p9uick1MfeUCztT7jOw&s",
+      twitter: "https://twitter.com/openbookdex",
+      discord: "https://discord.com/invite/pX3n5Sercb",
+      website: "https://www.openbook-solana.com/",
+      category: "DEX",
+      from: "#661C90",
+      to: "#2E0662",
+    },
+{
+      name: "Bonfida Solana Name Service",
+      description: "Get your .sol domain that can be used to represent you in the metaverse",
+      icon: "https://naming.bonfida.org/assets/white-logo.df40a8e5.svg",
+      twitter: "",
+      discord: "https://discord.com/invite/J927gF8kaM",
+      website: "https://naming.bonfida.org/",
+      category: "Naming Service",
+      from: "#03001a",
+      to: "#0e183c",
+    },
+{
+      name: "ANS Protocol - .ABC Domains",
+      description: "Claim your .abc domain",
+      icon: "https://pbs.twimg.com/profile_images/1617874905273450496/s9CBuEVM_400x400.jpg",
+      twitter: "https://twitter.com/ansprotocol",
+      discord: "https://discord.com/invite/AJK53MMd7K",
+      website: "https://abc.onsol.io/",
+      category: "Naming Service",
+      from: "#4ea6c3",
+      to: "#34c8ae",
     },
   ];
 
   const Holderstools = [
+ {
+      name: "Raven - Raid2Earn",
+      description:
+        "soon.",
+      icon: "https://pbs.twimg.com/profile_images/1570769129443033090/-REx4ItQ_400x400.jpg",
+      twitter: "https://twitter.com/RavenBSL",
+      discord: "https://discord.com/invite/blocksmithlabs",
+      website: "https://t.co/kvNuWOJheJ",
+      category: "Raid2Earn",
+      from: "#fefe30",
+      to: "#161203",
+    },
+ {
+      name: "The Pixel Shop",
+      description:
+        "SOON",
+      icon: "https://pbs.twimg.com/profile_images/1618313883147550720/ayuM4xMJ_400x400.jpg",
+      twitter: "https://twitter.com/dudes_sol",
+      discord: "https://discord.com/dudessol",
+      website: "https://toolidarity.app/",
+      category: "Inner Discord, Customization",
+      from: "#da5b34",
+      to: "#050505",
+    },
     {
       name: "Zilla VS Kong",
       description:
@@ -416,25 +470,36 @@ const Index = () => {
       from: "#D32204",
       to: "#746ADE",
     },
-    {
-      name: "The Incentive",
-      description:
-        "Earn $EDD by chatting and raiding our tweets",
-      icon: "https://pbs.twimg.com/profile_images/1584986632167587848/7PPgaTjy_400x400.jpg",
-      twitter: "https://twitter.com/The_Incentive",
-      website: "https://www.theincentive.xyz/lp/soleddarity/",
-      category: "Raid-2-Earn,Chat-2-Earn",
-      from: "#681A82",
-      to: "#28122C",
+{
+      name: "Subber",
+      description: "High quality, easy-to-use products for NFT communities. Save time and effort. Connect with your holders.",
+      icon: "https://pbs.twimg.com/profile_images/1578148009526714368/GVLnj0Tu_400x400.jpg",
+      twitter: "https://twitter.com/subberxyz",
+      discord: "https://discord.com/invite/subber",
+      website: "https://www.subber.xyz/dudessol",
+      category: "WL Gestion",
+      from: "#DA1020",
+      to: "#1A0103",
     },
     {
-      name: "Own-2-Earn by Soleddarity",
+      name: "ClaimYourSol",
+      description: "Claim your SOL from forgotten empty SPL accounts, 100% legit",
+      icon: "https://claimyoursol.com/images/cys-logo.png",
+      twitter: "https://twitter.com/claimyoursol",
+      discord: "https://discord.gg/A2m4PVXJZz",
+      website: "https://claimyoursol.com/SolEddaRity",
+      category: "Claim SOL",
+      from: "#00F4E9",
+      to: "#031593",
+    },
+    {
+      name: "Own-2-Earn by Dudes",
       description:
         "Earn $EDD by holding multiple NFTs and special traits on several NFT collections.",
       icon: "https://st2.depositphotos.com/3491355/7921/v/450/depositphotos_79212646-stock-illustration-diamond-outline-vector-icon-modern.jpg",
-      twitter: "https://twitter.com/soleddarity",
-      discord: "https://discord.gg/soleddarity",
-      website: "https://soleddarity.com",
+      twitter: "https://twitter.com/dudes_sol",
+      discord: "https://discord.gg/dudessol",
+      website: "https://toolidarity.app",
       category: "Inner Discord,Own-2-Earn",
       from: "#0EFFEA",
       to: "#445D5B",
@@ -506,7 +571,7 @@ const Index = () => {
       icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1026491471471329300/125.png",
       twitter: "https://twitter.com/ParrotTools",
       discord: "https://discord.gg/parrotflock",
-      website: "https://www.parrottrading.com/app/portfolio",
+      website: "https://www.parrottrading.com/app/",
       category: "Portfolio Tracker,Copy Trading",
       from: "#003748",
       to: "#4AE486",
@@ -586,6 +651,18 @@ const Index = () => {
   ];
 
   const discounts = [
+ {
+      name: "Pixel Art Service",
+      description:
+        "Get the best generative pixel art for your NFT collection in GIF or PNG designed by Sans-Qui",
+      icon: "https://pbs.twimg.com/profile_images/1613851543769423874/yO1ObGXb_400x400.jpg",
+      twitter: "https://twitter.com/dudes_sol",
+      discord: "https://discord.com/invite/dudessol",
+      website: "",
+      category: "Art Creation",
+      from: "#070100",
+      to: "#fefcfc",
+    },
     {
       name: "Oak Paradise",
       description:
@@ -622,6 +699,18 @@ const Index = () => {
       from: "#003748",
       to: "#4AE486",
     },
+{
+      name: "SOL Casino",
+      description:
+        "First Licensed Live Casino / Sportsbook / Crash playable directly with your Web3 wallets",
+      icon: "https://pbs.twimg.com/profile_images/1466791696063156230/_uYOZtNS_400x400.jpg",
+      twitter: "https://twitter.com/Solcasinoio",
+      discord: "",
+      website: "https://solcasino.io/r/95gFTW3T",
+      category: "Casino",
+      from: "#059368",
+      to: "#3f4543",
+    },
     {
       name: "Doge Capital",
       description:
@@ -650,22 +739,10 @@ const Index = () => {
 
   const games = [
     {
-      name: "Soleddarity's CoinFlip",
-      description:
-        "Bet in SOL or $EDD in a 50/50 coin flip. 2.5% fee on each games shared with the dudes.",
-      icon: "https://pbs.twimg.com/profile_images/1583022448844460034/YqGEyBmC_400x400.jpg",
-      twitter: "#",
-      discord: "discord.gg/soleddarity",
-      website: "https://soleddarity-coinflip.vercel.app/",
-      category: "Coin Flip, Betting",
-      from: "#7C9CD8",
-      to: "#8E68D5",
-    },
-    {
       name: "EDD's Multiflip",
       description:
         "Flip in $EDD or Solana with up to 10x Multipliers and 1-click lightning fast transactions",
-      icon: "https://img.freepik.com/vecteurs-premium/solana-sol-crypto-monnaie-piece-orechange-argent-numerique_268461-144.jpg?w=740",
+      icon: "https://edd.multiflip.io/images/icon.png",
       twitter: "#",
       discord: "discord.gg/soleddarity",
       website: "https://edd.multiflip.io/",
@@ -701,7 +778,7 @@ const Index = () => {
       name: "Shuffle by Immortals",
       description:
         "PVP betting games to Web3",
-      icon: "https://pbs.twimg.com/profile_images/1602577769359151111/bW5dZD_h_400x400.jpg",
+      icon: "https://pbs.twimg.com/profile_images/1622049430877732866/ITATkpZL_400x400.jpg",
       twitter: "https://twitter.com/immortalsSOL",
       discord: "discord.gg/immortalsSOL",
       website: "https://www.solanashuffle.com/jackpot/1bbd7349-15cc-4ffc-95ad-3bff22108aa8",
@@ -760,7 +837,7 @@ const Index = () => {
       from: "#7C9CD8",
       to: "#03C2BC",
     },
-    {
+     {
       name: "Ledger Academy",
       description: "Ledger academy is here to provide you with all the content you need to safely navigate Web3. Learn crypto on your own terms.",
       icon: "https://finance-et-compagnies.com/storage/media/1244/N44_mYZ7_400x400.jpg",
@@ -770,7 +847,7 @@ const Index = () => {
       category: "Full Guide",
       from: "#1C1C1C",
       to: "#DFB0B0",
-    },
+},
     {
       name: "Magic Eden's Intro to Solana NFTs",
       description:
@@ -790,8 +867,6 @@ const Index = () => {
     { name: "Staking", href: "#", icon: StakingIcon, active: false },
     { name: "Auctions", href: "#", icon: AuctionsIcon, active: false },
     { name: "Raffles", href: "#", icon: RafflesIcon, active: false },
-    { name: "Coinflip", href: "#", icon: CoinflipIcon, active: false },
-    { name: "Royalties", href: "#", icon: RoyaltiesIcon, active: false },
   ];
 
   const { publicKey } = useWallet();
@@ -804,7 +879,7 @@ const Index = () => {
   });
 
   const isFound = nfts.some((element) => {
-    if (element.data.symbol === "SOLEDD"||element.data.symbol === "MIDH"||element.data.symbol === "GREATGOATS"||element.data.symbol === "SAC"||element.data.symbol === "BASC"||element.data.symbol === "HANA"||element.data.symbol === "SSL"||element.data.symbol === "NH"||element.data.symbol === "Rentii"||element.data.symbol === "EXP"||element.data.symbol === "HL"||element.data.symbol === "KBC"||element.data.symbol === "BSL"||element.data.symbol === "SMB"||element.data.symbol === "FT"||element.data.symbol === "IMRTL"||element.data.symbol === "NOVA"||element.data.symbol === "UGS"||element.data.symbol === "JA"||element.data.symbol === "KK"||element.data.symbol === "HODLERS"||element.data.symbol === "HSKI"||element.data.symbol === "ZUMA"||element.data.symbol === "APINLABS"||element.data.symbol === "TYP"||element.data.symbol === "GOON"||element.data.symbol === "INFKTED"||element.data.symbol === "LS"||element.data.symbol === "LILY"||element.data.symbol === "BVD"||element.data.symbol === "TSHS"||element.data.symbol === "GHOSTKID"||element.data.symbol === "FLOPPAS"||element.data.symbol === "ZK"||element.data.symbol === "CoC"||element.data.symbol === "KING"||element.data.symbol === "CURSED"||element.data.symbol === "PP"||element.data.symbol === "UNIREX"||element.data.symbol === "NEXI"||element.data.symbol === "soldecoder"||element.data.symbol === "SC"||element.data.symbol === "OAK"||element.data.symbol === "SEN"||element.data.symbol === "DC"||element.data.symbol === "KNIT"||element.data.symbol === "DGOD"||element.data.symbol === "Y00T"||element.data.symbol === "DINO"||element.data.symbol === "MARA"||element.data.symbol === "ABC"||element.data.symbol === "DUELBOTS"||element.data.symbol === "sharx"||element.data.symbol === "okay_bears"||element.data.symbol === "OON"||element.data.symbol === "OVOL"||element.data.symbol === "LILY"||element.data.symbol === "CC"||element.data.symbol === "FFF"||element.data.symbol === "YC"||element.data.symbol === "DFC"||element.data.symbol === "AP"||element.data.symbol === "DAPE"||element.data.symbol === "SMB"||element.data.symbol === "AUROR"||element.data.symbol === "LUNAR"||element.data.symbol === "sss"||element.data.symbol === "AoM"||element.data.symbol === "WN"||element.data.symbol === "C3"||element.data.symbol === "DG"||element.data.symbol === "SNR"||element.data.symbol === "JUSTAPE"||element.data.symbol === "DN"||element.data.symbol === "okay_bears"||element.data.symbol === "BSL"||element.data.symbol === "SOLANOSAURUS"||element.data.symbol === "GMERS"||element.data.symbol === "UKIYO"||element.data.symbol === "SOR"||element.data.symbol === "LLGEN2"||element.data.symbol === "MTC"||element.data.symbol === "SOLGods"||element.data.symbol === "sharx"||element.data.symbol === "ATP"||element.data.symbol === "V") {
+    if (element.data.symbol === "SOLEDD"||element.data.symbol === "PIXELDUDES"||element.data.symbol === "ZOMB"||element.data.symbol === "PXLD"||element.data.symbol === "MIDH"||element.data.symbol === "GREATGOATS"||element.data.symbol === "SAC"||element.data.symbol === "BASC"||element.data.symbol === "HANA"||element.data.symbol === "SSL"||element.data.symbol === "NH"||element.data.symbol === "Rentii"||element.data.symbol === "EXP"||element.data.symbol === "HL"||element.data.symbol === "KBC"||element.data.symbol === "BSL"||element.data.symbol === "SMB"||element.data.symbol === "FT"||element.data.symbol === "IMRTL"||element.data.symbol === "NOVA"||element.data.symbol === "UGS"||element.data.symbol === "JA"||element.data.symbol === "KK"||element.data.symbol === "HODLERS"||element.data.symbol === "HSKI"||element.data.symbol === "ZUMA"||element.data.symbol === "APINLABS"||element.data.symbol === "TYP"||element.data.symbol === "GOON"||element.data.symbol === "INFKTED"||element.data.symbol === "LS"||element.data.symbol === "LILY"||element.data.symbol === "BVD"||element.data.symbol === "TSHS"||element.data.symbol === "GHOSTKID"||element.data.symbol === "FLOPPAS"||element.data.symbol === "ZK"||element.data.symbol === "CoC"||element.data.symbol === "KING"||element.data.symbol === "CURSED"||element.data.symbol === "PP"||element.data.symbol === "UNIREX"||element.data.symbol === "NEXI"||element.data.symbol === "soldecoder"||element.data.symbol === "SC"||element.data.symbol === "OAK"||element.data.symbol === "SEN"||element.data.symbol === "DC"||element.data.symbol === "KNIT"||element.data.symbol === "DGOD"||element.data.symbol === "Y00T"||element.data.symbol === "DINO"||element.data.symbol === "MARA"||element.data.symbol === "ABC"||element.data.symbol === "DUELBOTS"||element.data.symbol === "sharx"||element.data.symbol === "okay_bears"||element.data.symbol === "OON"||element.data.symbol === "OVOL"||element.data.symbol === "LILY"||element.data.symbol === "CC"||element.data.symbol === "FFF"||element.data.symbol === "YC"||element.data.symbol === "DFC"||element.data.symbol === "AP"||element.data.symbol === "DAPE"||element.data.symbol === "SMB"||element.data.symbol === "AUROR"||element.data.symbol === "LUNAR"||element.data.symbol === "sss"||element.data.symbol === "AoM"||element.data.symbol === "WN"||element.data.symbol === "C3"||element.data.symbol === "DG"||element.data.symbol === "SNR"||element.data.symbol === "JUSTAPE"||element.data.symbol === "DN"||element.data.symbol === "okay_bears"||element.data.symbol === "BSL"||element.data.symbol === "SOLANOSAURUS"||element.data.symbol === "GMERS"||element.data.symbol === "UKIYO"||element.data.symbol === "SOR"||element.data.symbol === "LLGEN2"||element.data.symbol === "MTC"||element.data.symbol === "SOLGods"||element.data.symbol === "sharx"||element.data.symbol === "ATP"||element.data.symbol === "V") {
       if (typeof window !== "undefined") {
         localStorage.setItem("haveAnubis", "true");
       }
@@ -1072,7 +1147,7 @@ const Index = () => {
                           </div>
                           <div>
                             <a
-                              href="https://magiceden.io/marketplace/supportive_dude"
+                              href="https://magiceden.io/creators/dudes"
                               target="_blank"
                               className="block w-full"
                             >
@@ -1081,7 +1156,7 @@ const Index = () => {
                                   className="h-[20px] mr-2 relative z-10 cursor-pointer hover:opacity-80"
                                   src={`${router.basePath}/assets/images/me.png`}
                                 />
-                                Buy a Supportive Dude on Magic Eden!
+                                JOIN THE DUDES!
                               </div>
                             </a>
                           </div>

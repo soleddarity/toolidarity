@@ -5,8 +5,7 @@ import StakingIcon from "../styles/icons/StakingIcon";
 import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
-import CoinflipIcon from "../styles/icons/CoinflipIcon";
-import RoyaltiesIcon from "../styles/icons/RoyaltiesIcon";
+import Staking2Icon from "../styles/icons/Staking2Icon";
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
@@ -58,15 +57,21 @@ export default function Layout({ children }: LayoutProps) {
   const navigation = [
     {
       name: "Home",
-      href: "/",
+      href: "https://www.toolidarity.app/",
       icon: HomeIcon,
-      active: router.pathname == "/" ? true : false,
+      active: router.pathname == "https://www.toolidarity.app/" ? true : false,
     },
     {
-      name: "Staking",
-      href: "https://stake.cardinal.so/supportive-dudes",
+      name: "Supportive Dudes Staking",
+      href: "https://stake.cardinal.so/supportivedudes",
       icon: StakingIcon,
-      active: router.pathname == "https://stake.cardinal.so/supportive-dudes" ? true : false,
+      active: router.pathname == "https://stake.cardinal.so/supportivedudes" ? true : false,
+    },
+ {
+      name: "Pixel Dudes Staking",
+      href: "https://stake.cardinal.so/pixel-dudes",
+      icon: Staking2Icon,
+      active: router.pathname == "https://stake.cardinal.so/pixel-dudes" ? true : false,
     },
     {
       name: "Auctions",
@@ -79,18 +84,6 @@ export default function Layout({ children }: LayoutProps) {
       href: "https://soleddarity-utilities.vercel.app/raffles",
       icon: RafflesIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/raffles" ? true : false,
-    },
-    {
-      name: "Coinflip",
-      href: "https://soleddarity-coinflip.vercel.app/",
-      icon: CoinflipIcon,
-      active: router.pathname == "https://soleddarity-coinflip.vercel.app/" ? true : false,
-    },
-    {
-      name: "Royalties",
-      href: "https://tools.builderz.build/pay-royalties",
-      icon: RoyaltiesIcon,
-      active: router.pathname == "https://tools.builderz.build/pay-royalties" ? true : false,
     },
   ];
 

@@ -412,6 +412,18 @@ const Index = () => {
   ];
 
   const Holderstools = [
+ {
+      name: "Raven - Raid2Earn",
+      description:
+        "soon.",
+      icon: "https://pbs.twimg.com/profile_images/1570769129443033090/-REx4ItQ_400x400.jpg",
+      twitter: "https://twitter.com/RavenBSL",
+      discord: "https://discord.com/invite/blocksmithlabs",
+      website: "https://t.co/kvNuWOJheJ",
+      category: "Raid2Earn",
+      from: "#fefe30",
+      to: "#14c7aa",
+    },
     {
       name: "Zilla VS Kong",
       description:

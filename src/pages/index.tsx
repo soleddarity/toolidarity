@@ -446,6 +446,18 @@ const Index = () => {
       from: "#fefe30",
       to: "#161203",
     },
+ {
+      name: "The Pixel Shop",
+      description:
+        "SOON",
+      icon: "https://pbs.twimg.com/profile_images/1618313883147550720/ayuM4xMJ_400x400.jpg",
+      twitter: "https://twitter.com/dudes_sol",
+      discord: "https://discord.com/dudessol",
+      website: "https://toolidarity.app/",
+      category: "Inner Discord, Customization",
+      from: "#da5b34",
+      to: "#050505",
+    },
     {
       name: "Zilla VS Kong",
       description:

@@ -26,7 +26,7 @@ import "swiper/css/pagination";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import Login from "@/components/Login";
-import { useWalletNfts } from "@nfteyez/sol-rayz-react";
+// import { useWalletNfts } from "@nfteyez/sol-rayz-react";
 import router from "next/router";
 import { getCookie, setCookie } from "cookies-next";
 import axios from "axios";
@@ -870,24 +870,24 @@ const Index = () => {
   ];
 
   const { publicKey } = useWallet();
-  const { connection } = useConnection();
+  // const { connection } = useConnection();
   const [haveAnubis, sethaveAnubis] = useState<boolean>(false);
-  const { nfts } = useWalletNfts({
-    //@ts-ignore
-    publicAddress: publicKey,
-    connection,
-  });
+  // const { nfts } = useWalletNfts({
+  //   //@ts-ignore
+  //   publicAddress: publicKey,
+  //   connection,
+  // });
 
-  const isFound = nfts.some((element) => {
-    if (element.data.symbol === "SOLEDD"||element.data.symbol === "PIXELDUDES"||element.data.symbol === "ZOMB"||element.data.symbol === "PXLD"||element.data.symbol === "MIDH"||element.data.symbol === "GREATGOATS"||element.data.symbol === "SAC"||element.data.symbol === "BASC"||element.data.symbol === "HANA"||element.data.symbol === "SSL"||element.data.symbol === "NH"||element.data.symbol === "Rentii"||element.data.symbol === "EXP"||element.data.symbol === "HL"||element.data.symbol === "KBC"||element.data.symbol === "BSL"||element.data.symbol === "SMB"||element.data.symbol === "FT"||element.data.symbol === "IMRTL"||element.data.symbol === "NOVA"||element.data.symbol === "UGS"||element.data.symbol === "JA"||element.data.symbol === "KK"||element.data.symbol === "HODLERS"||element.data.symbol === "HSKI"||element.data.symbol === "ZUMA"||element.data.symbol === "APINLABS"||element.data.symbol === "TYP"||element.data.symbol === "GOON"||element.data.symbol === "INFKTED"||element.data.symbol === "LS"||element.data.symbol === "LILY"||element.data.symbol === "BVD"||element.data.symbol === "TSHS"||element.data.symbol === "GHOSTKID"||element.data.symbol === "FLOPPAS"||element.data.symbol === "ZK"||element.data.symbol === "CoC"||element.data.symbol === "KING"||element.data.symbol === "CURSED"||element.data.symbol === "PP"||element.data.symbol === "UNIREX"||element.data.symbol === "NEXI"||element.data.symbol === "soldecoder"||element.data.symbol === "SC"||element.data.symbol === "OAK"||element.data.symbol === "SEN"||element.data.symbol === "DC"||element.data.symbol === "KNIT"||element.data.symbol === "DGOD"||element.data.symbol === "Y00T"||element.data.symbol === "DINO"||element.data.symbol === "MARA"||element.data.symbol === "ABC"||element.data.symbol === "DUELBOTS"||element.data.symbol === "sharx"||element.data.symbol === "okay_bears"||element.data.symbol === "OON"||element.data.symbol === "OVOL"||element.data.symbol === "LILY"||element.data.symbol === "CC"||element.data.symbol === "FFF"||element.data.symbol === "YC"||element.data.symbol === "DFC"||element.data.symbol === "AP"||element.data.symbol === "DAPE"||element.data.symbol === "SMB"||element.data.symbol === "AUROR"||element.data.symbol === "LUNAR"||element.data.symbol === "sss"||element.data.symbol === "AoM"||element.data.symbol === "WN"||element.data.symbol === "C3"||element.data.symbol === "DG"||element.data.symbol === "SNR"||element.data.symbol === "JUSTAPE"||element.data.symbol === "DN"||element.data.symbol === "okay_bears"||element.data.symbol === "BSL"||element.data.symbol === "SOLANOSAURUS"||element.data.symbol === "GMERS"||element.data.symbol === "UKIYO"||element.data.symbol === "SOR"||element.data.symbol === "LLGEN2"||element.data.symbol === "MTC"||element.data.symbol === "SOLGods"||element.data.symbol === "sharx"||element.data.symbol === "ATP"||element.data.symbol === "V") {
-      if (typeof window !== "undefined") {
-        localStorage.setItem("haveAnubis", "true");
-      }
-      return true;
-    }
+  // const isFound = nfts.some((element) => {
+  //   if (element.data.symbol === "SOLEDD"||element.data.symbol === "PIXELDUDES"||element.data.symbol === "ZOMB"||element.data.symbol === "PXLD"||element.data.symbol === "MIDH"||element.data.symbol === "GREATGOATS"||element.data.symbol === "SAC"||element.data.symbol === "BASC"||element.data.symbol === "HANA"||element.data.symbol === "SSL"||element.data.symbol === "NH"||element.data.symbol === "Rentii"||element.data.symbol === "EXP"||element.data.symbol === "HL"||element.data.symbol === "KBC"||element.data.symbol === "BSL"||element.data.symbol === "SMB"||element.data.symbol === "FT"||element.data.symbol === "IMRTL"||element.data.symbol === "NOVA"||element.data.symbol === "UGS"||element.data.symbol === "JA"||element.data.symbol === "KK"||element.data.symbol === "HODLERS"||element.data.symbol === "HSKI"||element.data.symbol === "ZUMA"||element.data.symbol === "APINLABS"||element.data.symbol === "TYP"||element.data.symbol === "GOON"||element.data.symbol === "INFKTED"||element.data.symbol === "LS"||element.data.symbol === "LILY"||element.data.symbol === "BVD"||element.data.symbol === "TSHS"||element.data.symbol === "GHOSTKID"||element.data.symbol === "FLOPPAS"||element.data.symbol === "ZK"||element.data.symbol === "CoC"||element.data.symbol === "KING"||element.data.symbol === "CURSED"||element.data.symbol === "PP"||element.data.symbol === "UNIREX"||element.data.symbol === "NEXI"||element.data.symbol === "soldecoder"||element.data.symbol === "SC"||element.data.symbol === "OAK"||element.data.symbol === "SEN"||element.data.symbol === "DC"||element.data.symbol === "KNIT"||element.data.symbol === "DGOD"||element.data.symbol === "Y00T"||element.data.symbol === "DINO"||element.data.symbol === "MARA"||element.data.symbol === "ABC"||element.data.symbol === "DUELBOTS"||element.data.symbol === "sharx"||element.data.symbol === "okay_bears"||element.data.symbol === "OON"||element.data.symbol === "OVOL"||element.data.symbol === "LILY"||element.data.symbol === "CC"||element.data.symbol === "FFF"||element.data.symbol === "YC"||element.data.symbol === "DFC"||element.data.symbol === "AP"||element.data.symbol === "DAPE"||element.data.symbol === "SMB"||element.data.symbol === "AUROR"||element.data.symbol === "LUNAR"||element.data.symbol === "sss"||element.data.symbol === "AoM"||element.data.symbol === "WN"||element.data.symbol === "C3"||element.data.symbol === "DG"||element.data.symbol === "SNR"||element.data.symbol === "JUSTAPE"||element.data.symbol === "DN"||element.data.symbol === "okay_bears"||element.data.symbol === "BSL"||element.data.symbol === "SOLANOSAURUS"||element.data.symbol === "GMERS"||element.data.symbol === "UKIYO"||element.data.symbol === "SOR"||element.data.symbol === "LLGEN2"||element.data.symbol === "MTC"||element.data.symbol === "SOLGods"||element.data.symbol === "sharx"||element.data.symbol === "ATP"||element.data.symbol === "V") {
+  //     if (typeof window !== "undefined") {
+  //       localStorage.setItem("haveAnubis", "true");
+  //     }
+  //     return true;
+  //   }
 
-    return false;
-  });
+  //   return false;
+  // });
 
   const login = async () => {
     axios

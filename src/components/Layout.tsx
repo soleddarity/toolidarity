@@ -5,7 +5,7 @@ import StakingIcon from "../styles/icons/StakingIcon";
 import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
-import Staking2Icon from "../styles/icons/RoyaltiesIcon";
+import Staking2Icon from "../styles/icons/Staking2Icon";
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";

@@ -649,7 +649,7 @@ const Index = () => {
       website: "",
       category: "Art Creation",
       from: "#ffd623",
-      to: "#ffffff",
+      to: "#24292f",
     },
     {
       name: "Oak Paradise",

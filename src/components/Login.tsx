@@ -12,7 +12,6 @@ import CoinflipIcon from "../styles/icons/CoinflipIcon";
 import Staking2Icon from "../styles/icons/Staking2Icon";
 
 import { useRouter } from "next/router";
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 
 const navigation = [
   { name: "Home", href: "#", icon: HomeIcon, active: false },

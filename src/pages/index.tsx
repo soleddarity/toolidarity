@@ -23,7 +23,6 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 
-// import { useWalletNfts } from "@nfteyez/sol-rayz-react";
 import router from "next/router";
 import { getCookie, setCookie } from "cookies-next";
 import axios from "axios";

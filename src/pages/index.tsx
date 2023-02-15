@@ -878,10 +878,6 @@ const Index = () => {
     { name: "Raffles", href: "#", icon: RafflesIcon, active: false },
   ];
 
-  const { publicKey } = useWallet();
-  // const { connection } = useConnection();
-  const [haveAnubis, sethaveAnubis] = useState<boolean>(false);
-  // const { nfts } = useWalletNfts({
   //   //@ts-ignore
   //   publicAddress: publicKey,
   //   connection,

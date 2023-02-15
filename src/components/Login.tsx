@@ -139,7 +139,6 @@ export default function Login() {
                     Please connect your wallet to use the tool !
                   </p>
                   <div className="mt-5">
-                    <WalletMultiButton></WalletMultiButton>
                   </div>
                 </div>
               </div>

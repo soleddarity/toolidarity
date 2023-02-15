@@ -23,9 +23,6 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import { useWallet } from "@solana/wallet-adapter-react";
-import Login from "@/components/Login";
 // import { useWalletNfts } from "@nfteyez/sol-rayz-react";
 import router from "next/router";
 import { getCookie, setCookie } from "cookies-next";
@@ -1007,7 +1004,7 @@ const Index = () => {
                     </div>
 
                     <div className="flex items-center gap-2">
-                      <WalletMultiButton></WalletMultiButton>
+                      
                     </div>
                   </div>
                   

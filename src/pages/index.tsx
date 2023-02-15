@@ -437,7 +437,7 @@ const Index = () => {
  {
       name: "Raven - Raid2Earn",
       description:
-        "soon.",
+        "COMING SOON",
       icon: "https://pbs.twimg.com/profile_images/1570769129443033090/-REx4ItQ_400x400.jpg",
       twitter: "https://twitter.com/RavenBSL",
       discord: "https://discord.com/invite/blocksmithlabs",
@@ -449,7 +449,7 @@ const Index = () => {
  {
       name: "The Pixel Shop",
       description:
-        "SOON",
+        "COMING SOON",
       icon: "https://pbs.twimg.com/profile_images/1618313883147550720/ayuM4xMJ_400x400.jpg",
       twitter: "https://twitter.com/dudes_sol",
       discord: "https://discord.com/dudessol",

@@ -140,6 +140,18 @@ const Index = () => {
       from: "#4024DE",
       to: "#CFC9F3",
     },
+{
+      name: "BackPack",
+      description:
+        "The home for your xNFTs. Apply for the beta and claim your name http://backpack.app/download",
+      icon: "https://pbs.twimg.com/profile_images/1593111895195762690/1fS4-upH_400x400.jpg",
+      twitter: "https://twitter.com/xNFT_Backpack",
+      discord: "https://discord.gg/RfwUqWrn7T",
+      website: "backpack.app/download",
+      category: "Wallet",
+      from: "#f72435",
+      to: "#000000",
+    },
     {
       name: "Elixir",
       description:

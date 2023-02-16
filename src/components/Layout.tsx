@@ -6,6 +6,7 @@ import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
 import RafflesIcon from "../styles/icons/RafflesIcon";
 import Staking2Icon from "../styles/icons/Staking2Icon";
+import BankNotesIcon from "../styles/icons/BankNotesIcon";
 import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
@@ -84,6 +85,12 @@ export default function Layout({ children }: LayoutProps) {
       href: "https://soleddarity-utilities.vercel.app/raffles",
       icon: RafflesIcon,
       active: router.pathname == "https://soleddarity-utilities.vercel.app/raffles" ? true : false,
+    },
+    {
+      name: "Marketplace",
+      href: "https://magiceden.io/marketplace/supportive_dude",
+      icon: BankNotesIcon,
+      active: router.pathname == "https://magiceden.io/marketplace/supportive_dude" ? true : false,
     },
   ];
 
@@ -417,13 +424,13 @@ export default function Layout({ children }: LayoutProps) {
               <div className="flex-1 flex flex-col items-center gap-28">
                 <div>
                   <div className="flex items-center justify-center  py-4">
-                    <Link href="/">
+                    <a href="/">
                       <img
                         className="h-12 w-auto"
                         src={`${router.basePath}/assets/images/logo.png`}
                         alt="Your Company"
                       />
-                    </Link>
+                    </a>
                   </div>
                   {/* <div className="flex flex-shrink-0 pb-5">
                     <a className="w-full relative flex-shrink-0 flex items-center justify-center flex-col">

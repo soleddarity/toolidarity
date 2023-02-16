@@ -5,11 +5,13 @@ import "aos/dist/aos.css";
 import { ContextProvider } from "@/contexts/ContextProvider";
 import { NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider } from "next-themes";
+import type { AppProps } from 'next/app';
+import { Analytics } from '@vercel/analytics/react';
 
 require("@solana/wallet-adapter-react-ui/styles.css");
 
 //@ts-ignore
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   const [showing, setShowing] = useState(false);
 
   useEffect(() => {
@@ -24,6 +26,7 @@ function MyApp({ Component, pageProps }) {
     return <></>;
   } else {
     return (
+      <>
       <ContextProvider>
         <NextUIProvider>
           <ThemeProvider enableSystem={true} attribute="class">
@@ -31,6 +34,8 @@ function MyApp({ Component, pageProps }) {
           </ThemeProvider>
         </NextUIProvider>
       </ContextProvider>
+      <Analytics />
+      </>
     );
   }
 }

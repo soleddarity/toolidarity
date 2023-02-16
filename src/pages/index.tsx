@@ -4,15 +4,7 @@ import { Main } from "@/templates/Main";
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
 import Layout from "@/components/Layout";
-// import { ToolCard } from "@/components/ToolCard";
 import SortableGrid from "@/components/SortableGrid";
-// import {
-//   FireIcon,
-//   HomeIcon,
-//   InboxIcon,
-//   UserIcon,
-// } from "@heroicons/react/outline";
-
 import StakingIcon from "../styles/icons/StakingIcon";
 import HomeIcon from "../styles/icons/HomeIcon";
 import AuctionsIcon from "../styles/icons/AuctionsIcon";
@@ -23,14 +15,10 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 
-import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import { useWallet } from "@solana/wallet-adapter-react";
 import Login from "@/components/Login";
 // import { useWalletNfts } from "@nfteyez/sol-rayz-react";
 import router from "next/router";
 import { getCookie, setCookie } from "cookies-next";
-import axios from "axios";
-
 
 const Index = () => {
   const [typeTools, settypeTools] = useState("Free tools");
@@ -42,6 +30,7 @@ const Index = () => {
   const [gameTools, setGameTools] = useState<any[]>([]);
   const [discountTools, setDiscountTools] = useState<any[]>([]);
   const [educationTools, setEducationTools] = useState<any[]>([]);
+  const [adsTools, setAdsTools] = useState<any[]>([]);
 
   const handleFilterChange = (event: any) => {
     setFilterInput(event.target.value);
@@ -862,6 +851,9 @@ const Index = () => {
     },
   ];
 
+  const ads = [
+  ];
+
   const navigation = [
     { name: "Home", href: "#", icon: HomeIcon, active: false },
     { name: "Staking", href: "#", icon: StakingIcon, active: false },
@@ -869,7 +861,7 @@ const Index = () => {
     { name: "Raffles", href: "#", icon: RafflesIcon, active: false },
   ];
 
-  const { publicKey } = useWallet();
+  // const { publicKey } = useWallet();
   // const { connection } = useConnection();
   const [haveAnubis, sethaveAnubis] = useState<boolean>(false);
   // const { nfts } = useWalletNfts({
@@ -889,19 +881,6 @@ const Index = () => {
   //   return false;
   // });
 
-  const login = async () => {
-    axios
-      .post("http://localhost:3030/api/auth/login", {
-        publicKey: publicKey,
-      })
-      .then((response) => {
-        setCookie("jwt", response.data.token);
-      })
-      .catch(function () {
-        //signup();
-      });
-  };
-
   useEffect(() => {
     sethaveAnubis(true);
     // if (isFound) {
@@ -912,15 +891,13 @@ const Index = () => {
   });
 
   useEffect(() => {
-    login();
-  }, [publicKey]);
-
-  useEffect(() => {
     setFreeTools(tools);
     setHolderTools(Holderstools);
     setGameTools(games);
     setDiscountTools(discounts);
     setEducationTools(educations);
+    setAdsTools(ads);
+
   }, []);
 
   useEffect(() => {
@@ -929,7 +906,7 @@ const Index = () => {
   
   return (
     <Main meta={<Meta title="Toolidarity" description="" />}>
-      {publicKey || haveAnubis ? (
+      {haveAnubis ? (
         <>
           {haveAnubis || jwt ? (
             <>
@@ -988,15 +965,22 @@ const Index = () => {
                         >
                           Educational
                         </div>
+                        <div
+                          onClick={() => settypeTools("Ads")}
+                          className={
+                            typeTools == "Ads"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
+                          }
+                        >
+                          Ads
+                        </div>
                       </div>
                     </div>
                     <div className="filter-div">
                       <input value={filterInput} onChange={handleFilterChange} placeholder="Filter items" />
                     </div>
 
-                    <div className="flex items-center gap-2">
-                      <WalletMultiButton></WalletMultiButton>
-                    </div>
                   </div>
                   
                   {/* <div className="grid gap-2 lg:p-5 grid-cols-1 2xl:grid-cols-3 lg:grid-cols-3  md:grid-cols-2"> */}
@@ -1017,11 +1001,16 @@ const Index = () => {
                       <>
                         <SortableGrid key="educationtoolskey" tools={educationTools} name="education-tools" filter={filterInput} />
                       </>
+                    ) : typeTools == "Ads" ? (
+                      <>
+                        <SortableGrid key="adstoolskey" tools={adsTools} name="ads-tools" filter={filterInput} />
+                      </>
                     ) : (
                       <>
                         <SortableGrid key="discounttoolskey" tools={discountTools} name="discount-tools" filter={filterInput} />
                       </>
-                    )}
+                    )
+                    }
                   </div>
 
                 </div>
@@ -1142,9 +1131,9 @@ const Index = () => {
                           <p className="leading-none opacity-40">
                             Connect your wallet to access toolidarity !
                           </p>
-                          <div className="mt-5">
+                          {/* <div className="mt-5">
                             <WalletMultiButton></WalletMultiButton>
-                          </div>
+                          </div> */}
                           <div>
                             <a
                               href="https://magiceden.io/creators/dudes"

@@ -11,7 +11,7 @@ import { Analytics } from '@vercel/analytics/react';
 require("@solana/wallet-adapter-react-ui/styles.css");
 
 //@ts-ignore
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   const [showing, setShowing] = useState(false);
 
   useEffect(() => {

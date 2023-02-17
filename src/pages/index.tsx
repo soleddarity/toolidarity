@@ -1008,7 +1008,7 @@ const Index = () => {
                               : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
                           }
                         >
-                          Ads
+                          Featured Projects
                         </div>
                       </div>
                     </div>

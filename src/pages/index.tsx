@@ -16,7 +16,6 @@ import "swiper/css/grid";
 import "swiper/css/pagination";
 
 import Login from "@/components/Login";
-// import { useWalletNfts } from "@nfteyez/sol-rayz-react";
 import router from "next/router";
 import { getCookie } from "cookies-next";
 

@@ -425,7 +425,7 @@ const Index = () => {
  {
       name: "Raven - Raid2Earn",
       description:
-        "soon.",
+        "SOON",
       icon: "https://pbs.twimg.com/profile_images/1570769129443033090/-REx4ItQ_400x400.jpg",
       twitter: "https://twitter.com/RavenBSL",
       discord: "https://discord.com/invite/blocksmithlabs",

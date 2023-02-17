@@ -801,6 +801,30 @@ const Index = () => {
   ];
 
   const educations = [
+{
+      name: "DegenU",
+      description: "We're building the #1 Web3 Education Platform ✏️",
+      icon: "https://pbs.twimg.com/profile_images/1607871088108748800/y0N7V-2r_400x400.jpg",
+      twitter: "https://twitter.com/TheDegenU",
+      discord: "https://t.co/IiZnO3Wsc0",
+      website:
+        "https://t.co/tluhrdUk6p",
+      category: "Full Guide",
+      from: "#115b3a",
+      to: "#6bf178",
+    },
+{
+      name: "Max Educational Platform",
+      description: "Sharing knowledge on the Solana NFT market @MaxbrsNFT",
+      icon: "https://cdn.discordapp.com/attachments/1021030450371772446/1034516444408459384/Capture_decran_2022-10-25_a_19.18.31.png",
+      twitter: "#",
+      discord: "#",
+      website:
+        "https://maxbrs.notion.site/Max-Educational-Platform-0459f9ed8e3a418ea07854a5595adcf2",
+      category: "Full Guide",
+      from: "#9AC786",
+      to: "#6BCF39",
+    },
     {
       name: "Max Educational Platform",
       description: "Sharing knowledge on the Solana NFT market @MaxbrsNFT",

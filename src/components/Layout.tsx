@@ -87,10 +87,10 @@ export default function Layout({ children }: LayoutProps) {
       active: router.pathname == "https://soleddarity-utilities.vercel.app/raffles" ? true : false,
     },
     {
-      name: "Marketplace",
+      name: "Buy a Dude!",
       href: "https://magiceden.io/marketplace/supportive_dude",
       icon: BankNotesIcon,
-      active: router.pathname == "https://magiceden.io/marketplace/supportive_dude" ? true : false,
+      active: router.pathname == "https://magiceden.io/creators/dudes" ? true : false,
     },
   ];
 

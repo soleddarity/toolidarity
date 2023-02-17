@@ -876,8 +876,7 @@ const Index = () => {
 
   const ads = [
 {
-
-name: "Best Projet Upcoming",
+      name: "Best Projet Upcoming",
       description:
         "WAHOU!",
       icon: "https://pbs.twimg.com/profile_images/1618313883147550720/ayuM4xMJ_400x400.jpg",
@@ -887,6 +886,7 @@ name: "Best Projet Upcoming",
       category: "Inner Discord, Customization",
       from: "#da5b34",
       to: "#050505",
+},
   ];
 
   const navigation = [

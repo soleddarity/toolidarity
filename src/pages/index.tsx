@@ -883,7 +883,7 @@ const Index = () => {
       twitter: "https://twitter.com/dudes_sol",
       discord: "https://discord.com/dudessol",
       website: "https://toolidarity.app/",
-      category: "Inner Discord, Customization",
+      category: "Promotion",
       from: "#da5b34",
       to: "#050505",
 },

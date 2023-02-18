@@ -88,7 +88,7 @@ export default function Layout({ children }: LayoutProps) {
     },
     {
       name: "Buy a Dude!",
-      href: "https://magiceden.io/marketplace/supportive_dude",
+      href: "https://magiceden.io/creators/dudes",
       icon: BankNotesIcon,
       active: router.pathname == "https://magiceden.io/creators/dudes" ? true : false,
     },

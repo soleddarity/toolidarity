@@ -887,16 +887,16 @@ const Index = () => {
 
   const ads = [
 {
-      name: "Best Project Upcoming",
+      name: "Lolo Alpha",
       description:
-        "WAHOU!",
-      icon: "https://pbs.twimg.com/profile_images/1618313883147550720/ayuM4xMJ_400x400.jpg",
-      twitter: "https://twitter.com/dudes_sol",
-      discord: "https://discord.com/dudessol",
-      website: "https://toolidarity.app/",
-      category: "Promotion",
-      from: "#da5b34",
-      to: "#050505",
+        "The best innovative Alpha project on Solana. Revshare, R2E and many other features to discover.",
+      icon: "https://media.discordapp.net/attachments/1042864580872904756/1076620497594363924/IMG_3058.png",
+      twitter: "https://twitter.com/_Daily_Trade_",
+      discord: "https://discord.gg/MV4vm3EayX",
+      website: "https://discord.gg/MV4vm3EayX",
+      category: "Alpha",
+      from: "#391415",
+      to: "#CB1016",
 },
   ];
 

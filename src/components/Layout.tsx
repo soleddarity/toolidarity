@@ -13,7 +13,7 @@ import Link from "next/link";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { setCookie } from "cookies-next";
 import toast, { Toaster } from "react-hot-toast";
-// import { Tooltip } from "@nextui-org/react";
+import { Tooltip } from "@nextui-org/react";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -454,13 +454,13 @@ export default function Layout({ children }: LayoutProps) {
                   className="flex flex-col items-center  space-y-5 py-10"
                 >
                   {navigation.map((item) => (
-                    // <Tooltip
-                    //   rounded
-                    //   content={item.name}
-                    //   color="invert"
-                    //   placement="right"
-                    //   className=""
-                    // >
+                    <Tooltip
+                      rounded
+                      content={item.name}
+                      color="invert"
+                      placement="right"
+                      className=""
+                    >
                       <Link key={item.name} href={item.href}>
                         <div
                           className={
@@ -473,7 +473,7 @@ export default function Layout({ children }: LayoutProps) {
                           <span className="sr-only">{item.name}</span>
                         </div>
                       </Link>
-                    // </Tooltip>
+                    </Tooltip>
                   ))}
                 </nav>
               </div>

@@ -910,6 +910,18 @@ const Index = () => {
       from: "#da5b34",
       to: "#050505",
     },
+ {
+      name: "Wolf Capital",
+      description:
+        "A first of its kind gamified lending & lending analytics platform. Bringing Pixel art appreciation under one roof with an All-Star lineup.",
+      icon: "https://pbs.twimg.com/profile_images/1621174153435877377/PdLwlFj4_400x400.jpg",
+      twitter: "https://twitter.com/WolfCapital_",
+      discord: "https://t.co/ECEW2u9fpI",
+      website: "",
+      category: "Incoming, Pixel Art",
+      from: "#070100",
+      to: "#fefcfc",
+    },
   ];
 
   const navigation = [

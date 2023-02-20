@@ -910,6 +910,18 @@ const Index = () => {
       from: "#4D4D4D",
       to: "#AEAEAE",
 },
+{
+      name: "The Dudes Cards",
+      description:
+        "667 Dudes Cards gives you access to our exclusive AMM rev-share scheme!",
+      icon: "https://eemrlvzcxfcudiminbgx.supabase.co/storage/v1/object/public/assets/raffles/8f367b023357.webp",
+      twitter: "https://twitter.com/dudes_sol",
+      discord: "https://discord.com/dudessol",
+      website: "https://toolidarity.app/",
+      category: "Incoming",
+      from: "#da5b34",
+      to: "#050505",
+    },
   ];
 
   const navigation = [

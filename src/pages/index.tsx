@@ -448,7 +448,7 @@ const Index = () => {
  {
       name: "The Pixel Shop",
       description:
-        "SOON",
+        " Customize your dudes. Buy new exclusive traits only with $EDD and even create your own unique 1/1. We let you imagine the infinite possibilities of this mechanism.",
       icon: "https://pbs.twimg.com/profile_images/1618313883147550720/ayuM4xMJ_400x400.jpg",
       twitter: "https://twitter.com/dudes_sol",
       discord: "https://discord.com/dudessol",

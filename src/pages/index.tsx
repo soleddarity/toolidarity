@@ -761,6 +761,18 @@ const Index = () => {
       from: "#000000",
       to: "#D91313",
     },
+ {
+      name: "Duel Casino",
+      description:
+        "Online Gambling Arena powered by the Solana blockchain | Exciting PVP & House Games ⚔️",
+      icon: "https://pbs.twimg.com/profile_images/1578553398416539650/rMTHlwUf_400x400.jpg",
+      twitter: "https://twitter.com/DuelCasino",
+      discord: "https://discord.com/invite/duel",
+      website: "https://duel.win/",
+      category: "Casino",
+      from: "#070100",
+      to: "#fefcfc",
+    },
     {
       name: "AibaverseNFT",
       description:

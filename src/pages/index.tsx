@@ -905,7 +905,7 @@ const Index = () => {
       icon: "https://media.discordapp.net/attachments/1076551307596406934/1076855430317342810/Logo_6_2.png?width=856&height=856",
       twitter: "https://twitter.com/hasukinfts",
       discord: "https://discord.com/invite/ndE7m23zyQ",
-      website: "https://discord.com/invite/ndE7m23zyQ",
+      website: "https://hasuki.io/",
       category: "PFP,Community,Technology",
       from: "#4D4D4D",
       to: "#AEAEAE",

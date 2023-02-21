@@ -12,13 +12,24 @@ const SortableGrid = (props: any) => {
     const gridRef = useRef(null);
     const sortableJsRef = useRef(null);
     
-    let storage = localStorage.getItem(props.name);
+    let storageName: any;
+    console.log(props)
     
+    if (!props.chain || props.chain.value === 'solana') {
+        storageName = props.name;
+    } else if (props.chain.value === 'ethereum') {
+        storageName = 'eth.' + props.name;
+    } else if (props.chain.value === 'polygon') {
+        storageName = 'poly.' + props.name;
+    }
+
+    let storage = localStorage.getItem(storageName);
+
     if (storage) {
         storage = JSON.parse(storage);
     }
 
-    const [data, setData] = useState(storage || initData);
+    const [data, setData] = useState((storage && storage.length > 0) || initData);
     const [filteredData, setFilteredData] = useState(storage || data);
 
     const onListChange = () => {
@@ -26,7 +37,7 @@ const SortableGrid = (props: any) => {
         .map(i => i.dataset.id)
         .map(id => data.find(item => item._id === id));
         console.log(newData);
-        localStorage.setItem(props.name, JSON.stringify(newData));
+        localStorage.setItem(storageName, JSON.stringify(newData));
         setData(data);
     };
 
@@ -42,7 +53,7 @@ const SortableGrid = (props: any) => {
         onEnd: onListChange,
         });
 
-        let storageStr = localStorage.getItem(props.name) || '';
+        let storageStr = localStorage.getItem(storageName) || '';
         let storage: any[] = [];
 
         if (storageStr) {
@@ -78,12 +89,12 @@ const SortableGrid = (props: any) => {
                     return true;
                 })
             
-                localStorage.setItem(props.name, JSON.stringify(newItems));
+                localStorage.setItem(storageName, JSON.stringify(newItems));
                 setData(newItems);
             }        
         } 
 
-        storageStr = localStorage.getItem(props.name) || '';
+        storageStr = localStorage.getItem(storageName) || '';
     
         if (storageStr) {
             storage = JSON.parse(storageStr);
@@ -101,11 +112,12 @@ const SortableGrid = (props: any) => {
 
                 if (!found) {
                     storage.push({ _id: (i+1).toString(), content: incoming[i] });
-                    localStorage.setItem(props.name, JSON.stringify(storage));
+                    localStorage.setItem(storageName, JSON.stringify(storage));
                     setData(storage);
                 }
             }
         }
+
     }, []);
 
     useEffect(() => {

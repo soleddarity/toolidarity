@@ -28,9 +28,11 @@ const SortableGrid = (props: any) => {
     if (storage) {
         storage = JSON.parse(storage);
     }
-
-    const [data, setData] = useState((storage && storage.length > 0) || initData);
-    const [filteredData, setFilteredData] = useState(storage || data);
+    
+    let thisData = (storage && storage.length > 0) ? storage : initData;
+    
+    const [data, setData] = useState(thisData);
+    const [filteredData, setFilteredData] = useState(data);
 
     const onListChange = () => {
         const newData = [...gridRef.current.children]

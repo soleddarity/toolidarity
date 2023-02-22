@@ -143,33 +143,9 @@ export const tools = [
   ];
 
   export const Holderstools = [
-    {
-      name: "Zilla VS Kong",
-      description:
-        "Get an exclusive access to Zilla vs Kong's Sniper Bot !",
-      icon: "https://cdn.discordapp.com/attachments/1011202479171571812/1027961050710155274/j0OYQ1WEgr6TkzKJ3oA4Q-yH3uXv68hH5tyU9Vk3xcA.png",
-      twitter: "https://twitter.com/Zilla_VS_Kong",
-      discord: "https://discord.com/invite/seyEZ8Ekrt",
-      website: "https://snapshots-toolkit.com/home",
-      category: "Sniper Bot",
-      from: "#D32204",
-      to: "#746ADE",
-    }
   ];
 
   export const discounts = [
-    {
-      name: "Oak Paradise",
-      description:
-        "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens, E-Sports betting and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",
-      icon: "https://creator-hub-prod.s3.us-east-2.amazonaws.com/oak_paradise_pfp_1661193184623.jpeg",
-      twitter: "https://twitter.com/oakparadisenft",
-      discord: "https://discord.com/invite/oakdystopia",
-      website: "https://app.plotx.io/sign-in",
-      category: "Casino,P2E,SportsBook",
-      from: "#5C8656",
-      to: "#314631",
-    },
   ];
 
   export const games = [

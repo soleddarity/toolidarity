@@ -43,9 +43,9 @@ export const tools = [
 
   export const ads = [
 {
-    name: "Book a FEATURED PROJECTS spot",
+    name: "Get your project Featured!",
     description:
-      "Simply fill out this form to be Book!",
+      "Get some exposure for your project. Click on Access and fill out the form!",
     icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Design_plat_%C3%89toile_jaune.svg/1024px-Design_plat_%C3%89toile_jaune.svg.png",
     twitter: "https://twitter.com/dudes_sol",
     discord: "https://discord.gg/dudessol",

@@ -1,4 +1,15 @@
 export const tools = [ 
+  {
+      name: "Blur",
+      description: "The NFT marketplace for pro traders. Backed by Paradigm.",
+      icon: "https://pbs.twimg.com/profile_images/1518705644450291713/X2FLVDdn_400x400.jpg",
+      twitter: "https://twitter.com/blur_io",
+      discord: "https://t.co/UdIqx7Ivxy",
+      website: "https://blur.io/",
+      category: "Marketplace",
+      from: "#fa6e28",
+      to: "#0a0c07",
+    },
     {
       name: "OpenSea",
       description: "The largest NFT marketplace. Buy, sell, & discover the internet of goods.",

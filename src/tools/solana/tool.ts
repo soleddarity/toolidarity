@@ -634,8 +634,8 @@ export const discounts = [
     discord: "https://discord.com/invite/dudessol",
     website: "https://airtable.com/shrmTTEw8QDFnZFTn",
     category: "Doxxing",
-    from: "#9c0304",
-    to: "#070708",
+    from: "#070708",
+    to: "#9c0304",
   },
   {
     name: "Oak Paradise",

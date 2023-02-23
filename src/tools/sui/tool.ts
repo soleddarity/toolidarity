@@ -1,5 +1,16 @@
 export const tools = [
-   
+   {
+    name: "Ethos Wallet",
+    description:
+      "Your home base for web3 on Sui. Easy to integrate in-dapp Sui wallet✨",
+    icon: "https://pbs.twimg.com/profile_images/1590477956664594432/QioAg6lY_400x400.jpg",
+    twitter: "https://twitter.com/EthosWalletXYZ",
+    discord: "",
+    website: "https://t.co/541iYbEuYT",
+    category: "Wallet",
+    from: "#6c0eba",
+    to: "#ffffff",
+  },
 ];
 
 export const Holderstools = [

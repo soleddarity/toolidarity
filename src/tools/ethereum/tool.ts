@@ -133,6 +133,18 @@ export const tools = [
     from: "#070100",
     to: "#fefcfc",
   },
+{
+    name: "The Dudes Doxxing",
+    description:
+      "Doxx yourself or your project with us. -25% for our holders.",
+    icon: "https://media.discordapp.net/attachments/961932796895576084/1078242705433444402/d__60624__83611.gif?width=603&height=603",
+    twitter: "https://twitter.com/dudes_sol",
+    discord: "https://discord.com/invite/dudessol",
+    website: "https://airtable.com/shrmTTEw8QDFnZFTn",
+    category: "Doxxing",
+    from: "#070708",
+    to: "#9c0304",
+  },
     {
       name: "SOL Casino",
       description:

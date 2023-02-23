@@ -870,7 +870,7 @@ export const ads = [
     discord: "https://discord.gg/dudessol",
     website: "https://airtable.com/shrI37V5hEmHs273t",
     category: "",
-    from: "#ffffff",
+    from: "#101010",
     to: "#ffde54",
 },
 {

@@ -862,6 +862,18 @@ export const educations = [
 
 export const ads = [
 {
+    name: "Book a FEATURED PROJECTS spot",
+    description:
+      "Simply fill out this form to be Book!",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Design_plat_%C3%89toile_jaune.svg/1024px-Design_plat_%C3%89toile_jaune.svg.png",
+    twitter: "https://twitter.com/dudes_sol",
+    discord: "https://discord.gg/dudessol",
+    website: "https://airtable.com/shrI37V5hEmHs273t",
+    category: "",
+    from: "#ffffff",
+    to: "#ffde54",
+},
+{
     name: "Lolo Alpha",
     description:
       "The best innovative Alpha project on Solana. Revshare, R2E and many other features to discover.",

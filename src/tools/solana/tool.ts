@@ -773,18 +773,6 @@ export const games = [
     to: "#2B3039",
   },
   {
-    name: "Solcrash.io",
-    description:
-      "The highest adrenaline crypto game on Solana",
-    icon: "https://pbs.twimg.com/profile_images/1507197976158126082/KXhKpePV_400x400.jpg",
-    twitter: "https://twitter.com/solcrash",
-    discord: "discord.gg/solcrash",
-    website: "https://solcrash.io/?code=Dudes",
-    category: "Betting",
-    from: "#544F64",
-    to: "#068FC7",
-  },
-  {
     name: "Oak Poker Paradise",
     description:
       "Oak Paradise is building sportsbook, casino and poker room featuring Solana and SPL Tokens, E-Sports betting and custom games, such as Pawnshop, NFT Jackpot and Sports Alpha.",

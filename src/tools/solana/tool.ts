@@ -862,6 +862,18 @@ export const ads = [
     to: "#ffde54",
 },
 {
+    name: "Saru Gang",
+    description:
+      "1/1 pixel art collection focused on growing a community of artists & art lovers. We have weekly auctions, art alpha & WL's.",
+    icon: "https://cdn.discordapp.com/attachments/953306123119759450/1079829812316754030/ticket2_scaled_4x_pngcrushed.png",
+    twitter: "https://twitter.com/SaruGangg",
+    discord: "discord.gg/HYgYqqm4uy",
+    website: "https://exchange.art/series/Saru%20Gang/nfts",
+    category: "Pixel Art,PFP,1/1",
+    from: "#7E7E7E",
+    to: "#111111",
+},
+{
     name: "Lolo Alpha",
     description:
       "The best innovative Alpha project on Solana. Revshare, R2E and many other features to discover.",

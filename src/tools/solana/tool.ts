@@ -409,6 +409,18 @@ export const Holderstools = [
     from: "#da5b34",
     to: "#050505",
   },
+ {
+    name: "The Dudes Token Creation",
+    description:
+      "We will create for you a new SPL token using a randomly generated public key or a custom one!",
+    icon: "https://edd.multiflip.io/images/icon.png",
+    twitter: "https://twitter.com/dudes_sol",
+    discord: "https://discord.gg/dudessol",
+    website: "",
+    category: "Token Creation",
+    from: "#C7AE35",
+    to: "#03C2BC",
+  },
   {
     name: "Zilla VS Kong",
     description:
@@ -637,6 +649,18 @@ export const discounts = [
     category: "Casino,P2E,SportsBook",
     from: "#5C8656",
     to: "#314631",
+  },
+  {
+    name: "BuilderZ",
+    description:
+      "10% Discount on all Development Services including NFT Mints & Staking to fully custom products. We set clear expectations, communicate frequently and deliver quickly!",
+    icon: "https://media.discordapp.net/attachments/1079818306334240948/1080082525755551754/Group_39498.png?width=358&height=358",
+    twitter: "https://twitter.com/builderz__",
+    discord: "",
+    website: "https://www.builderz.build/",
+    category: "Dev Services",
+    from: "#5C8656",
+    to: "#0c0b0b",
   },
   {
     name: "Scalp Empire",

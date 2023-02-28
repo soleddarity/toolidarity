@@ -21,6 +21,17 @@ export const tools = [
       from: "#3C69F7",
       to: "#18317B",
     },
+ {
+      name: "ENS Domains",
+      description: "Your web3 username",
+      icon: "https://pbs.twimg.com/profile_images/1455381288756695041/acatxTm8_400x400.jpg",
+      twitter: "https://twitter.com/ensdomains",
+      discord: "",
+      website: "https://ens.domains/",
+      category: "Naming Service",
+      from: "#f2fcfc",
+      to: "#699ff7",
+    },
     {
       name: "Icy.tools",
       description:

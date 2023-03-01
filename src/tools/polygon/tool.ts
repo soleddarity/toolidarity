@@ -199,6 +199,17 @@ export const tools = [
       from: "#D2B7FF",
       to: "#A36DFD",
     },
+    {
+      name: "ME's Intro to Polygon NFTs",
+      description: "Get to know the basics of the Polygon blockchain",
+      icon: "https://play-lh.googleusercontent.com/Z1Bws4X7ZpDWT5qaEO9D2LO3Ts9vvyUQNJFtnHkFrmNBL6JaxjDvHjJtlPGSyELdlAs",
+      twitter: "#",
+      discord: "#",
+      website: "https://contenthub.magiceden.io/intro-to-polygon",
+      category: "Full Guide",
+      from: "#950BC6",
+      to: "#B657A9",
+    },
   ];
 
   export const ads = [

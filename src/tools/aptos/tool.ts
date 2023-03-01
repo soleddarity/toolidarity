@@ -35,10 +35,33 @@ export const tools = [
     from: "#ffffff",
     to: "#0245f5",
   },
+{
+    name: "Echo - Token MarketPlace",
+    description:
+      "Token MarketPlace on Aptos.",
+    icon: "https://media.discordapp.net/attachments/1004047978199261348/1022814378371850250/A2D7D0A2-8B09-471F-8572-B2BA9181B4B9.jpeg?width=603&height=603",
+    twitter: "https://twitter.com/AptosMonkeys",
+    discord: "https://discord.gg/YsBnDCyA",
+    website: "https://echo.aptosmonkeys.club/",
+    category: "Token Marketplace",
+    from: "#fff9ee",
+    to: "#fff5e1",
+  },
   ];
 
   export const Holderstools = [
-    
+    {
+    name: "AptosMonkeys - Rafflor",
+    description:
+      "Public & Holders Raffles, build by AptosMonkeys",
+    icon: "https://media.discordapp.net/attachments/1004047978199261348/1033107622167056404/8.png?width=603&height=603",
+    twitter: "https://twitter.com/AptosMonkeys",
+    discord: "https://discord.gg/YsBnDCyA",
+    website: "https://rafflor.aptosmonkeys.club/",
+    category: "Raffle",
+    from: "#cd5a10",
+    to: "#242426",
+  },
   ];
 
   export const discounts = [

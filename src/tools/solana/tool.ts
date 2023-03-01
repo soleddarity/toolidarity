@@ -698,6 +698,18 @@ export const discounts = [
     from: "#E5BD63",
     to: "#907539",
   },
+{
+    name: "DegenDevil",
+    description:
+      "Holders get a 50% deposit bonus on this Solana based full service casino with a sportsbook, live casino games, virtual sport and more!",
+    icon: "https://pbs.twimg.com/profile_images/1595460707470176256/7U3IBMuR_400x400.jpg",
+    twitter: "https://twitter.com/SKULLBOTS",
+    discord: "https://discord.com/invite/skullbots",
+    website: "https://degendevil.com/?ref=supportive",
+    category: "Casino,SportsBook,P2E",
+    from: "#000000",
+    to: "#D91313",
+  },
   {
     name: "SolBookie",
     description:
@@ -726,16 +738,16 @@ export const games = [
     to: "#03C2BC",
   },
   {
-    name: "DegenDevil",
+    name: "BET3",
     description:
-      "Holders get a 50% deposit bonus on this Solana based full service casino with a sportsbook, live casino games, virtual sport and more!",
-    icon: "https://pbs.twimg.com/profile_images/1595460707470176256/7U3IBMuR_400x400.jpg",
-    twitter: "https://twitter.com/SKULLBOTS",
-    discord: "https://discord.com/invite/skullbots",
-    website: "https://degendevil.com/?ref=supportive",
-    category: "Casino,SportsBook,P2E",
-    from: "#000000",
-    to: "#D91313",
+      "Sports Book - Web3 Sports",
+    icon: "https://pbs.twimg.com/profile_images/1562924230924189696/yTMNKS5H_400x400.jpg",
+    twitter: "https://twitter.com/Bet3NFT",
+    discord: "https://t.co/fWkC2oMhm5",
+    website: "https://bet3.games/ref/63fe422297b5c20019f6904a",
+    category: "Casino,SportsBook",
+    from: "#ffbc01",
+    to: "#7500e3",
   },
 {
     name: "Duel Casino",

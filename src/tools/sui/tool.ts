@@ -11,6 +11,18 @@ export const tools = [
     from: "#6c0eba",
     to: "#ffffff",
   },
+   {
+    name: "Souffl3",
+    description:
+      "NFT eco leader built on Aptos | Sui 🫐Blueberry",
+    icon: "https://pbs.twimg.com/profile_images/1609737766086279169/zR6sdz1j_400x400.jpg",
+    twitter: "https://twitter.com/nft_souffl3",
+    discord: "https://discord.com/invite/souffl3",
+    website: "https://souffl3.com/",
+    category: "Marketplace",
+    from: "#070708",
+    to: "#fe88f6",
+  },
 ];
 
 export const Holderstools = [

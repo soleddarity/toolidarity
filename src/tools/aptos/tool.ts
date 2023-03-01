@@ -1,6 +1,6 @@
 export const tools = [
    {
-    name: "Aptos",
+    name: "Topaz",
     description:
       "🔶🙌 #TopazHands Discover art, culture, & digital expression. The premiere NFT platform, built on Aptos.",
     icon: "https://pbs.twimg.com/profile_images/1629542465718853635/jFH-cVce_400x400.jpg",
@@ -22,6 +22,18 @@ export const tools = [
     category: "Marketplace",
     from: "#070708",
     to: "#fe88f6",
+  },
+ {
+    name: "BlueMove",
+    description:
+      "The leading Multi-chain NFT Marketplace on Aptos & Sui Blockchain. $MOVE",
+    icon: "https://pbs.twimg.com/profile_images/1607342060646051841/SkAgauhd_400x400.png",
+    twitter: "https://twitter.com/BlueMove_OA",
+    discord: "https://t.co/ngRCsxEJuE",
+    website: "https://bluemove.net/collection/aptos-monkeys",
+    category: "Marketplace",
+    from: "#ffffff",
+    to: "#0245f5",
   },
   ];
 

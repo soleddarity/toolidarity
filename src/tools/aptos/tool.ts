@@ -1,5 +1,16 @@
 export const tools = [
-   
+   {
+    name: "Aptos",
+    description:
+      "🔶🙌 #TopazHands Discover art, culture, & digital expression. The premiere NFT platform, built on Aptos.",
+    icon: "https://pbs.twimg.com/profile_images/1629542465718853635/jFH-cVce_400x400.jpg",
+    twitter: "https://twitter.com/TopazMarket",
+    discord: "https://discord.com/invite/SWVxuJkFSH",
+    website: "https://www.topaz.so/collection/Aptos-Monkeys-f932dcb983",
+    category: "Marketplace",
+    from: "#fefcfc",
+    to: "#ff9600",
+  },
   ];
 
   export const Holderstools = [

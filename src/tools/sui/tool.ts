@@ -23,6 +23,18 @@ export const tools = [
     from: "#070708",
     to: "#fe88f6",
   },
+{
+    name: "BlueMove",
+    description:
+      "The leading Multi-chain NFT Marketplace on Aptos & Sui Blockchain. $MOVE",
+    icon: "https://pbs.twimg.com/profile_images/1607342060646051841/SkAgauhd_400x400.png",
+    twitter: "https://twitter.com/BlueMove_OA",
+    discord: "https://t.co/ngRCsxEJuE",
+    website: "https://bluemove.net/",
+    category: "Marketplace",
+    from: "#ffffff",
+    to: "#0245f5",
+  },
 ];
 
 export const Holderstools = [

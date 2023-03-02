@@ -468,6 +468,18 @@ export const Holderstools = [
     to: "#445D5B",
   },
   {
+    name: "The Asset",
+    description:
+      "First Solana Discord integrated Casino. Your best asset!",
+    icon: "https://cdn.discordapp.com/attachments/1077707520296091739/1079566831985098762/pfp_twitter.png",
+    twitter: "https://twitter.com/TheAssetSOL",
+    discord: "https://discord.gg/theasset",
+    website: "#",
+    category: "Inner Discord,Betting,Casino",
+    from: "#E381DE",
+    to: "#154DA2",
+  },
+  {
     name: "{C}IPHER by 313Labs",
     description:
       "Members who apply for Cipherlist will be reviewed and receive a skill-based role within their Discord server.",

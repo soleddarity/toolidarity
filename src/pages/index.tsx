@@ -29,8 +29,8 @@ const Index = () => {
     { id: 1, name: 'Solana', value: 'solana', image: 'assets/images/solana.svg', unavailable: false },
     { id: 2, name: 'Ethereum', value: 'ethereum', image: 'assets/images/ethereum.svg', unavailable: false },
     { id: 3, name: 'Polygon', value: 'polygon', image: 'assets/images/polygon.svg', unavailable: false },
-    // { id: 4, name: 'Sui', value: 'sui', image: 'assets/images/polygon.svg', unavailable: false },
-    // { id: 5, name: 'Aptos', value: 'aptos', image: 'assets/images/polygon.svg', unavailable: false },
+    { id: 4, name: 'Aptos', value: 'aptos', image: 'assets/images/aptos.svg', unavailable: false },
+    // { id: 5, name: 'Sui', value: 'sui', image: 'assets/images/sui.png', unavailable: false },
   ];
 
   const [chain, setChain] = useState(null);
@@ -312,12 +312,12 @@ const Index = () => {
                 </div>
 
                 <footer className="p-4rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 All Rights Reserved.
-    </span>
-    <span className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-       Powered by Dudes
-    </span>
-</footer>
+                  <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 All Rights Reserved.
+                  </span>
+                  <span className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+                    Powered by Dudes
+                  </span>
+                </footer>
               </Layout>
             </>
           ) : (

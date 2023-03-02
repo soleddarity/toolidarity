@@ -96,7 +96,18 @@ export const tools = [
   ];
 
   export const educations = [
- 
+ {
+    name: "AptosDaily",
+    description:
+      "#Aptops $APT Daily News & Featured Projects.",
+    icon: "https://pbs.twimg.com/profile_images/1620669514743697408/MEANOTRN_400x400.jpg",
+    twitter: "https://twitter.com/AptosDailyTK",
+    discord: "",
+    website: "https://t.co/PqKrZz8ydp",
+    category: "Daily News",
+    from: "#61fdd5",
+    to: "#151515",
+  },
   ];
 
   export const ads = [

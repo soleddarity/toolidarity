@@ -47,6 +47,18 @@ export const tools = [
     from: "#fff9ee",
     to: "#fff5e1",
   },
+{
+    name: "Spooks",
+    description:
+      "Web3 Brand focused on Community and Tracking tools.",
+    icon: "https://pbs.twimg.com/profile_images/1625533598815207446/OopOCRx7_400x400.jpg",
+    twitter: "https://twitter.com/SpooksLand",
+    discord: "https://t.co/4KMlDRxX1c",
+    website: "https://spooks.land/list/analytics",
+    category: "Analytics",
+    from: "#f0f3f8",
+    to: "#102a43",
+  },
   ];
 
   export const Holderstools = [
@@ -92,7 +104,18 @@ export const tools = [
   ];
 
   export const games = [
-
+  {
+    name: "Aptos Dragons | Dragons Bet",
+    description:
+      "Roulette, Coinflip & Crash!",
+    icon: "https://pbs.twimg.com/profile_images/1599521989261230091/cttAwiLH_400x400.jpg",
+    twitter: "https://twitter.com/aptosdragonsnft",
+    discord: "https://t.co/h1S0twqd4Q",
+    website: "https://www.aptosdragons.io/",
+    category: "Casino",
+    from: "#69e84b",
+    to: "#000052",
+  },
   ];
 
   export const educations = [

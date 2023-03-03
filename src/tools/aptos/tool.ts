@@ -45,7 +45,7 @@ export const tools = [
     website: "https://echo.aptosmonkeys.club/",
     category: "Token Marketplace",
     from: "#fff9ee",
-    to: "#fff5e1",
+    to: "#cd5a10",
   },
 {
     name: "Spooks",

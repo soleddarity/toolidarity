@@ -39,7 +39,7 @@ export const tools = [
     name: "Echo - Token MarketPlace",
     description:
       "Token MarketPlace on Aptos.",
-    icon: "https://media.discordapp.net/attachments/1004047978199261348/1022814378371850250/A2D7D0A2-8B09-471F-8572-B2BA9181B4B9.jpeg?width=603&height=603",
+    icon: "https://media.discordapp.net/attachments/1038816430814150667/1081259420777992323/8B2A7A32-E22B-49FF-B269-F1DE63828139.jpg?width=358&height=358",
     twitter: "https://twitter.com/AptosMonkeys",
     discord: "https://discord.gg/YsBnDCyA",
     website: "https://echo.aptosmonkeys.club/",

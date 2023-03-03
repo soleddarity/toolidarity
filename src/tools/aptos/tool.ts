@@ -48,6 +48,18 @@ export const tools = [
     to: "#cd5a10",
   },
 {
+    name: "Mercury",
+    description:
+      "Mercury is a platform created by Blocksmith Labs providing updates on new projects, WL meta management tools, raffles, auctions and other features.",
+    icon: "https://icoholder.com/files/img/462aa3e8c91a2615c7f5414be5cd651a.jpeg",
+    twitter: "https://twitter.com/BlocksmithLabs",
+    discord: "https://discord.com/invite/blocksmithlabs",
+    website: "https://mercury.blocksmithlabs.io/",
+    category: "WL Gestion",
+    from: "#201B01",
+    to: "#FF29E8",
+  },
+{
     name: "Spooks",
     description:
       "Web3 Brand focused on Community and Tracking tools.",

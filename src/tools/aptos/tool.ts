@@ -74,6 +74,17 @@ export const tools = [
     from: "#cd5a10",
     to: "#242426",
   },
+{
+    name: "Subber",
+    description: "High quality, easy-to-use products for NFT communities. Save time and effort. Connect with your holders.",
+    icon: "https://pbs.twimg.com/profile_images/1578148009526714368/GVLnj0Tu_400x400.jpg",
+    twitter: "https://twitter.com/subberxyz",
+    discord: "https://discord.com/invite/subber",
+    website: "https://www.subber.xyz/dudessol",
+    category: "WL Gestion",
+    from: "#DA1020",
+    to: "#1A0103",
+  },
   ];
 
   export const discounts = [

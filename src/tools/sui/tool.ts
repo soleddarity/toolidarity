@@ -11,6 +11,18 @@ export const tools = [
     from: "#6c0eba",
     to: "#ffffff",
   },
+{
+    name: "Martian Wallet",
+    description:
+      "Self-custodial wallet for the Move ecosystem. Supports Aptos_Network & SuiNetwork blockchains!",
+    icon: "https://pbs.twimg.com/profile_images/1596164591750348800/slgh620r_400x400.jpg",
+    twitter: "https://twitter.com/martian_wallet",
+    discord: "https://t.co/eWtjcic0SN",
+    website: "https://t.co/uGAlV8fE6w",
+    category: "Wallet",
+    from: "#fefefe",
+    to: "#000000",
+  },
    {
     name: "Souffl3",
     description:

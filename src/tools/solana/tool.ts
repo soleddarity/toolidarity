@@ -889,7 +889,7 @@ export const ads = [
 {
     name: "Buddles",
     description:
-      "Bringing long-term sustainability and accountability back to NFTs brought together by a range of innovative utility: AI and DAO Tooling, Educational Courses, Tangible Asset Backing, Project Revival/Incubator, Future Web 2 Business Integration. With some of the best AI art on Solana, Buddles puts an emphasis on creating a solid foundation on which we can grow and excel far into the future.No Greed. No BS. No Brainier. Join the revolution",
+      "Bringing long-term sustainability and accountability back to NFTs brought together by a range of innovative utility: AI and DAO Tooling, Tangible Asset Backing and much more. The best AI art on Solana, No Greed. No BS. No Brainier",
     icon: "https://pbs.twimg.com/profile_images/1624691130377056256/mjAgMzsS_400x400.jpg",
     twitter: "https://twitter.com/Buddles_co",
     discord: "https://discord.gg/buddles",

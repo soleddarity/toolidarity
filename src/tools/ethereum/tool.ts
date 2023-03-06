@@ -91,6 +91,18 @@ export const tools = [
       to: "#f7fbff",
     },
 {
+      name: "NiftyKit",
+      description:
+  "We’re your no-code solution for NFT smart contracts. Add a mint button to your website in just minutes!",
+      icon: "https://pbs.twimg.com/profile_images/1514275943300284417/2Ubgzfgg_400x400.jpg",
+      twitter: "https://twitter.com/NiftyKitApp",
+      discord: "https://t.co/gwFWp55ozf",
+      website: "https://t.co/3OKFPYcqBZ",
+      category: "Smart Contracts",
+      from: "#000000",
+      to: "#fefefe",
+    },
+{
       name: "Dune Analytics",
       description:
   "Free crypto analytics by and for the community!Create + find + fork 1000s of dashboards",

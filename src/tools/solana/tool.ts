@@ -911,6 +911,18 @@ export const ads = [
     to: "#050505",
   },
 {
+    name: "Forest Apes",
+    description:
+      "Forest Apes is a DeRug from may 2022. The utility of the project revolves around a utility token gathered from staking Forest Apes called $Roots. Currently a DeFi protocol where Roots will play a major part is being built.",
+    icon: "https://cdn.discordapp.com/attachments/977134735723733023/1082340234756378705/LOGO_TRY.png",
+    twitter: "https://twitter.com/ForestApesDAO",
+    discord: "https://discord.gg/dMtVZdZYKk",
+    website: "https://forestapes.neft.shop/",
+    category: "DeFi,DAO",
+    from: "#1E6D33",
+    to: "#FFD57A",
+  },
+{
     name: "Saru Gang",
     description:
       "1/1 pixel art collection focused on growing a community of artists & art lovers. We have weekly auctions, art alpha & WL's.",

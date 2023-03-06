@@ -56,6 +56,18 @@ export const tools = [
       from: "#FF7612",
       to: "#974D09",
     },
+{
+      name: "NiftyKit",
+      description:
+  "We’re your no-code solution for NFT smart contracts. Add a mint button to your website in just minutes!",
+      icon: "https://pbs.twimg.com/profile_images/1514275943300284417/2Ubgzfgg_400x400.jpg",
+      twitter: "https://twitter.com/NiftyKitApp",
+      discord: "https://t.co/gwFWp55ozf",
+      website: "https://t.co/3OKFPYcqBZ",
+      category: "Smart Contracts",
+      from: "#000000",
+      to: "#fefefe",
+    },
     {
       name: "QuickSwap",
       description:
@@ -144,7 +156,7 @@ export const tools = [
       name: "Floor",
       description:
   "Floor helps its users understand their NFTs, discover new ones and participate in the Web3 communities behind tokens through a user-friendly mobile app.",
-      icon: "https://www.floornfts.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffloor-app-icon.53c03b65.png&w=384&q=75",
+      icon: "https://pbs.twimg.com/profile_images/1605342882143125505/JvQzYnxk_400x400.jpg",
       twitter: "https://twitter.com/floor",
       discord: "https://discord.gg/floor",
       website: "https://www.floornfts.io/",

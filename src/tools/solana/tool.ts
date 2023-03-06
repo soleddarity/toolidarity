@@ -690,7 +690,7 @@ export const discounts = [
     name: "SOL Casino",
     description:
       "First Licensed Live Casino / Sportsbook / Crash playable directly with your Web3 wallets",
-    icon: "https://pbs.twimg.com/profile_images/1466791696063156230/_uYOZtNS_400x400.jpg",
+    icon: "https://pbs.twimg.com/profile_images/1630676277265854464/yn2zpUVs_400x400.jpg",
     twitter: "https://twitter.com/Solcasinoio",
     discord: "",
     website: "https://solcasino.io/r/95gFTW3T",

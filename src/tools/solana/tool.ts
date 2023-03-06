@@ -923,18 +923,6 @@ export const ads = [
     to: "#111111",
 },
 {
-    name: "Lolo Alpha",
-    description:
-      "The best innovative Alpha project on Solana. Revshare, R2E and many other features to discover.",
-    icon: "https://media.discordapp.net/attachments/1042864580872904756/1076620497594363924/IMG_3058.png",
-    twitter: "https://twitter.com/_Daily_Trade_",
-    discord: "https://discord.gg/MV4vm3EayX",
-    website: "https://discord.gg/MV4vm3EayX",
-    category: "Alpha",
-    from: "#391415",
-    to: "#CB1016",
-},
-{
     name: "Wolf Capital",
     description:
       "A first of its kind gamified lending & lending analytics platform. Bringing Pixel art appreciation under one roof with an All-Star lineup.",

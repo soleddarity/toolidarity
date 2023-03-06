@@ -103,6 +103,18 @@ export const tools = [
       to: "#fefefe",
     },
 {
+      name: "CryptoSlam!",
+      description:
+  "The world's first multi-chain NFT data aggregator. Backed by Mark Cuban, Animoca Brands, Reid Hoffman, Ashton Kutcher, Polygon & more. Founded in 2018 by a nerd.",
+      icon: "https://pbs.twimg.com/profile_images/1432783553608273926/2-lRR4XD_400x400.jpg",
+      twitter: "https://twitter.com/NiftyKitApp",
+      discord: "https://discord.com/invite/tfyqQrbtX6",
+      website: "https://www.cryptoslam.io/",
+      category: "NFT Data Aggregator",
+      from: "#000000",
+      to: "#efc20d",
+    },
+{
       name: "Dune Analytics",
       description:
   "Free crypto analytics by and for the community!Create + find + fork 1000s of dashboards",

@@ -82,7 +82,7 @@ export const tools = [
   {
     name: "Phantom",
     description:
-      "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain. Coming to Ethereum and Polygon soon!",
+      "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs crosschain!",
     icon: "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
     twitter: "https://twitter.com/phantom",
     discord: "https://discord.com/invite/phantom",

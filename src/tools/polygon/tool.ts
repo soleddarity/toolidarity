@@ -32,6 +32,18 @@ export const tools = [
       from: "#2B31FF",
       to: "#DDDEFF",
     },
+  {
+    name: "Phantom",
+    description:
+      "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs crosschain!",
+    icon: "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
+    twitter: "https://twitter.com/phantom",
+    discord: "https://discord.com/invite/phantom",
+    website: "https://phantom.app/",
+    category: "Wallet",
+    from: "#4024DE",
+    to: "#CFC9F3",
+  },
     {
       name: "MetaMask",
       description:

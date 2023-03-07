@@ -875,18 +875,6 @@ export const educations = [
 
 export const ads = [
 {
-    name: "Get your project Featured!",
-    description:
-      "Get some exposure for your project. Click on Access and fill out the form!",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Design_plat_%C3%89toile_jaune.svg/1024px-Design_plat_%C3%89toile_jaune.svg.png",
-    twitter: "https://twitter.com/dudes_sol",
-    discord: "https://discord.gg/dudessol",
-    website: "https://airtable.com/shrI37V5hEmHs273t",
-    category: "",
-    from: "#101010",
-    to: "#ffde54",
-},
-{
     name: "Buddles",
     description:
       "Bringing long-term sustainability and accountability back to NFTs brought together by a range of innovative utility: AI and DAO Tooling, Tangible Asset Backing and much more. The best AI art on Solana, No Greed. No BS. No Brainier",
@@ -897,6 +885,30 @@ export const ads = [
     category: "AI,PFP,Tools",
     from: "#fdfdfd",
     to: "#000000",
+},
+{
+    name: "The Bastards",
+    description:
+      "Sensual animation, scuffed storytelling, and deranged universe-building.",
+    icon: "https://pbs.twimg.com/profile_images/1607850811433820161/B5ICFTij_400x400.jpg",
+    twitter: "https://twitter.com/TheBastards_xyz/",
+    discord: "https://discord.gg/thebastards",
+    website: "https://discord.gg/thebastards",
+    category: "Upcoming",
+    from: "#71360E",
+    to: "#FF6B5A",
+},
+{
+    name: "Zulpverse",
+    description:
+      "Enter the zulpverse, generative pixel art project",
+    icon: "https://pbs.twimg.com/profile_images/1621555407046037506/54Gon46e_400x400.jpg",
+    twitter: "https://twitter.com/zulpverse",
+    discord: "https://discord.com/invite/zulpverse",
+    website: "https://zulpverse.xyz/",
+    category: "Upcoming",
+    from: "#FFD4D4",
+    to: "#BCA05B",
 },
 {
     name: "The Dudes Cards",
@@ -957,5 +969,17 @@ export const ads = [
     category: "Upcoming,Betting",
     from: "#58C8AD",
     to: "#0D332A",
+},
+{
+    name: "Get your project Featured!",
+    description:
+      "Get some exposure for your project. Click on Access and fill out the form!",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Design_plat_%C3%89toile_jaune.svg/1024px-Design_plat_%C3%89toile_jaune.svg.png",
+    twitter: "https://twitter.com/dudes_sol",
+    discord: "https://discord.gg/dudessol",
+    website: "https://airtable.com/shrI37V5hEmHs273t",
+    category: "",
+    from: "#101010",
+    to: "#ffde54",
 },
 ];

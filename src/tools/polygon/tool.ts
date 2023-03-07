@@ -226,3 +226,7 @@ export const tools = [
     to: "#ffde54",
 },
   ];
+
+  export const allowTools = [
+
+  ];

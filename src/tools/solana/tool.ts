@@ -959,3 +959,7 @@ export const ads = [
     to: "#0D332A",
 },
 ];
+
+export const allowTools = [
+
+];

@@ -90,3 +90,7 @@ export const ads = [
     to: "#ffde54",
 },
 ];
+
+export const allowTools = [
+
+];

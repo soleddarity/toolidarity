@@ -44,6 +44,7 @@ const Index = () => {
   const [discountTools, setDiscountTools] = useState<any[]>([]);
   const [educationTools, setEducationTools] = useState<any[]>([]);
   const [adsTools, setAdsTools] = useState<any[]>([]);
+  const [allowTools, setAllowTools] = useState<any[]>([]);
 
   const handleFilterChange = (event: any) => {
     setFilterInput(event.target.value);
@@ -116,6 +117,7 @@ const Index = () => {
       setDiscountTools(solanaTools.discounts);
       setEducationTools(solanaTools.educations);
       setAdsTools(solanaTools.ads);
+      setAllowTools(solanaTools.allowTools);
       setTimeout(() => {
         settypeTools("Free tools");
       }, 100);
@@ -129,6 +131,7 @@ const Index = () => {
       setDiscountTools(ethereumTools.discounts);
       setEducationTools(ethereumTools.educations);
       setAdsTools(ethereumTools.ads);
+      setAllowTools(ethereumTools.allowTools);
       setTimeout(() => {
         settypeTools("Free tools");
       }, 100);
@@ -142,6 +145,7 @@ const Index = () => {
       setDiscountTools(polygonTools.discounts);
       setEducationTools(polygonTools.educations);
       setAdsTools(polygonTools.ads);
+      setAllowTools(polygonTools.allowTools);
       setTimeout(() => {
         settypeTools("Free tools");
       }, 100);
@@ -155,6 +159,7 @@ const Index = () => {
       setDiscountTools(suiTools.discounts);
       setEducationTools(suiTools.educations);
       setAdsTools(suiTools.ads);
+      setAllowTools(suiTools.allowTools);
       setTimeout(() => {
         settypeTools("Free tools");
       }, 100);
@@ -168,6 +173,7 @@ const Index = () => {
       setDiscountTools(aptosTools.discounts);
       setEducationTools(aptosTools.educations);
       setAdsTools(aptosTools.ads);
+      setAllowTools(aptosTools.allowTools);
       setTimeout(() => {
         settypeTools("Free tools");
       }, 100);
@@ -262,6 +268,16 @@ const Index = () => {
                           Educational
                         </div>
                         <div
+                          onClick={() => settypeTools("Allowlist")}
+                          className={
+                            typeTools == "Allowlist"
+                              ? "p-2 lg:p-5 w-auto text-center bg-[#1CE9C6] bg-opacity-[14%] rounded-xl border border-[#1CE9C6]"
+                              : "p-2 lg:p-5 w-auto cursor-pointer hover:opacity-80 text-center"
+                          }
+                        >
+                          Allow List
+                        </div>
+                        <div
                           onClick={() => settypeTools("Ads")}
                           className={
                             typeTools == "Ads"
@@ -296,6 +312,10 @@ const Index = () => {
                     ) : typeTools == "Educations" ? (
                       <>
                         <SortableGrid key="educationtoolskey" tools={educationTools} chain={chain} name="education-tools" filter={filterInput} />
+                      </>
+                    ) : typeTools == "Allowlist" ? (
+                      <>
+                        <SortableGrid key="allowtoolskey" tools={allowTools} chain={chain} name="allow-tools" filter={filterInput} />
                       </>
                     ) : typeTools == "Ads" ? (
                       <>

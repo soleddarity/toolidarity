@@ -14,7 +14,7 @@ export const tools = [
    {
     name: "Topaz",
     description:
-      "🔶#TopazHands Discover art, culture, & digital expression. The premiere NFT platform, built on Aptos.",
+      "🔶TopazHands Discover art, culture, & digital expression. The premiere NFT platform, built on Aptos.",
     icon: "https://pbs.twimg.com/profile_images/1629542465718853635/jFH-cVce_400x400.jpg",
     twitter: "https://twitter.com/TopazMarket",
     discord: "https://discord.com/invite/SWVxuJkFSH",
@@ -82,6 +82,18 @@ export const tools = [
     category: "Analytics",
     from: "#f0f3f8",
     to: "#102a43",
+  },
+{
+    name: "Bruh Bears",
+    description:
+      "Free Snapshot Tool for the Aptos Blockchain",
+    icon: "https://pbs.twimg.com/profile_images/1555206256717070337/9e8hw-vE_400x400.jpg",
+    twitter: "https://twitter.com/bruh_bears",
+    discord: "discord.gg/bruhbears",
+    website: "https://snapshot.bruhbears.com/",
+    category: "Snapshots",
+    from: "#1FAFA9",
+    to: "#8CFFFA",
   },
   ];
 

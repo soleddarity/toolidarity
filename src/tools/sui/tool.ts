@@ -35,6 +35,18 @@ export const tools = [
     from: "#070708",
     to: "#fe88f6",
   },
+   {
+    name: "Sui Name Service",
+    description:
+      "Your domain & profile for Sui Network",
+    icon: "https://pbs.twimg.com/profile_images/1620871683635843072/q_BJoc4Z_400x400.jpg",
+    twitter: "https://twitter.com/snsStork",
+    discord: "discord.gg/snsdomains",
+    website: "https://sns.domains/",
+    category: "Name Service",
+    from: "#3C8DA7",
+    to: "#80D6AA",
+  },
 {
     name: "BlueMove",
     description:

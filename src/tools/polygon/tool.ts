@@ -258,6 +258,17 @@ export const tools = [
       from: "#950BC6",
       to: "#B657A9",
     },
+    {
+      name: "0xobsessed",
+      description: "Threads and Polygon Maxi 💜",
+      icon: "https://cdn.discordapp.com/attachments/961932796895576084/1082714241884241960/7D322E06-CB98-4ABC-9C1D-E940547050C0.jpg",
+      twitter: "https://twitter.com/0xobsessed",
+      discord: "#",
+      website: "https://twitter.com/0xobsessed",
+      category: "Threads",
+      from: "#AF798D",
+      to: "#872C4E",
+    },
   ];
 
   export const ads = [

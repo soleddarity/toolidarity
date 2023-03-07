@@ -82,7 +82,7 @@ export const tools = [
   {
     name: "Phantom",
     description:
-      "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs on the Solana blockchain. Coming to Ethereum and Polygon soon!",
+      "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs crosschain!",
     icon: "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
     twitter: "https://twitter.com/phantom",
     discord: "https://discord.com/invite/phantom",
@@ -690,7 +690,7 @@ export const discounts = [
     name: "SOL Casino",
     description:
       "First Licensed Live Casino / Sportsbook / Crash playable directly with your Web3 wallets",
-    icon: "https://pbs.twimg.com/profile_images/1466791696063156230/_uYOZtNS_400x400.jpg",
+    icon: "https://pbs.twimg.com/profile_images/1630676277265854464/yn2zpUVs_400x400.jpg",
     twitter: "https://twitter.com/Solcasinoio",
     discord: "",
     website: "https://solcasino.io/r/95gFTW3T",
@@ -875,52 +875,40 @@ export const educations = [
 
 export const ads = [
 {
-    name: "Get your project Featured!",
+    name: "Buddles",
     description:
-      "Get some exposure for your project. Click on Access and fill out the form!",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Design_plat_%C3%89toile_jaune.svg/1024px-Design_plat_%C3%89toile_jaune.svg.png",
-    twitter: "https://twitter.com/dudes_sol",
-    discord: "https://discord.gg/dudessol",
-    website: "https://airtable.com/shrI37V5hEmHs273t",
-    category: "",
-    from: "#101010",
-    to: "#ffde54",
+      "Bringing long-term sustainability and accountability back to NFTs brought together by a range of innovative utility: AI and DAO Tooling, Tangible Asset Backing and much more. The best AI art on Solana, No Greed. No BS. No Brainier",
+    icon: "https://pbs.twimg.com/profile_images/1624691130377056256/mjAgMzsS_400x400.jpg",
+    twitter: "https://twitter.com/Buddles_co",
+    discord: "https://discord.gg/buddles",
+    website: "https://buddles.gitbook.io/buddles.whitepaper/",
+    category: "AI,PFP,Tools",
+    from: "#fdfdfd",
+    to: "#000000",
 },
 {
-    name: "Saru Gang",
+    name: "The Bastards",
     description:
-      "1/1 pixel art collection focused on growing a community of artists & art lovers. We have weekly auctions, art alpha & WL's.",
-    icon: "https://cdn.discordapp.com/attachments/953306123119759450/1079829812316754030/ticket2_scaled_4x_pngcrushed.png",
-    twitter: "https://twitter.com/SaruGangg",
-    discord: "discord.gg/HYgYqqm4uy",
-    website: "https://exchange.art/series/Saru%20Gang/nfts",
-    category: "Pixel Art,PFP,1/1",
-    from: "#7E7E7E",
-    to: "#111111",
+      "Sensual animation, scuffed storytelling, and deranged universe-building.",
+    icon: "https://pbs.twimg.com/profile_images/1607850811433820161/B5ICFTij_400x400.jpg",
+    twitter: "https://twitter.com/TheBastards_xyz/",
+    discord: "https://discord.gg/thebastards",
+    website: "https://discord.gg/thebastards",
+    category: "Upcoming",
+    from: "#71360E",
+    to: "#FF6B5A",
 },
 {
-    name: "Lolo Alpha",
+    name: "Zulpverse",
     description:
-      "The best innovative Alpha project on Solana. Revshare, R2E and many other features to discover.",
-    icon: "https://media.discordapp.net/attachments/1042864580872904756/1076620497594363924/IMG_3058.png",
-    twitter: "https://twitter.com/_Daily_Trade_",
-    discord: "https://discord.gg/MV4vm3EayX",
-    website: "https://discord.gg/MV4vm3EayX",
-    category: "Alpha",
-    from: "#391415",
-    to: "#CB1016",
-},
-{
-    name: "Hasuki",
-    description:
-      "A collection of 10K algorithmically-generated NFTs. Building the most wholesome community on Solana.",
-    icon: "https://media.discordapp.net/attachments/1076551307596406934/1076855430317342810/Logo_6_2.png?width=856&height=856",
-    twitter: "https://twitter.com/hasukinfts",
-    discord: "https://discord.com/invite/ndE7m23zyQ",
-    website: "https://hasuki.io/",
-    category: "PFP,Community,Technology",
-    from: "#4D4D4D",
-    to: "#AEAEAE",
+      "Enter the zulpverse, generative pixel art project",
+    icon: "https://pbs.twimg.com/profile_images/1621555407046037506/54Gon46e_400x400.jpg",
+    twitter: "https://twitter.com/zulpverse",
+    discord: "https://discord.com/invite/zulpverse",
+    website: "https://zulpverse.xyz/",
+    category: "Upcoming",
+    from: "#FFD4D4",
+    to: "#BCA05B",
 },
 {
     name: "The Dudes Cards",
@@ -934,6 +922,30 @@ export const ads = [
     from: "#da5b34",
     to: "#050505",
   },
+{
+    name: "Forest Apes",
+    description:
+      "Forest Apes is a DeRug from may 2022. The utility of the project revolves around a utility token gathered from staking Forest Apes called $Roots. Currently a DeFi protocol where Roots will play a major part is being built.",
+    icon: "https://cdn.discordapp.com/attachments/977134735723733023/1082340234756378705/LOGO_TRY.png",
+    twitter: "https://twitter.com/ForestApesDAO",
+    discord: "https://discord.gg/dMtVZdZYKk",
+    website: "https://forestapes.neft.shop/",
+    category: "DeFi,DAO",
+    from: "#1E6D33",
+    to: "#FFD57A",
+  },
+{
+    name: "Saru Gang",
+    description:
+      "1/1 pixel art collection focused on growing a community of artists & art lovers. We have weekly auctions, art alpha & WL's.",
+    icon: "https://cdn.discordapp.com/attachments/953306123119759450/1079829812316754030/ticket2_scaled_4x_pngcrushed.png",
+    twitter: "https://twitter.com/SaruGangg",
+    discord: "discord.gg/HYgYqqm4uy",
+    website: "https://exchange.art/series/Saru%20Gang/nfts",
+    category: "Pixel Art,PFP,1/1",
+    from: "#7E7E7E",
+    to: "#111111",
+},
 {
     name: "Wolf Capital",
     description:
@@ -957,6 +969,18 @@ export const ads = [
     category: "Upcoming,Betting",
     from: "#58C8AD",
     to: "#0D332A",
+},
+{
+    name: "Get your project Featured!",
+    description:
+      "Get some exposure for your project. Click on Access and fill out the form!",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Design_plat_%C3%89toile_jaune.svg/1024px-Design_plat_%C3%89toile_jaune.svg.png",
+    twitter: "https://twitter.com/dudes_sol",
+    discord: "https://discord.gg/dudessol",
+    website: "https://airtable.com/shrI37V5hEmHs273t",
+    category: "",
+    from: "#101010",
+    to: "#ffde54",
 },
 ];
 

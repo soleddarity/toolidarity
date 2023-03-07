@@ -1,8 +1,20 @@
 export const tools = [
+{
+    name: "Martian Wallet",
+    description:
+      "Self-custodial wallet for the Move ecosystem. Supports Aptos_Network & SuiNetwork blockchains!",
+    icon: "https://pbs.twimg.com/profile_images/1596164591750348800/slgh620r_400x400.jpg",
+    twitter: "https://twitter.com/martian_wallet",
+    discord: "https://t.co/eWtjcic0SN",
+    website: "https://t.co/uGAlV8fE6w",
+    category: "Wallet",
+    from: "#fefefe",
+    to: "#000000",
+  },
    {
     name: "Topaz",
     description:
-      "🔶#TopazHands Discover art, culture, & digital expression. The premiere NFT platform, built on Aptos.",
+      "🔶TopazHands Discover art, culture, & digital expression. The premiere NFT platform, built on Aptos.",
     icon: "https://pbs.twimg.com/profile_images/1629542465718853635/jFH-cVce_400x400.jpg",
     twitter: "https://twitter.com/TopazMarket",
     discord: "https://discord.com/invite/SWVxuJkFSH",
@@ -70,6 +82,18 @@ export const tools = [
     category: "Analytics",
     from: "#f0f3f8",
     to: "#102a43",
+  },
+{
+    name: "Bruh Bears",
+    description:
+      "Free Snapshot Tool for the Aptos Blockchain",
+    icon: "https://pbs.twimg.com/profile_images/1555206256717070337/9e8hw-vE_400x400.jpg",
+    twitter: "https://twitter.com/bruh_bears",
+    discord: "discord.gg/bruhbears",
+    website: "https://snapshot.bruhbears.com/",
+    category: "Snapshots",
+    from: "#1FAFA9",
+    to: "#8CFFFA",
   },
   ];
 

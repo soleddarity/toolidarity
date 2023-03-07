@@ -32,6 +32,18 @@ export const tools = [
       from: "#2B31FF",
       to: "#DDDEFF",
     },
+  {
+    name: "Phantom",
+    description:
+      "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs crosschain!",
+    icon: "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
+    twitter: "https://twitter.com/phantom",
+    discord: "https://discord.com/invite/phantom",
+    website: "https://phantom.app/",
+    category: "Wallet",
+    from: "#4024DE",
+    to: "#CFC9F3",
+  },
     {
       name: "MetaMask",
       description:
@@ -43,6 +55,30 @@ export const tools = [
       category: "Wallet",
       from: "#FF7612",
       to: "#974D09",
+    },
+{
+      name: "NiftyKit",
+      description:
+  "We’re your no-code solution for NFT smart contracts. Add a mint button to your website in just minutes!",
+      icon: "https://pbs.twimg.com/profile_images/1407768753392156672/rLcYAaOD_400x400.jpg",
+      twitter: "https://twitter.com/NiftyKitApp",
+      discord: "https://t.co/gwFWp55ozf",
+      website: "https://t.co/3OKFPYcqBZ",
+      category: "Smart Contracts",
+      from: "#000000",
+      to: "#fefefe",
+    },
+{
+      name: "CryptoSlam!",
+      description:
+  "The world's first multi-chain NFT data aggregator. Backed by Mark Cuban, Animoca Brands, Reid Hoffman, Ashton Kutcher, Polygon & more. Founded in 2018 by a nerd.",
+      icon: "https://pbs.twimg.com/profile_images/1432783553608273926/2-lRR4XD_400x400.jpg",
+      twitter: "https://twitter.com/NiftyKitApp",
+      discord: "https://discord.com/invite/tfyqQrbtX6",
+      website: "https://www.cryptoslam.io/",
+      category: "NFT Data Aggregator",
+      from: "#000000",
+      to: "#efc20d",
     },
     {
       name: "QuickSwap",
@@ -132,7 +168,7 @@ export const tools = [
       name: "Floor",
       description:
   "Floor helps its users understand their NFTs, discover new ones and participate in the Web3 communities behind tokens through a user-friendly mobile app.",
-      icon: "https://www.floornfts.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffloor-app-icon.53c03b65.png&w=384&q=75",
+      icon: "https://pbs.twimg.com/profile_images/1605342882143125505/JvQzYnxk_400x400.jpg",
       twitter: "https://twitter.com/floor",
       discord: "https://discord.gg/floor",
       website: "https://www.floornfts.io/",
@@ -143,6 +179,18 @@ export const tools = [
   ];
 
   export const Holderstools = [
+{
+    name: "PolygonBoyz",
+    description:
+      "The PolygonBoyz collection is built on the foundation of community and trust a bond stronger than any virtual world's pixels and code. It's a bond that has propelled us to new heights and allowed us to embark on epic adventures!",
+    icon: "https://cdn.discordapp.com/attachments/1079053741895987302/1081961214244036718/PB_Logo_3.png",
+    twitter: "https://twitter.com/PolygonBoyz",
+    discord: "https://discord.gg/polygonboyz",
+    website: "https://www.polygonboyz.com/",
+    category: "Community,DAO",
+    from: "#0507C0",
+    to: "#E3C8FF",
+  },
   ];
 
   export const discounts = [
@@ -209,6 +257,17 @@ export const tools = [
       category: "Full Guide",
       from: "#950BC6",
       to: "#B657A9",
+    },
+    {
+      name: "0xobsessed",
+      description: "Threads and Polygon Maxi 💜",
+      icon: "https://cdn.discordapp.com/attachments/961932796895576084/1082714241884241960/7D322E06-CB98-4ABC-9C1D-E940547050C0.jpg",
+      twitter: "https://twitter.com/0xobsessed",
+      discord: "#",
+      website: "https://twitter.com/0xobsessed",
+      category: "Threads",
+      from: "#AF798D",
+      to: "#872C4E",
     },
   ];
 

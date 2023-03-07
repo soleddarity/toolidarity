@@ -54,6 +54,18 @@ export const tools = [
       from: "#3C69F7",
       to: "#18317B",
     },
+  {
+    name: "Phantom",
+    description:
+      "Phantom makes it safe & easy for you to store, buy, send, receive, swap tokens and collect NFTs crosschain!",
+    icon: "https://pbs.twimg.com/profile_images/1394116783792025603/jTMcoZRY_400x400.jpg",
+    twitter: "https://twitter.com/phantom",
+    discord: "https://discord.com/invite/phantom",
+    website: "https://phantom.app/",
+    category: "Wallet",
+    from: "#4024DE",
+    to: "#CFC9F3",
+  },
  {
       name: "MetaMask",
       description:
@@ -77,6 +89,30 @@ export const tools = [
       category: "Wallet",
       from: "#338aff",
       to: "#f7fbff",
+    },
+{
+      name: "NiftyKit",
+      description:
+  "We’re your no-code solution for NFT smart contracts. Add a mint button to your website in just minutes!",
+      icon: "https://pbs.twimg.com/profile_images/1407768753392156672/rLcYAaOD_400x400.jpg",
+      twitter: "https://twitter.com/NiftyKitApp",
+      discord: "https://t.co/gwFWp55ozf",
+      website: "https://t.co/3OKFPYcqBZ",
+      category: "Smart Contracts",
+      from: "#000000",
+      to: "#fefefe",
+    },
+{
+      name: "CryptoSlam!",
+      description:
+  "The world's first multi-chain NFT data aggregator. Backed by Mark Cuban, Animoca Brands, Reid Hoffman, Ashton Kutcher, Polygon & more. Founded in 2018 by a nerd.",
+      icon: "https://pbs.twimg.com/profile_images/1432783553608273926/2-lRR4XD_400x400.jpg",
+      twitter: "https://twitter.com/NiftyKitApp",
+      discord: "https://discord.com/invite/tfyqQrbtX6",
+      website: "https://www.cryptoslam.io/",
+      category: "NFT Data Aggregator",
+      from: "#000000",
+      to: "#efc20d",
     },
 {
       name: "Dune Analytics",
@@ -160,7 +196,7 @@ export const tools = [
       name: "SOL Casino",
       description:
         "First Licensed Live Casino / Sportsbook / Crash playable directly with your Web3 wallets",
-      icon: "https://pbs.twimg.com/profile_images/1466791696063156230/_uYOZtNS_400x400.jpg",
+      icon: "https://pbs.twimg.com/profile_images/1630676277265854464/yn2zpUVs_400x400.jpg",
       twitter: "https://twitter.com/Solcasinoio",
       discord: "",
       website: "https://solcasino.io/r/95gFTW3T",

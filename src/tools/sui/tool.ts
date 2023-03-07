@@ -11,6 +11,18 @@ export const tools = [
     from: "#6c0eba",
     to: "#ffffff",
   },
+{
+    name: "Martian Wallet",
+    description:
+      "Self-custodial wallet for the Move ecosystem. Supports Aptos_Network & SuiNetwork blockchains!",
+    icon: "https://pbs.twimg.com/profile_images/1596164591750348800/slgh620r_400x400.jpg",
+    twitter: "https://twitter.com/martian_wallet",
+    discord: "https://t.co/eWtjcic0SN",
+    website: "https://t.co/uGAlV8fE6w",
+    category: "Wallet",
+    from: "#fefefe",
+    to: "#000000",
+  },
    {
     name: "Souffl3",
     description:
@@ -22,6 +34,18 @@ export const tools = [
     category: "Marketplace",
     from: "#070708",
     to: "#fe88f6",
+  },
+   {
+    name: "Sui Name Service",
+    description:
+      "Your domain & profile for Sui Network",
+    icon: "https://pbs.twimg.com/profile_images/1620871683635843072/q_BJoc4Z_400x400.jpg",
+    twitter: "https://twitter.com/snsStork",
+    discord: "discord.gg/snsdomains",
+    website: "https://sns.domains/",
+    category: "Name Service",
+    from: "#3C8DA7",
+    to: "#80D6AA",
   },
 {
     name: "BlueMove",

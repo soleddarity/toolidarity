@@ -228,6 +228,17 @@ export const tools = [
     from: "#A713F0",
     to: "#1FFCAC",
   },
+{
+    name: "NFTinspect",
+    description: "The Social Intelligence layer of Web3",
+    icon: "https://pbs.twimg.com/profile_images/1556427858590846976/bn2cVqju_400x400.png",
+    twitter: "https://twitter.com/nftinspect",
+    discord: "",
+    website: "https://t.co/Xi4f5E6DEe",
+    category: "Analytics",
+    from: "#3e9a96",
+    to: "#000000",
+  },
   {
     name: "SolanaFM",
     description: "Bridging the gaps of data accessibility via our indexer, APIs and explorer tools on Solana.",

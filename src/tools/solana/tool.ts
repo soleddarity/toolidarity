@@ -820,6 +820,18 @@ export const games = [
     from: "#14171F",
     to: "#2B3039",
   },
+ {
+    name: "SACRED MINES by Sensei Labs",
+    description:
+      "Sacred Mines is a Solana-based minesweeper betting game based on the Sensei Labs lore!",
+    icon: "https://pbs.twimg.com/profile_images/1554575280580222977/7ZgnaMXG_400x400.jpg",
+    twitter: "https://twitter.com/SenseiLabsNFT",
+    discord: "https://t.co/G1HrlljBze",
+    website: "https://mines.senseilabs.xyz/",
+    category: "Casino",
+    from: "#fdfefe",
+    to: "#51818f",
+  },
   {
     name: "Oak Poker Paradise",
     description:

@@ -1005,7 +1005,7 @@ export const allowTools = [
     discord: "https://t.co/RDsenndidJ",
     website: "https://www.subber.xyz/dudessol/giveaways/project-meloria",
     category: "AllowList",
-    from: "#efefef",
-    to: "#5d4bc",
+    from: "#070100",
+    to: "#fefcfc",
 },
 ];

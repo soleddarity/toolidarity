@@ -970,6 +970,18 @@ export const ads = [
     to: "#FFD57A",
   },
 {
+    name: "LunarDollz",
+    description:
+      "Community Driven, Family Oriented, and utility provided project that is focused on building a strong and sustainable Ecosystem for our native coin $Voodoo token.",
+    icon: "https://cdn.discordapp.com/attachments/1083794982911103047/1083875257041027112/6E4840E3-FCCB-485C-9EC5-678BB17B6029.jpg",
+    twitter: "https://twitter.com/LunarProjectX",
+    discord: "https://discord.gg/hEJa8jasrG",
+    website: "https://lunardollz.com/",
+    category: "Upcoming,Community",
+    from: "#8431B4",
+    to: "#2D9292",
+  },
+{
     name: "Saru Gang",
     description:
       "1/1 pixel art collection focused on growing a community of artists & art lovers. We have weekly auctions, art alpha & WL's.",

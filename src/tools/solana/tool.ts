@@ -996,5 +996,16 @@ export const ads = [
 ];
 
 export const allowTools = [
-
+{
+    name: "Project Meloria",
+    description:
+      "The world of Meloria is scattered and lost after the incident. search the infinite galaxy of meloria to discover planets like visim and more!",
+    icon: "https://pbs.twimg.com/profile_images/1609009455819067394/2-Hp0B9l_400x400.jpg",
+    twitter: "https://twitter.com/ProjectMeloria",
+    discord: "https://t.co/RDsenndidJ",
+    website: "https://www.subber.xyz/dudessol/giveaways/project-meloria",
+    category: "AllowList",
+    from: "#efefef",
+    to: "#5d4bc",
+},
 ];

@@ -287,5 +287,17 @@ export const tools = [
   ];
 
   export const allowTools = [
+{
+    name: "Normies | Crossed Fingers🤞",
+    description:
+      "Bringing our services to grow 0xPolygon NFTs",
+    icon: "https://pbs.twimg.com/profile_images/1629055097404551168/Sp-26Sw6_400x400.jpg",
+    twitter: "https://twitter.com/The_Normies_NFT",
+    discord: "https://discord.gg/normies",
+    website: "",
+    category: "",
+    from: "#f1be4b",
+    to: "#fe504f",
+},
 
   ];

@@ -217,6 +217,18 @@ export const tools = [
     from: "#E163F4",
     to: "#DAC623",
   },
+ {
+    name: "Sensei Labs",
+    description:
+      "Sensei Labs is a Web-3 model software company building practical tools with a focus on transparency and trust while also developing immersive art and branding. ",
+    icon: "https://pbs.twimg.com/profile_images/1554575280580222977/7ZgnaMXG_400x400.jpg",
+    twitter: "https://twitter.com/SenseiLabsNFT",
+    discord: "https://t.co/G1HrlljBze",
+    website: "https://senseilabs.xyz/",
+    category: "Utility",
+    from: "#fdfefe",
+    to: "#51818f",
+  },
   {
     name: "Solscan.io",
     description: "The user-friendly and real-time update Scanning Tool for the Solana ecosystem",

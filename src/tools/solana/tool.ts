@@ -1045,4 +1045,16 @@ export const allowTools = [
     from: "#070100",
     to: "#fefcfc",
 },
+{
+    name: "Dragos - Free Mint",
+    description:
+      "Be bold, be fierce, be Dragos. 🐲",
+    icon: "https://pbs.twimg.com/profile_images/1628870075007774720/d2-kvvgh_400x400.jpg",
+    twitter: "https://twitter.com/DragosNFT_",
+    discord: "https://t.co/kwb28AR7j9",
+    website: "https://www.subber.xyz/dudessol/giveaways/dragos",
+    category: "AllowList",
+    from: "#070100",
+    to: "#fefcfc",
+},
 ];

@@ -394,17 +394,6 @@ export const tools = [
     from: "#4ea6c3",
     to: "#34c8ae",
   },
-  {
-    name: "Aardvark",
-    description: "Send end-to-end encrypted messages to wallets on any blockchain",
-    icon: "https://pbs.twimg.com/profile_images/1532409832929538057/TQuoPYzj_400x400.jpg",
-    twitter: "https://twitter.com/Aard_Tech",
-    discord: "https://discord.gg/zBvm9thr",
-    website: "https://app.aardvark.sh/",
-    category: "Web3 Messaging",
-    from: "#FC4901",
-    to: "#1515B9",
-  },
 ];
 
 export const Holderstools = [
@@ -429,7 +418,7 @@ export const Holderstools = [
     discord: "https://discord.com/dudessol",
     website: "https://toolidarity.app/",
     category: "Inner Discord, Customization",
-    from: "#2ec5cc",
+    from: "#fdfefe",
     to: "#050505",
   },
  {

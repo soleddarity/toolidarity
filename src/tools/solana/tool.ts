@@ -424,12 +424,12 @@ export const Holderstools = [
     name: "The Pixel Shop",
     description:
       " Customize your dudes. Buy new exclusive traits only with $EDD and even create your own unique 1/1. We let you imagine the infinite possibilities of this mechanism.",
-    icon: "https://pbs.twimg.com/profile_images/1618313883147550720/ayuM4xMJ_400x400.jpg",
+    icon: "https://media.discordapp.net/attachments/961932796895576084/1084124150475522200/shoooop.png?width=573&height=573",
     twitter: "https://twitter.com/dudes_sol",
     discord: "https://discord.com/dudessol",
     website: "https://toolidarity.app/",
     category: "Inner Discord, Customization",
-    from: "#da5b34",
+    from: "#2ec5cc",
     to: "#050505",
   },
  {

@@ -808,6 +808,18 @@ export const games = [
     from: "#B929FF",
     to: "#22072F",
   },
+  {
+    name: "NoHoomans",
+    description:
+      "NoHoomans is a web3-based brand for extraterrestrial fans and tech-savvy users, delivering an exclusive gamified interactive social hub for advanced users. It features token-gated access to the NoHoomans Pub and a premium blockchain gaming experience.",
+    icon: "https://cdn.discordapp.com/attachments/1082344481463992381/1084092750036750446/LOGOMARK-02.png",
+    twitter: "https://twitter.com/NoHoomans",
+    discord: "https://discord.gg/nohoomans",
+    website: "https://www.nohoomans.io/",
+    category: "Web3 Gaming,Interactive Social Hub",
+    from: "#00C109",
+    to: "#152416",
+  },
 {
     name: "Shuffle by Immortals",
     description:

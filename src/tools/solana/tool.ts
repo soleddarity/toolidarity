@@ -970,14 +970,14 @@ export const ads = [
     to: "#FFD57A",
   },
 {
-    name: "LunarDollz",
+    name: "Mutant-Dollz NFT",
     description:
-      "Community Driven, Family Oriented, and utility provided project that is focused on building a strong and sustainable Ecosystem for our native coin $Voodoo token.",
+      "2,000 Alien themed mutated voodoo dolls coming soon on this Community Driven, Family Oriented, and utility provided project that is focused on building a strong and sustainable Ecosystem for our native coin $Voodoo token.",
     icon: "https://cdn.discordapp.com/attachments/1083794982911103047/1083875257041027112/6E4840E3-FCCB-485C-9EC5-678BB17B6029.jpg",
     twitter: "https://twitter.com/LunarProjectX",
     discord: "https://discord.gg/hEJa8jasrG",
     website: "https://lunardollz.com/",
-    category: "Upcoming,Community",
+    category: "Upcoming,Utility,PFP",
     from: "#8431B4",
     to: "#2D9292",
   },

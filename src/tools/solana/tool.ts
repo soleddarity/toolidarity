@@ -516,12 +516,12 @@ export const Holderstools = [
     to: "#FB8028",
   },
   {
-    name: "The Castle",
+    name: "The Kings",
     description:
       "Holders can use their $EDD tokens to claim whitelist roles through Your Majesty by The Castle",
     icon: "https://pbs.twimg.com/profile_images/1584171267111919616/k03rOhRb_400x400.jpg",
-    twitter: "https://twitter.com/nft_satori",
-    discord: "https://discord.com/invite/castleking",
+    twitter: "https://twitter.com/CastleTheKings",
+    discord: "",
     website: "https://castle.thekingscastle.io/",
     category: "WL Market",
     from: "#5E5513",

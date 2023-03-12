@@ -1069,4 +1069,16 @@ export const allowTools = [
     from: "#9829DB",
     to: "#3DE7E4",
 },
+{
+    name: "GainHive",
+    description:
+      "Welcome to GainHive, a unique and immersive WEB3-based MMORPG/Strategy game hybrid where players can earn real rewards by strategizing, collaborating, and competing with others in a persistent and evolving world.",
+    icon: "https://pbs.twimg.com/profile_images/1620041242410115072/rfvqjJYD_400x400.png",
+    twitter: "https://twitter.com/gainhivegame",
+    discord: "https://discord.gg/T4Fnqdpfcp",
+    website: "https://www.subber.xyz/dudessol/giveaways/gainhive2",
+    category: "AllowList",
+    from: "#9829DB",
+    to: "#3DE7E4",
+},
 ];

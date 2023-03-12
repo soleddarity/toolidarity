@@ -1043,7 +1043,7 @@ export const allowTools = [
     website: "https://www.subber.xyz/dudessol/giveaways/project-meloria",
     category: "AllowList",
     from: "#070100",
-    to: "#fefcfc",
+    to: "#3DE7E4",
 },
 {
     name: "Dragos - Free Mint",
@@ -1055,7 +1055,7 @@ export const allowTools = [
     website: "https://www.subber.xyz/dudessol/giveaways/dragos",
     category: "AllowList",
     from: "#070100",
-    to: "#fefcfc",
+    to: "#3DE7E4",
 },
 {
     name: "BlueCaster",
@@ -1067,6 +1067,6 @@ export const allowTools = [
     website: "https://www.subber.xyz/dudessol/giveaways/bluecaster3",
     category: "AllowList",
     from: "#070100",
-    to: "#fefcfc",
+    to: "#3DE7E4",
 },
 ];

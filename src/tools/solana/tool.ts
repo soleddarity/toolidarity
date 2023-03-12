@@ -1042,7 +1042,7 @@ export const allowTools = [
     discord: "https://t.co/RDsenndidJ",
     website: "https://www.subber.xyz/dudessol/giveaways/project-meloria",
     category: "AllowList",
-    from: "#070100",
+    from: "#9829DB",
     to: "#3DE7E4",
 },
 {
@@ -1054,7 +1054,7 @@ export const allowTools = [
     discord: "https://t.co/kwb28AR7j9",
     website: "https://www.subber.xyz/dudessol/giveaways/dragos",
     category: "AllowList",
-    from: "#070100",
+    from: "#9829DB",
     to: "#3DE7E4",
 },
 {
@@ -1066,7 +1066,7 @@ export const allowTools = [
     discord: "https://t.co/cuvEZ176K2",
     website: "https://www.subber.xyz/dudessol/giveaways/bluecaster3",
     category: "AllowList",
-    from: "#070100",
+    from: "#9829DB",
     to: "#3DE7E4",
 },
 ];

@@ -1049,7 +1049,7 @@ export const allowTools = [
     name: "Dragos - Free Mint",
     description:
       "Be bold, be fierce, be Dragos. 🐲",
-    icon: "https://pbs.twimg.com/profile_images/1628870075007774720/d2-kvvgh_400x400.jpg",
+    icon: "https://pbs.twimg.com/profile_images/1634631179344248834/rsvyWhgn_400x400.jpg",
     twitter: "https://twitter.com/DragosNFT_",
     discord: "https://t.co/kwb28AR7j9",
     website: "https://www.subber.xyz/dudessol/giveaways/dragos",
@@ -1065,18 +1065,6 @@ export const allowTools = [
     twitter: "https://twitter.com/BluecasterNFT",
     discord: "https://t.co/cuvEZ176K2",
     website: "https://www.subber.xyz/dudessol/giveaways/bluecaster3",
-    category: "AllowList",
-    from: "#070100",
-    to: "#fefcfc",
-},
-{
-    name: "Dragos - Free Mint",
-    description:
-      "Be bold, be fierce, be Dragos. 🐲",
-    icon: "https://pbs.twimg.com/profile_images/1628870075007774720/d2-kvvgh_400x400.jpg",
-    twitter: "https://twitter.com/DragosNFT_",
-    discord: "https://t.co/kwb28AR7j9",
-    website: "https://www.subber.xyz/dudessol/giveaways/dragos",
     category: "AllowList",
     from: "#070100",
     to: "#fefcfc",

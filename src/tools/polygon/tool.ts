@@ -284,6 +284,30 @@ export const tools = [
     from: "#101010",
     to: "#ffde54",
 },
+{
+    name: "OWLPHΛ",
+    description:
+      "3333 Genetically Modified Owlpha Predators Ready to take over @0xPolygon. Free yourself from the matrix.",
+    icon: "https://pbs.twimg.com/profile_images/1631117986869248001/bMk5dDPP_400x400.jpg",
+    twitter: "https://twitter.com/OwlphaNFT",
+    discord: "https://discord.com/invite/owlphanft",
+    website: "https://t.co/blgj8UrmbX",
+    category: "",
+    from: "#007c88",
+    to: "#0e0c1c",
+},
+{
+    name: "BROZO",
+    description:
+      "Crafting the best community on @0xPolygon through art & culture.",
+    icon: "https://pbs.twimg.com/profile_images/1629567456124518400/3yaK1Yec_400x400.png",
+    twitter: "https://twitter.com/brozonft",
+    discord: "https://t.co/4FXTbaZRHo",
+    website: "https://t.co/0vdi7aeqfZ",
+    category: "",
+    from: "#614e41",
+    to: "#e5cdaa",
+},
   ];
 
   export const allowTools = [

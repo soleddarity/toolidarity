@@ -95,7 +95,7 @@ export const tools = [
     name: "Elixir",
     description:
       "Elixir is an ecosystem of NFT utility. The Elixir App is powered by AMM pools which encompass a hub of NFT financialization. The Elixir App is just one of the core products stemming from the Elixir ecosystem.",
-    icon: "https://pbs.twimg.com/profile_images/1618643252302778368/nsTmlFb-_400x400.jpg",
+    icon: "https://pbs.twimg.com/profile_images/1630993387036835853/orgPlMvb_400x400.jpg",
     twitter: "https://twitter.com/ElixirNFT",
     discord: "https://discord.com/invite/elixirnft",
     website: "https://app.elixirnft.io/",
@@ -254,7 +254,7 @@ export const tools = [
   {
     name: "SolanaFM",
     description: "Bridging the gaps of data accessibility via our indexer, APIs and explorer tools on Solana.",
-    icon: "https://pbs.twimg.com/profile_images/1603277783542558720/m838ShBK_400x400.jpg",
+    icon: "https://pbs.twimg.com/profile_images/1630506336067919872/dLhtW-Oi_400x400.png",
     twitter: "https://twitter.com/solanafm",
     discord: "https://discord.com/invite/QqcBJcf274",
     website: "https://solana.fm/",
@@ -375,7 +375,7 @@ export const tools = [
   {
     name: "Bonfida Solana Name Service",
     description: "Get your .sol domain that can be used to represent you in the metaverse",
-    icon: "https://naming.bonfida.org/assets/white-logo.df40a8e5.svg",
+    icon: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA1NiA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI4IDRMMjguMDE1NCAxNy4xMDAzIiBzdHJva2U9IndoaXRlIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik01Mi40NjAzIDQ2LjAxMDNMNDEuMzIzMSAzOS40NTUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTQuMDk4OTQgNDYuMDEwM0wxNS4yMzYxIDM5LjQ1NSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjguMDA4NyAzMi4wMTA5TDE1IDI0LjQ4OThMMjguMDA4NyAxNi45NzE5TDQxIDI0LjUyMDZMMjguMDA4NyAzMi4wMTA5WiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTI4LjAyMDcgNDYuOTY5TDE1LjAxNjcgMzkuNTA1N0wxNSAyNC40ODk4TDI4LjAyMDcgMzIuMDEwOVY0Ni45NjlaIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTI4IDQ2Ljk2OUw0MS4wMDMzIDM5LjUzOTFWMjQuNTIwNkwyOCAzMi4wMTA5VjQ2Ljk2OVoiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNTIgNDYuMDEwMlYxOC4wMzIxTDI3Ljk5OTcgNC4wNDIzNkw0IDE4LjAzMjFWNDYuMDEwMkwyNy45OTk3IDU5Ljk5OTlMNTIgNDYuMDEwMloiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIi8+CjxwYXRoIGQ9Ik0yOC4wMDAxIDMyLjA0NTZMMjcuMjQzOCAzMy4zNDFMMjcuOTk4OCAzMy43ODE4TDI4Ljc1NDUgMzMuMzQyMUwyOC4wMDAxIDMyLjA0NTZaTTMuMjgyODkgMTkuMzUxOEwyNy4yNDM4IDMzLjM0MUwyOC43NTY0IDMwLjc1MDJMNC43OTU0OCAxNi43NjExTDMuMjgyODkgMTkuMzUxOFpNMjguNzU0NSAzMy4zNDIxTDUyLjc5MzYgMTkuMzUyOUw1MS4yODQ3IDE2Ljc2TDI3LjI0NTYgMzAuNzQ5MkwyOC43NTQ1IDMzLjM0MjFaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMjggMzIuMDQ1N1Y1OS45OTk5IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=",
     twitter: "",
     discord: "https://discord.com/invite/J927gF8kaM",
     website: "https://naming.bonfida.org/",

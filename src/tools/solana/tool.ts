@@ -1007,18 +1007,6 @@ export const ads = [
     to: "#fefcfc",
   },
 {
-    name: "The Mechanics",
-    description:
-      "The Mechanics is a 500 piece collection of 1/1  non-fungible Robots. Different utilities, the first being a new type of retro-style gambling platform with a mechanism never seen before, will all be powered by our own token $WATT. ",
-    icon: "https://media.discordapp.net/attachments/1077590851963850752/1077592590033109072/JPAXlzN4_400x400.png",
-    twitter: "https://twitter.com/MechanicsNFTS",
-    discord: "https://discord.gg/themechanics",
-    website: "https://discord.gg/themechanics",
-    category: "Upcoming,Betting",
-    from: "#58C8AD",
-    to: "#0D332A",
-},
-{
     name: "Get your project Featured!",
     description:
       "Get some exposure for your project. Click on Access and fill out the form!",

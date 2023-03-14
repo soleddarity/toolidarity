@@ -1034,13 +1034,13 @@ export const ads = [
 
 export const allowTools = [
 {
-    name: "Project Meloria",
+    name: "Corrupted Crocs",
     description:
-      "The world of Meloria is scattered and lost after the incident. search the infinite galaxy of meloria to discover planets like visim and more!",
-    icon: "https://pbs.twimg.com/profile_images/1609009455819067394/2-Hp0B9l_400x400.jpg",
-    twitter: "https://twitter.com/ProjectMeloria",
-    discord: "https://t.co/RDsenndidJ",
-    website: "https://www.subber.xyz/dudessol/giveaways/project-meloria",
+      "Corrupted Crocs in the swamp lands of Solana slowly emerging",
+    icon: "https://pbs.twimg.com/profile_images/1534297506330329088/dKeV7O5a_400x400.png",
+    twitter: "https://twitter.com/CorruptedCrocs",
+    discord: "https://discord.gg/aaX79pxtdj",
+    website: "https://www.subber.xyz/dudessol/giveaways/corrupted-crocs",
     category: "AllowList",
     from: "#9829DB",
     to: "#3DE7E4",
@@ -1053,18 +1053,6 @@ export const allowTools = [
     twitter: "https://twitter.com/Mida_DAO",
     discord: "https://t.co/sBhAsFqRH0",
     website: "https://www.subber.xyz/dudessol/giveaways/midadao2",
-    category: "AllowList",
-    from: "#9829DB",
-    to: "#3DE7E4",
-},
-{
-    name: "BlueCaster",
-    description:
-      "Who is a Сaster? Builder of the best gambling on #Solana. Fight and win!",
-    icon: "https://pbs.twimg.com/profile_images/1630542982662193155/reSmnPUh_400x400.jpg",
-    twitter: "https://twitter.com/BluecasterNFT",
-    discord: "https://t.co/cuvEZ176K2",
-    website: "https://www.subber.xyz/dudessol/giveaways/bluecaster3",
     category: "AllowList",
     from: "#9829DB",
     to: "#3DE7E4",

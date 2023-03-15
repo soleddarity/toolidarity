@@ -1056,5 +1056,17 @@ export const allowTools = [
     category: "AllowList",
     from: "#9829DB",
     to: "#3DE7E4",
-}
+},
+{
+    name: "NOZOMI",
+    description:
+      "Nozomi is a community-driven project that will enter global branding using social media platforms.",
+    icon: "https://pbs.twimg.com/profile_images/1623600727678685185/BHUf_YWi_400x400.jpg",
+    twitter: "https://twitter.com/NozomiNFTS",
+    discord: "https://t.co/QzhibUccXi",
+    website: "https://www.subber.xyz/dudessol/giveaways/nozomi",
+    category: "AllowList",
+    from: "#9829DB",
+    to: "#3DE7E4",
+},
 ];

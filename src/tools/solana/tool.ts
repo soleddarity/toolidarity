@@ -1034,37 +1034,13 @@ export const ads = [
 
 export const allowTools = [
 {
-    name: "Corrupted Crocs",
+    name: "DYOR Space",
     description:
-      "Corrupted Crocs in the swamp lands of Solana slowly emerging",
-    icon: "https://pbs.twimg.com/profile_images/1534297506330329088/dKeV7O5a_400x400.png",
-    twitter: "https://twitter.com/CorruptedCrocs",
-    discord: "https://discord.gg/aaX79pxtdj",
-    website: "https://www.subber.xyz/dudessol/giveaways/corrupted-crocs",
-    category: "AllowList",
-    from: "#9829DB",
-    to: "#3DE7E4",
-},
-{
-    name: "MidaDAO",
-    description:
-      "Everything touched changes to gold, flipping JPEGs day and night.",
-    icon: "https://pbs.twimg.com/profile_images/1603878927688163331/90ldtr7b_400x400.jpg",
-    twitter: "https://twitter.com/Mida_DAO",
-    discord: "https://t.co/sBhAsFqRH0",
-    website: "https://www.subber.xyz/dudessol/giveaways/midadao2",
-    category: "AllowList",
-    from: "#9829DB",
-    to: "#3DE7E4",
-},
-{
-    name: "NOZOMI",
-    description:
-      "Nozomi is a community-driven project that will enter global branding using social media platforms.",
-    icon: "https://pbs.twimg.com/profile_images/1623600727678685185/BHUf_YWi_400x400.jpg",
-    twitter: "https://twitter.com/NozomiNFTS",
-    discord: "https://t.co/QzhibUccXi",
-    website: "https://www.subber.xyz/dudessol/giveaways/nozomi",
+      "The home for your DYOR Space",
+    icon: "https://pbs.twimg.com/profile_images/1627395932743692288/aZG5-ADd_400x400.jpg",
+    twitter: "https://twitter.com/DYOR_space",
+    discord: "https://discord.com/invite/B3y2G2yVZk",
+    website: "https://www.subber.xyz/dudessol/giveaways/dyor-space",
     category: "AllowList",
     from: "#9829DB",
     to: "#3DE7E4",

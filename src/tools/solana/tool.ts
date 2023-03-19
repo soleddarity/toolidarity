@@ -1033,16 +1033,4 @@ export const ads = [
 ];
 
 export const allowTools = [
-{
-    name: "DYOR Space",
-    description:
-      "The home for your DYOR Space",
-    icon: "https://pbs.twimg.com/profile_images/1627395932743692288/aZG5-ADd_400x400.jpg",
-    twitter: "https://twitter.com/DYOR_space",
-    discord: "https://discord.com/invite/B3y2G2yVZk",
-    website: "https://www.subber.xyz/dudessol/giveaways/dyor-space",
-    category: "AllowList",
-    from: "#9829DB",
-    to: "#3DE7E4",
-},
 ];

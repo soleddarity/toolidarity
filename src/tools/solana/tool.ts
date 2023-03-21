@@ -821,18 +821,6 @@ export const games = [
     from: "#00C109",
     to: "#152416",
   },
-{
-    name: "Shuffle by Immortals",
-    description:
-      "PVP betting games to Web3",
-    icon: "https://pbs.twimg.com/profile_images/1622049430877732866/ITATkpZL_400x400.jpg",
-    twitter: "https://twitter.com/immortalsSOL",
-    discord: "discord.gg/immortalsSOL",
-    website: "https://www.solanashuffle.com/jackpot/1bbd7349-15cc-4ffc-95ad-3bff22108aa8",
-    category: "P2E",
-    from: "#14171F",
-    to: "#2B3039",
-  },
  {
     name: "SACRED MINES by Sensei Labs",
     description:
@@ -935,18 +923,6 @@ export const ads = [
     to: "#000000",
 },
 {
-    name: "The Bastards",
-    description:
-      "Sensual animation, scuffed storytelling, and deranged universe-building.",
-    icon: "https://pbs.twimg.com/profile_images/1607850811433820161/B5ICFTij_400x400.jpg",
-    twitter: "https://twitter.com/TheBastards_xyz/",
-    discord: "https://discord.gg/thebastards",
-    website: "https://discord.gg/thebastards",
-    category: "Upcoming",
-    from: "#71360E",
-    to: "#FF6B5A",
-},
-{
     name: "Zulpverse",
     description:
       "Enter the zulpverse, generative pixel art project",
@@ -983,18 +959,6 @@ export const ads = [
     to: "#FFD57A",
   },
 {
-    name: "Mutant-Dollz NFT",
-    description:
-      "2,000 Alien themed mutated voodoo dolls coming soon on this Community Driven, Family Oriented, and utility provided project that is focused on building a strong and sustainable Ecosystem for our native coin $Voodoo token.",
-    icon: "https://cdn.discordapp.com/attachments/1083794982911103047/1083875257041027112/6E4840E3-FCCB-485C-9EC5-678BB17B6029.jpg",
-    twitter: "https://twitter.com/LunarProjectX",
-    discord: "https://discord.gg/hEJa8jasrG",
-    website: "https://lunardollz.com/",
-    category: "Upcoming,Utility,PFP",
-    from: "#8431B4",
-    to: "#2D9292",
-  },
-{
     name: "Saru Gang",
     description:
       "1/1 pixel art collection focused on growing a community of artists & art lovers. We have weekly auctions, art alpha & WL's.",
@@ -1006,18 +970,6 @@ export const ads = [
     from: "#7E7E7E",
     to: "#111111",
 },
-{
-    name: "Wolf Capital",
-    description:
-      "A first of its kind gamified lending & lending analytics platform. Bringing Pixel art appreciation under one roof with an All-Star lineup.",
-    icon: "https://pbs.twimg.com/profile_images/1621174153435877377/PdLwlFj4_400x400.jpg",
-    twitter: "https://twitter.com/WolfCapital_",
-    discord: "https://t.co/ECEW2u9fpI",
-    website: "",
-    category: "Incoming, Pixel Art",
-    from: "#070100",
-    to: "#fefcfc",
-  },
 {
     name: "Get your project Featured!",
     description:

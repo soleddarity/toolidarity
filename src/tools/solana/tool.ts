@@ -1014,7 +1014,7 @@ export const allowTools = [
     name: "SereiDAO",
     description:
       "Building Products to Bring Trust to #Web3",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Design_plat_%C3%89toile_jaune.svg/1024px-Design_plat_%C3%89toile_jaune.svg.png",
+    icon: "https://pbs.twimg.com/profile_images/1566749720592236544/AQVa0eeb_400x400.jpg",
     twitter: "https://twitter.com/seireidao",
     discord: "https://discord.gg/9qcXskzgks",
     website: "https://www.subber.xyz/dudessol/giveaways/seireidao",

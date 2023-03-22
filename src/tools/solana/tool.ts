@@ -1009,4 +1009,17 @@ export const ads = [
 ];
 
 export const allowTools = [
+
+{
+    name: "SereiDAO",
+    description:
+      "Building Products to Bring Trust to #Web3",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Design_plat_%C3%89toile_jaune.svg/1024px-Design_plat_%C3%89toile_jaune.svg.png",
+    twitter: "https://twitter.com/seireidao",
+    discord: "https://discord.gg/9qcXskzgks",
+    website: "https://www.subber.xyz/dudessol/giveaways/seireidao",
+    category: "",
+    from: "#6960F0",
+    to: "#A160F0",
+},
 ];

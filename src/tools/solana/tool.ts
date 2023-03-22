@@ -726,7 +726,7 @@ export const discounts = [
     name: "DegenDevil",
     description:
       "Holders get a 50% deposit bonus on this Solana based full service casino with a sportsbook, live casino games, virtual sport and more!",
-    icon: "https://pbs.twimg.com/profile_images/1595460707470176256/7U3IBMuR_400x400.jpg",
+    icon: "https://pbs.twimg.com/profile_images/1609144261559128064/krQX65uq_400x400.jpg",
     twitter: "https://twitter.com/SKULLBOTS",
     discord: "https://discord.com/invite/skullbots",
     website: "https://degendevil.com/?ref=supportive",
@@ -926,7 +926,7 @@ export const ads = [
     name: "Buddles",
     description:
       "Bringing long-term sustainability and accountability back to NFTs brought together by a range of innovative utility: AI and DAO Tooling, Tangible Asset Backing and much more. The best AI art on Solana, No Greed. No BS. No Brainier",
-    icon: "https://pbs.twimg.com/profile_images/1624691130377056256/mjAgMzsS_400x400.jpg",
+    icon: "https://pbs.twimg.com/profile_images/1637764379516235776/xf66SLwr_400x400.jpg",
     twitter: "https://twitter.com/Buddles_co",
     discord: "https://discord.gg/buddles",
     website: "https://buddles.gitbook.io/buddles.whitepaper/",

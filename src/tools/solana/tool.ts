@@ -821,6 +821,18 @@ export const games = [
     from: "#00C109",
     to: "#152416",
   },
+  {
+    name: "Mighty Minions",
+    description:
+      "Adorable Games, Mighty Wagers, Epic Payouts! ",
+    icon: "https://cdn.discordapp.com/attachments/1085008218167722106/1086806237326360656/Fire_Hats__1.png",
+    twitter: "https://twitter.com/MightyMinions",
+    discord: "https://discord.gg/mightyminions",
+    website: "https://mightygames.io/",
+    category: "Crashgame",
+    from: "#D68BD8",
+    to: "#AB35C6",
+  },
  {
     name: "SACRED MINES by Sensei Labs",
     description:
@@ -945,6 +957,18 @@ export const ads = [
     category: "Incoming",
     from: "#da5b34",
     to: "#050505",
+  },
+{
+    name: "Bullyz Crew",
+    description:
+      "The Bullyz Crew is an animated 3D collection of 2525 idiotic and degen little pirates. Soon your favorite pirate-themed franchise. Bullyz grant exclusive, cool and fun perks!",
+    icon: "https://cdn.discordapp.com/attachments/1085019180530675712/1087280549636349962/1668079811707.jpg",
+    twitter: "https://twitter.com/BullyzCrew",
+    discord: "https://discord.gg/bullyzcrew",
+    website: "https://bullyzcrew.com/",
+    category: "PFP, Gaming",
+    from: "#9ECBCD",
+    to: "#C7CD9E",
   },
 {
     name: "Forest Apes",

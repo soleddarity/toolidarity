@@ -1018,8 +1018,8 @@ export const allowTools = [
     twitter: "https://twitter.com/seireidao",
     discord: "https://discord.gg/9qcXskzgks",
     website: "https://www.subber.xyz/dudessol/giveaways/seireidao",
-    category: "",
-    from: "#6960F0",
-    to: "#A160F0",
+    category: "AllowList",
+    from: "#1df7a3",
+    to: "#6c77e3",
 },
 ];

@@ -1022,4 +1022,16 @@ export const allowTools = [
     from: "#1df7a3",
     to: "#6c77e3",
 },
+{
+    name: "Degen Ticket",
+    description:
+      "https://pbs.twimg.com/profile_images/1622197357348519936/RmJDv9Z3_400x400.jpg",
+    icon: "https://pbs.twimg.com/profile_images/1622197357348519936/RmJDv9Z3_400x400.jpg",
+    twitter: "https://twitter.com/Degen_Tickets",
+    discord: "https://discord.gg/Jh7g6YumRa",
+    website: "https://www.subber.xyz/community/dudessol/giveaways/degen-ticket",
+    category: "AllowList",
+    from: "#1df7a3",
+    to: "#6c77e3",
+},
 ];
